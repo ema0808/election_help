@@ -1,0 +1,660 @@
+[
+  {
+    "id": "identifikacija-instalacija-001",
+    "device": "Uređaj za identifikaciju birača",
+    "section": "Instalacija i podešavanje",
+    "title": "Fizičko sklapanje uređaja za identifikaciju birača",
+    "content": "Fizičko sklapanje uređaja\n1 Izvadite uređaj za identifikaciju birača iz zaštitne navlake unutar kofera, kako slijedi.\n2 Postavite kofer na stabilan sto blizu utičnice, osiguravajući lak pristup korisniku uređaja za identifikaciju birača.\n3 Otvorite navlaku podizanjem krajnje kopče, a zatim gurnite gornji dio kopče prema dolje.\n4 Provjerite da li se uređaj za identifikaciju birača i njegov pribor nalaze unutar navlake.\nFizičko sklapanje uređaja\n5 Izvadite uređaj za identifikaciju birača, kabl za napajanje, adapter za napajanje i zaštitu od prenapona\n(COC).\n6 Postavite uređaj za identifikaciju birača na njegov konačni položaj.\n7 Otvorite odjeljak za priključke na uređaju za identifikaciju birača.\nFizičko sklapanje uređaja\n8 Priključite AC adapter za napajanje u priključak za napajanje na uređaju za identifikaciju birača i zatvorite\nodjeljak.\n9 Zatvorite odjeljak za priključke.\n10 Priključite kabl AC adaptera za napajanje u zaštitu od prenapona, a zatim priključite zaštitu od\nprenapona u zidnu utičnicu.\nFizičko sklapanje uređaja\nNapomena: Priključivanje na utičnicu nije obavezno, ali se preporučuje. Baterija uređaja za identifikaciju birača traje do 16 sati. Ako\nuređaj nije priključen na eksterno napajanje, pratite nivo baterije i priključite ga kada padne ispod 20%, kako biste izbjegli potpuno\npražnjenje.\nDijagram ispod pruža vizuelni sažetak koraka fizičkog sklapanja obavljenih u ovom odjeljku. Prikazuje redoslijed od raspakivanja uređaja za\nidentifikaciju birača iz navlake prijenosnog kofera do uspostavljanja konačnog napajanja na biračkom mjestu.\nFizičko sklapanje uređaja"
+  },
+  {
+    "id": "identifikacija-instalacija-002",
+    "device": "Uređaj za identifikaciju birača",
+    "section": "Instalacija i podešavanje",
+    "title": "Instalacija role papira",
+    "content": "1 Otvorite odjeljak štampača pažljivim podizanjem donjeg dijela vrata.\nUređaj za identifikaciju birača isporučuje se sa jednom rolom termalnog papira već instaliranom u odjeljku štampača.\nSljedeći koraci su potrebni samo ako rola papira nije instalirana ili je potrebno zamijeniti rolu tokom rada.\n2 Povucite gornji dio vrata odjeljka i spustite ih dok se u potpunosti ne otvore.\n3 Postavite rolu u utor na vrhu odjeljka, s ivicom role okrenutom prema gore. Izvucite kraj papira tako da približno oko 1,3 cm viri napolje.\n4 Zatvorite vrata štampača pritiskom na sredinu vrata prema gore dok ne čujete klik.\n5 Pažljivo ogrebite vrh papira da potvrdite da se termalni premaz nalazi na papiru.\nNapomena: Ugradnja SIM kartice i USB memorije nije obuhvaćena ovim uputstvom. Obje dolaze već ugrađene i zapečaćene i ne očekuje se\nda se njima rukuje na terenu. Postupci zamjene, ako su potrebni, obrađeni su zasebno u odjeljku „Postupci za vanredne situacije“.\nSIM kartica i USB memorija"
+  },
+  {
+    "id": "identifikacija-instalacija-003",
+    "device": "Uređaj za identifikaciju birača",
+    "section": "Instalacija i podešavanje",
+    "title": "Uključivanje uređaja za identifikaciju birača",
+    "content": "1 Pritisnite i držite dugme za uključivanje da biste uključili uređaj.\nNapomena: Uređaj emituje zvuk (kratki bip) kada se uključi."
+  },
+  {
+    "id": "identifikacija-instalacija-004",
+    "device": "Uređaj za identifikaciju birača",
+    "section": "Instalacija i podešavanje",
+    "title": "Prijava na uređaj za identifikaciju birača",
+    "content": "Prijava\nFunkcionalnosti uređaja za identifikaciju birača dostupne na ekranu zavise od uloge korisnika i statusa (ili moda) uređaja. Tabela ispod sažima\nfunkcionalnosti dostupne za svaku ulogu ili mod uređaja:\nPredsjednik biračkog odbora /\nZamjenik predsjednika\nbiračkog odbora\nČlan biračkog odbora zadužen za\nidentifikaciju / Zamjenik člana\nbiračkog odbora zaduženog za\nidentifikaciju\nTehničar Kontingencija/\nVanredne situacije\nKonfigurator (*)\n• Otvaranje izbora\n• Dijagnostika\n• Aktivacija pametne kartice\n• Pretraga birača\n• Zatvaranje izbora\n• Autorizacija (Otisak prsta,\nNevažeći lični dokument)\n• Izvještaji\n• Ponovni pokušaj prijenosa\n• Ponovno štampanje\nizvještaja o zatvaranju\n• Otvaranje izbora (uz odobrenje\npredsjednika)\n• Pretraga birača\n• Dijagnostika\n• Zatvaranje izbora (uz odobrenje\npredsjednika)\n• Izvještaji\n• Ponovni pokušaj prijenosa\n• Ponovno štampanje izvještaja o\nzatvaranju\n• Resetovanje pokušaja\nprijave\n• Postavljanje datuma i\nvremena\n• Dijagnostika\n• Vanredne situacije\npametne kartice\n• Zapisnici o prijavama na\nuređaj\n• Zamjena uređaja ili\nprenosive\nmemorije\n• Dodjelа biračkog\nmjestа\n• Aktivacija\npametne kartice\n• Ponovna dodjela\nbiračkog mjesta\n• Postavke\n• Resetovanje\nverifikacije\n(samo za obuku)\nNapomene:\n• Da bi izvršio određenu funkcionalnost, korisnik mora odabrati i prijaviti se sa odgovarajućom ulogom.\n• Ne očekuje se da se uloga Konfiguratora koristi na dan izbora\nPrijava\n1 Pritisnite i držite dugme za uključivanje da uključite uređaj. Sistem prikazuje ikonu aplikacije Smart\nPollBook.\nDodirnite SPB ikonu.2\nPrijava\n3 Sistem prikazuje ekran za učitavanje tokom inicijalizacije. Sačekajte da se prikaže ekran dobrodošlice.\nPrijava\n4 Sistem zatim prikazuje numeričku tastaturu na ekranu za unos PIN-a. Unesite 6-cifreni PIN pomoću\nnumeričke (ekranske) tastature. Ako je potrebno, koristite dugme za brisanje da izbrišete unos.\nPrijava\n5 Ako korisnik ima aktiviranu pametnu karticu za korištenje tokom izbora, sistem traži da se umetne\npametna kartica. Umetnite pametnu karticu u utor na desnoj strani uređaja. Dodirnite „Nazad na PIN“\nza povratak na tastaturu. Sistem čita podatke s pametne kartice radi obrade autentifikacije.\nPrijava\n6 Ako je prijava uspješna, sistem prikazuje podrazumijevani ekran i glavni meni koji odgovaraju ulozi\nkorisnika i fazi izbora. Za Konfiguratora, podrazumijevani ekran je Postavljanje biračkog mjesta.\nPrijava\n7 Glavni meni Konfiguratora nudi opcije „Postavljanje biračkog mjesta“ i „Postavke“.\nNapomena: Ne očekuje se da se uloga Konfiguratora koristi na dan izbora.\nPrijava\n8 Za člana biračkog odbora zaduženog za identifikaciju, podrazumijevani ekran je Pretraga birača.\nPrijava\n9 Glavni meni tehničara nudi opciju „Dijagnostika“.\nPrijava\n10 Za Tehničara, podrazumijevani ekran prikazuje opcije „Reset pokušaja prijave“, „Postavljanje datuma i\nvremena“ i „Dijagnostika“, s dodatnim sekundarnim menijem (Informacije o izborima, Informacije o\nsistemu, Informacije o bateriji, Jezik, Pomoć, Odjava).\nPrijava\n11 Glavni meni Tehničara, također, uključuje „Zapisnici revizije“ (prijava na uređaj)."
+  },
+  {
+    "id": "identifikacija-instalacija-005",
+    "device": "Uređaj za identifikaciju birača",
+    "section": "Instalacija i podešavanje",
+    "title": "Status uređaja",
+    "content": "Status Opis\nNije konfigurisano Uređaj nema dodijeljeno/verifikovano biračko mjesto. U ovom statusu uređaj ne može\nautentifikovati birače.\nKonfigurisano Uređaj ima dodijeljeno/verifikovano biračko mjesto, ali je autentifikacija i dalje\nonemogućena.\nOtvoreno Nakon što izbori počnu, uređaj je aktivan i autentifikacija birača je omogućena.\nZatvoreno Nakon što se izbori završe, uređaj je zatvoren i autentifikacija više nije dozvoljena. Podaci se\nsada mogu konsolidovati i eksportovati."
+  },
+  {
+    "id": "identifikacija-instalacija-006",
+    "device": "Uređaj za identifikaciju birača",
+    "section": "Instalacija i podešavanje",
+    "title": "Pokreni dijagnostiku",
+    "content": "Uređaj za identifikaciju birača - Dijagnostika\nPrije početka osigurajte da su sljedeći materijali dostupni za izvođenje dijagnostike:\n1. Papir je ispravno postavljen.\n2. Primjer lične karte ili pasoša s MRZ kodom.\n3. Primjer lične karte ili pasoša s NFC tehnologijom.\n4. Primjer pametne kartice.\n5. SIM kartica je instalirana.\nUređaj za identifikaciju birača - Dijagnostika\nPrijavite se u sistem koristeći PIN\ntehničara/operatera.\nDodirnite Dijagnostiku da nastavite.\nPostaviti datum i vrijeme\nResetovati pokušaje logiranja\nDijagnostika\nUređaj za identifikaciju birača - Dijagnostika\nOdaberite dijagnostiku koju želite pokrenuti, tako što ćete pritisnuti na svaki potvrdni okvir ili pritisnuti na potvrdni okvir\npored opcije „Izaberi sve komponente\".\nNakon što je jedna ili više dijagnostika odabrano, omogućit će se dugme „Pokreni dijagnostiku\".\nPokrenite dijagnostiku pored komponenti koje treba testirati. Sistem će automatski pokrenuti odabrane dijagnostičke\ntestove.\nSistem će otvoriti listu dostupnih dijagnostika.\nNapomena: Preporučuje se korištenje Izaberi za sve komponente."
+  },
+  {
+    "id": "identifikacija-instalacija-007",
+    "device": "Uređaj za identifikaciju birača",
+    "section": "Instalacija i podešavanje",
+    "title": "Štampač",
+    "content": "Dijagnostika - Štampač\nProvjerite štampač na uređaju radi nove štampane\npotvrde i uporedite je sa slikom prikazanom na ekranu\nuređaja.\nAko je odštampana slika ista, dodirnite Da.\nAko odštampana slika nije ista, dodirnite Ne.\nSistem automatski prikazuje ekran \"Štampanje test stranice\".\nDijagnostika - Štampač\nAko je dijagnostika uspješna, sistem će prikazati\nporuku \"Štampač radi.\"\nDijagnostika - Štampač\nDijagnostika štampača preskočena. Test štampača nije uspio.\nAko se dijagnostika otkaže ili test ne uspije, sistem će prikazati poruku."
+  },
+  {
+    "id": "identifikacija-instalacija-008",
+    "device": "Uređaj za identifikaciju birača",
+    "section": "Instalacija i podešavanje",
+    "title": "MRZ Skener",
+    "content": "Diagnostics - MRZ Scanner\nSistem će vas zatim zamoliti da prevučete MRZ.\nSistem će prikazati \"MRZ skener radi\" ako je dijagnostika\nuspješna.\nUzmite uzorak lične karte ili pasoša s MRZ kodom i stavite\nstranu s kodom u utor čitača MRZ, koji se nalazi lijevo od\nuređaja.\nDodirnite Preskoči dijagnostiku da otkažete ovaj test.\nDiagnostics - MRZ Scanner\nDijagnostika MRZ skenera je preskočena.\nAko se dijagnostika otkaže, sistem će prikazati poruku."
+  },
+  {
+    "id": "identifikacija-instalacija-009",
+    "device": "Uređaj za identifikaciju birača",
+    "section": "Instalacija i podešavanje",
+    "title": "Barkod skener",
+    "content": "Dijagnostika – Barkod skener\nSistem će vas zatim zamoliti da približite barkod ispred kamere, kako bi ga skenirao.\nSistem će prikazati upute za pokretanje dijagnostike skeniranja barkoda.\nDodirnite tipku za skeniranje barkoda na dijagnostici da\nbiste pokrenuli.\nSistem će omogućiti kameru uređaja za identifikaciju.\nUzmite uzorak barkoda i držite ga iza kamere uređaja za\nidentifikaciju.\nSistem će prikazati \"Skener bar kodova radi\" ako je dijagnostika uspješna.\nDijagnostika – Barkod skener\nAko bude uspješno, ekran će prikazati\n“Barkod skener radi\"."
+  },
+  {
+    "id": "identifikacija-instalacija-010",
+    "device": "Uređaj za identifikaciju birača",
+    "section": "Instalacija i podešavanje",
+    "title": "Zvučnik",
+    "content": "Dijagnostika - Zvučnik\nPritisnite Start i slušajte zvuk koji generiše uređaj.\nAko čujete zvuk, dodirnite Da, čujem ga.\nAko ga ne čujete, dodirnite Ne, ne čujem ga.\nSistem će zatim prikazati dijagnostički ekran zvučnika.\nDijagnostika - Zvučnik\nAko bude uspješno, ekran će prikazati \"Zvučnik radi\".\nDijagnostika - Zvučnik\nDijagnostika zvučnika preskočena. Test zvučnika nije uspio.\nAko se dijagnostika otkaže ili test ne uspije, sistem će prikazati poruku."
+  },
+  {
+    "id": "identifikacija-instalacija-011",
+    "device": "Uređaj za identifikaciju birača",
+    "section": "Instalacija i podešavanje",
+    "title": "Čitač otiska prsta",
+    "content": "Dijagnostika - Čitač otiska prsta\nPostavite vrh prsta na čitač otiska prsta i pričekajte da ga u\npotpunosti pročita.\nDržite prst na čitaču otiska prsta dok se cijela slika ne prikaže na\nekranu.\nSistem će prikazati da testira čitač otiska prsta.\nSistem će zatim zatražiti da stavite bilo koji prst na čitač otiska\nprsta.\nDijagnostika - Čitač otiska prsta\nDodirnite 'Da, vidim je' da nastavite dijagnostiku.\nAko ne vidite sliku otiska prsta, dodirnite 'Ne, ne vidim je'.\nAko da, sistem će prikazati poruku \"Čitač otiska prsta radi\" I\nautomatski nastaviti sa sljedećom dijagnostikom.\nSistem će prikazati snimljeni otisak prsta i zatražiti od vas da\nodgovorite da li je slika jasna i potpuna.\nDijagnostika - Čitač otiska prsta\nDijagnostika čitača otiska prsta preskočena. Test čitača otiska prsta ne radi.\nAko se dijagnostika otkaže ili test ne uspije, sistem će prikazati poruku."
+  },
+  {
+    "id": "identifikacija-instalacija-012",
+    "device": "Uređaj za identifikaciju birača",
+    "section": "Instalacija i podešavanje",
+    "title": "Čitač pametnih kartica",
+    "content": "Dijagnostika - Čitač pametnih kartica\nUmetnite pametnu karticu u utor na desnoj strani uređaja.\nAko bude uspješno, sistem će prikazati da čitač pametne\nkartice radi.\nSistem će vas zatim zatražiti da umetnete pametnu karticu.\nDijagnostika - Čitač pametnih kartica\nDijagnostika čitača pametnih kartica je preskočena. Test čitača pametnih kartica ne radi.\nAko se dijagnostika otkaže ili test ne uspije, sistem će prikazati poruku."
+  },
+  {
+    "id": "identifikacija-instalacija-013",
+    "device": "Uređaj za identifikaciju birača",
+    "section": "Instalacija i podešavanje",
+    "title": "Datum i vrijeme",
+    "content": "Dijagnostika - Datum i vrijeme\nPritisnite datum i vrijeme sinhronizacije da biste se povezali na\nmrežu i automatski ažurirali datum i vrijeme.\nSistem će koristiti ugrađenu SIM karticu i prikazati da se povezuje.\nAko je sinhronizacija uspješna, sistem će prikazati potvrdu.\nPritisnite Nastavi.\nSistem će prikazati dijagnostički meni Datuma i vremena.\nDijagnostika - Datum i vrijeme\nDodirnite polje Datum da biste ažurirali datum po potrebi.\nSistem će prikazati kalendar.\nDodirnite tačan datum i zatim pritisnite OK.\nSistem će prikazati: Datum je uspješno promijenjen.\nPritisnite Postavi vrijeme da biste po potrebi ažurirali vrijeme ili\ndodirnite Nastavi.\nAko sinhronizacija nije moguća, dugmad Postavi datum i Postavi\nvrijeme će biti omogućena.\nDijagnostika - Datum i vrijeme\nDodirnite ispravan sat i minutu, zatim AM/PM, pa dodirnite\nOK. Prikazat će se kalendar.\nSistem će prikazati: Datum je uspješno promijenjen.\nPritisnite Postavi vrijeme da biste po potrebi ažurirali vrijeme ili\ndodirnite Nastavi.\nSistem će prikazati sat.\nDijagnostika - Datum i vrijeme\nSistem će zatim prikazati poruku\n\"Datum i vrijeme rade\". Datum i vrijeme su postavljeni.\nDijagnostika - Datum i vrijeme\nDijagnostika datuma i vremena je preskočena\nAko se dijagnostika otkaže, sistem će prikazati poruku."
+  },
+  {
+    "id": "identifikacija-instalacija-014",
+    "device": "Uređaj za identifikaciju birača",
+    "section": "Instalacija i podešavanje",
+    "title": "SIM kartica",
+    "content": "Dijagnostika - SIM kartica\nSačekajte dok se SIM kartica u utoru 1 testira.\nOvaj proces obično traje duže od jedne minute.\nSistem će prikazati da konfiguriše SIM karticu u utoru 1.\nNakon toga će prikazati da uspostavlja vezu sa SIM 1.\nNakon testiranja SIM kartice 1, sistem će zatražiti da se nastavi sa\nSIM karticom 2.\nDodirnite Nastavi sa SIM utorom 2.\nAlternativno, dodirnite Preskoči test da biste preskočili\ndijagnostiku.\nSistem će prikazati \"Dijagnostika SIM kartice preskočena.\"\nDa biste testirali da li SIM kartica radi, provjerite da li je SIM kartica\ninstalirana. Sistem će prikazati da će dijagnostika SIM kartice početi.\nZapočinje dijagnostika\nSačekajte\nNastavite sa SIM u\nodjeljku 2\nDodirnite Nastavi na sljedeću dijagnostiku.\nAko bude uspješno, sistem će prikazati \"SIM kartica radi.\"\nSistem će provjeriti SIM karticu 2.\nDijagnostika - SIM kartica\nSIM kartica funkcioniše\nNastavi sa\ndijagnostikom\nDijagnostika - SIM kartica\nDijagnostika SIM kartice nije uspjela. Nastavi sa SIM utorom 1.\nAko dijagnostika nije bila uspješna, sistem će prikazati jednu od sljedećih poruka.\nDijagnostika - SIM kartica\nSIM kartica ne radi. Dijagnostika SIM kartice je preskočena.\nAko se dijagnostika otkaže ili test ne uspije, sistem će prikazati poruku."
+  },
+  {
+    "id": "identifikacija-instalacija-015",
+    "device": "Uređaj za identifikaciju birača",
+    "section": "Instalacija i podešavanje",
+    "title": "Štampanje završnog izvještaja",
+    "content": "Dijagnostika – Štampanje završnog izvještaja\nSistem prikazuje da traje štampa.\nKada štampa završi, bit ćete upitani da provjerite izvještaj.\nPritisnite Da, ispravno odštampano, ako je izvještaj u potpunosti\nodštampan.\nDodirnite Ne, ponovo odštampaj rezultate, ako dođe do problema s\nizvještajem ili papirom..\nKada dijagnostika bude završena, uređaj će automatski ispisati\nizvještaj o dijagnostici.\nDijagnostika – Štampač završnog izvještaja\nKada se dijagnostika završi i izvještaj se uspješno odštampa, prikazat će se sljedeći ekran s rezultatima svake dijagnostike."
+  },
+  {
+    "id": "identifikacija-instalacija-016",
+    "device": "Uređaj za identifikaciju birača",
+    "section": "Instalacija i podešavanje",
+    "title": "Preduslovi za otvaranje izbora",
+    "content": "Preduslovi za otvaranje procesa verifikacije Detalji\nUloga koja se koristi Predsjednik biračkog odbora / Zamjenik predsjednika biračkog odbora\nStatus uređaja Konfigurisano\nZahtjevi • Dostignuto je vrijeme i datum otvaranja izbora.\n• Pri ruci imati PIN kod.\nNakon što je uređaj postavljen na biračko mjesto, uređaj će biti spreman za verifikaciju birača na utvrđeni dan izbora."
+  },
+  {
+    "id": "identifikacija-instalacija-017",
+    "device": "Uređaj za identifikaciju birača",
+    "section": "Instalacija i podešavanje",
+    "title": "Otvaranje izbora",
+    "content": "1 Prijavite se u sistem i dodirnite „Otvori izbore“. Sistem prikazuje informacije o izborima.\n2 Pritisnite „Da, otvori“ da potvrdite otvaranje.\nAko se pokuša otvaranje prije zakazanog vremena, sistem će prikazati poruku da je potrebno sačekati određeni datum i vrijeme.\n3 Sistem prikazuje ekran za autorizaciju. Predsjednik biračkog odbora umetne pametnu karticu u čitač.\nSistem potvrđuje detekciju kartice.\n4 Unesite PIN.\nNakon što se pametna kartica i PIN ispravno unesu, sistem će pokrenuti proceduru otvaranja izbora.\nZatim će odštampati izvještaj o otvaranju izbora.\n5 Provjerite potvrdu na štampaču.\n6 Potvrdite da su podaci tačni pritiskom na „Da“.\nPredsjednik biračkog odbora unosi svoj ovlašteni PIN. Sistem prikazuje poruku o uspjehu, štampa\nizvještaj o otvaranju i izbori su otvoreni. Pritisnite Nastavi da biste došli do menija Pretraga birača.\nPritisnite Nastavi da biste došli do menija Pretraga birača."
+  },
+  {
+    "id": "identifikacija-instalacija-018",
+    "device": "Uređaj za identifikaciju birača",
+    "section": "Instalacija i podešavanje",
+    "title": "Izvještaj o otvaranju",
+    "content": "Odštampani izvještaj o otvaranju prikazuje sljedeće informacije\n• Logo\n• Naziv izvještaja\n• Biračko mjesto (oznaka i geografska identifikacija)\n• Statistika biračkog mjesta\n• Potpisi predsjednika biračkog odbora i operatera\n• Datum i vrijeme\n• Verzija softvera\n• Kodiranje\nNAPOMENA:\nPredsjednik biračkog odbora treba da se odjavi iz svog profila prije početka procesa verifikacije birača.\nDa bi se pristupilo procesu verifikacije birača, neophodno je da se član biračkog odbora zadužen za\nidentifikaciju prijavi na uređaj sa svojim profilom."
+  },
+  {
+    "id": "identifikacija-instalacija-019",
+    "device": "Uređaj za identifikaciju birača",
+    "section": "Instalacija i podešavanje",
+    "title": "Preduslovi za pretragu birača",
+    "content": "Pretraga birača\nČlan biračkog odbora zadužen za identifikaciju na biračkom mjestu će unijeti svoj\nPIN kod nakon što period glasanja bude otvoren i pretraživati birače dodijeljene tom\nbiračkom mjestu.\nDostupne su tri metode za pretragu birača u izbornoj bazi podataka:\n1. Provucite MRZ kod kroz skener\n2. Skenirajte barkod\n3. Ručna pretraga unosom identifikacionog broja birača\nUloga Član biračkog odbora zadužen za identifikaciju/\nZamjenik člana biračkog odbora\nStatus uređaja Otvoreno\nZahtjevi PIN kod pri ruci za pristup ovoj funkciji.\nSistem će prvo prikazati poruku koja traži da se lična karta birača, ili pasoš birača, provuče kroz\nčitač.\nNa lijevoj strani ekrana, uređaj će prikazati monitore verifikacije, s informacijama o broju\nregistrovanih birača, ženskih i muških; i broju verifikovanih birača, ženskih i muških."
+  },
+  {
+    "id": "identifikacija-instalacija-020",
+    "device": "Uređaj za identifikaciju birača",
+    "section": "Instalacija i podešavanje",
+    "title": "Pretraga birača",
+    "content": "Pretraga pomoću MRZ koda\nProvucite dokument (lična karta ili pasoš - kod okrenut desno) ). Sistem će\nemitovati zvučni signal koji označava rezultate skeniranja:\n• Jedan (1) bip za uspješno skeniran MRZ kod. U ovom slučaju, sistem prikazuje\npodatke birača.\n• Dva (2) bipa za MRZ kod čije skeniranje nije uspjelo; stoga se podaci ne\nprikazuju.\n• Zvuk sirene za MRZ kod koji je skeniran i već verifikovan. Ovaj birač se ne\nmože ponovo verifikovati, ali sistem prikazuje podatke birača.\n• Tri (3) bipa za MRZ kod koji je skeniran i registrovan na drugom biračkom\nmjestu. Ovaj birač se ne može verifikovati na trenutnom biračkom mjestu, ali\nsistem prikazuje podatke birača.\nSistem će pokazati podatke birača.\t2\nPretraga pomoću MRZ koda\nSistem će prikazati podatke birača, ili neku od sljedećih grešaka:\nPoruka Opis\nNema dobijenih podataka MRZ skeniranje nije prikupilo nikakve podatke za izvršenje pretrage birača.\nNevažeći kod dokumenta Identifikacioni broj birača dobijen putem MRZ-a nije važeći.\nIdentifikacioni broj birača nije\nregistrovan i ne može se\nverifikovati\nBirač nije registrovan u bazi podataka, birač ne može verifikovati.\nProvjerite identifikacioni broj birača i broj prikazan u poruci.\nIdentifikacioni broj birača je\nnevažeći\nIdentifikacioni broj birača unesen ručno nema važeći format.\nProvjerite identifikacioni broj birača i pokušajte ponovo ako je potrebno.\nPretraga barkoda dokumenta\nDodirnite Skeniranje barkoda.\n:\nPretraga barkoda dokumenta\nProvjerite vrstu\nidentifikacionog\ndokumenta koju je birač\ndostavio, a zatim\ndodirnite Lična karta ili\nVozačka dozvola.\nSistem će prikazati dodatni ekran koji traži vrstu dokumenta koji se skenira.\nPretraga barkoda dokumenta\nSkenirajte dokument birača.\n• Postavite barkod lične karte birača ispred uređaja\nidentifikacije birača.\n• Uvjerite se da je barkod jasno vidljiv i pravilno poravnat s\nuređajem za identifikaciju birača.\n• Držite ličnu kartu mirno, dok uređaj za identifikaciju\nbirača uspješno ne pročita barkod.\nDodirnite X za zatvaranje ako skeniranje nije uspješno i\nnastavite metodom ručne pretrage.\nSistem će prvo prikazati crni ekran, a zatim aktivirati kameru skenera.\nPretraga barkoda dokumenta\nOprez\nOsigurajte odgovarajuće uslove osvjetljenja za skeniranje kamerom uređaja.\nPrilagodite postavke uređaja za identifikaciju birača dodirom na ikonu blica koja se\nnalazi u donjem lijevom uglu ekrana.\nPodesite intenzitet svjetla radi poboljšanja čitljivosti barkoda u različitim uslovima\nosvjetljenja.\nPretraga barkoda dokumenta\nAko skenirani dokument odgovara biraču uključenom u izborne podatke instalirane na uređaju,\nsistem će prikazati sve podatke o biraču.\nDodirnite Zatraži potvrdu za\nnastavak verifikacije birača.\nOprez\nAko biraču treba pomoć, dodirnite Dodijeli pomoć drugog lica i pratite procedure u odjeljku Pomoć\nbiračima.\nRučna pretraga identifikacionog dokumenta\nPređite na ručni unos ako sistem ne može prepoznati MRZ kod, barkod, ili ako lični dokument birača\nnema MRZ kod.\nOva opcija pretrage nudi dugme za pokretanje pretrage. Dugme Pretraži je uvijek neaktivno ako u filtere\nnisu uneseni parametri pretrage:\nDodirnite dugme Ručna pretraga.\nRučna pretraga identifikator dokumenta\nSistem će prikazati polja za svaku vrstu dokumenta.\nDodirnite Pretraži po ličnom\nidentifikacionom\ndokumentu/Odaberite vrstu\ndokumenta.\nSistem će prikazati dodatni meni za odabir\nvrste dokumenta.\n• Lična karta\n• Pasoš\n• Vozačka dozvola\nDodirnite vrstu dokumenta za\nnastavak.\nRučna pretraga identifikacionog dokumenta\nSistem će prikazati dodatni prozor\ns poljem za identifikacioni dokument.\nDodirnite unutar polja da\nunesete identifikacione\npodatke koje je dostavio\nbirač, a zatim dodirnite\nPretraga.\nRučna pretraga identifikacionog dokumenta\nPretraga može potrajati.\nSistem će otvoriti ekran Detalji birača.\nProvjerite i uvjerite se da se\npodaci birača poklapaju s\npodacima birača. Ako je tako,\ndodirnite Da, nastavi.\nAko nema rezultata, sistem će\nprikazati grešku poput\n„Skenirani identifikacioni\ndokument nije registrovan.“\nNakon potvrde za nastavak verifikacije birača, sistem traži\nverifikaciju biometrijskih podataka."
+  },
+  {
+    "id": "identifikacija-instalacija-021",
+    "device": "Uređaj za identifikaciju birača",
+    "section": "Instalacija i podešavanje",
+    "title": "Potvrda birača verifikacija/autentifikacija",
+    "content": "Potvrda birača (autentifikacija)\nKada je birač identifikovan, sistem će prikazati ekran Potvrda birača. Tokom ove faze, biometrijski\npodaci birača (otisci prstiju) biće verifikovani u odnosu na izborne podatke instalirane na uređaju.\nSistem će zatražiti, redoslijedom i količinom, snimanje sljedećih otisaka prstiju prema konfiguraciji koju\nje osigurala Centralna izborna komisija BiH.\nPodrazumijevani redoslijed je:\n1. Desni kažiprst\n2. Lijevi kažiprst\nPodrazumijevani maksimalan broj ponovnih pokušaja je 3.\nPotvrda birača (autentifikacija)\nZatražite saradnju birača i\nkomunicirajte koji je prst potreban\nprema onom prikazanom na\nekranu.\nPotvrda birača (autentifikacija)\nZatražite od birača da stavi prst na čitač\notiska prsta koji se nalazi na poleđini\nuređaja.\nSistem će prikazati uhvaćeni otisak na\nekranu.\nNastavite dok svi otisci prstiju\nne budu uhvaćeni.\nPreskoči prst\nPotvrda birača (autentifikacija)\nOprez\nAko traženi prsti nisu dostupni,\npredsjednik biračkog odbora\npostupa u skladu s propisanom\nprocedurom.\nPotvrda birača (autentifikacija)\nSistem će prikazati da se potvrda o\nverifikaciji birača štampa.\nPotvrda birača (autentifikacija)\nSistem će odštampati potvrdu o\nverifikaciji birača kada je proces\nverifikacije birača završen.\nDodirnite Da da potvrdite da je potvrda\nuspješno odštampana.\nPotvrda birača (autentifikacija)\nKonačno, sistem će prikazati zelenu\nkvačicu koja označava uspješnu\nverifikaciju.\nDodirnite Nazad na novu pretragu kako\nbi se mogao verifikovati sljedeći birač.\nPotvrda birača (autentifikacija)\nDetalji izvještaja o\nverifikaciji/autentifikaciji birača.Logo\nNaziv izvještaja\nBiračko mjesto: Oznaka – Geografska identifikacija biračkog mjesta kojem je\nuređaj za identifikaciju birača dodijeljen\nBarkod\nInformacije o biraču\nDatum i vrijeme\nVerzija softvera\nKodiranje"
+  },
+  {
+    "id": "identifikacija-instalacija-022",
+    "device": "Uređaj za identifikaciju birača",
+    "section": "Instalacija i podešavanje",
+    "title": "Potvrda birača s nepotpunim biometrijskim podacima",
+    "content": "Zatražite saradnju birača i\nkomunicirajte koji je prst potreban\nprema onom prikazanom na ekranu.\nKada se biometrijski podaci birača ne mogu potvrditi, član biračkog odbora može preskočiti potrebne otiske\nprstiju, ali je potrebna autorizacija za završetak procesa verifikacije birača.\nZatražite od birača da stavi desni\nkažiprst na čitač otiska prsta koji se\nnalazi na poleđini uređaja.\nSistem će prikazati uhvaćeni otisak na\nekranu.\nPreskoči prst\nKada se otisak kažiprsta desne ruke ne može\nuhvatiti, potrebno je skenirati kažiprst lijeve\nruke.\nKada se otisci ne mogu uhvatiti ni na\njednoj ruci, sistem će prikazati dijalog za\npreskakanje ruke na sljedeći način:\nDodirnite dugme Da, preskoči ruku.\nU ovom slučaju, potrebna je autorizacija.\nSistem će prikazati dodatni prozor koji traži\nrazlog preskakanja ovog čitanja.\n• Odaberite odgovarajuću opciju da\nnaznačite da li otisak nije uključen u\nregistrovane izborne podatke, da li je kvalitet\nskeniranja loš, da li birač ima fizičku prepreku\nkoja onemogućava skeniranje prsta, ili da li se\notisak ne poklapa s registrovanim.\n• Zatim dodirnite dugme Autorizuj za\nnastavak.\nDodirnite Ne autorizuj za otkazivanje.\nAko sistem automatski otkrije da birač\nnema registrovane otiske prstiju, tražiće\nposebnu autorizaciju.\nDodirnite Zatraži odobrenje.\nSistem će prvo tražiti unos ovlaštene pametne kartice, a zatim odgovarajući PIN.\nPredsjednik biračkog odbora mora umetnuti pametnu karticu u čitač pametnih kartica, kako je prikazano na\nekranu.\nPredsjednik biračkog odbora mora unijeti svoj autorizacijski PIN.\nSistem će odštampati potvrdu o verifikaciji\nbirača kada je proces verifikacije birača\nzavršen.\nDa li je potvrda ispravno odštampana?\nKonačno, sistem će prikazati zelenu kvačicu\nkoja potvrđuje uspješnu verifikaciju.\n• Dodirnite dugme Nazad na novu pretragu\nkako bi se mogao verificirati sljedeći birač."
+  },
+  {
+    "id": "identifikacija-instalacija-023",
+    "device": "Uređaj za identifikaciju birača",
+    "section": "Instalacija i podešavanje",
+    "title": "Pomoć biračima",
+    "content": "Kada je identitet birača potvrđen, sistem će\notvoriti ekran Podaci o biraču.\nProvjerite i uvjerite se da se podaci birača\npoklapaju. Ako biraču treba pomoć,\ndodirnite Dodijeli pomoć drugog lica (ova\nopcija se nalazi u gornjem desnom uglu\nkartice s podacima birača).\nKada birači ne mogu samostalno glasati, mogu odrediti drugo lice da im pomogne tokom ovog\nprocesa.\nZatražite identifikacioni dokument lica koje pruža\npomoć za pretragu njegovih podataka u izbornoj bazi\npodataka.\nPotražite lice koje pomaže biraču koristeći bilo koju od\nsljedećih metoda:\n• Ako je dostupan MRZ kod, provucite ga kroz MRZ\nskener na lijevoj strani uređaja.\n• Ako na ličnoj karti postoji barkod, dodirnite Skeniraj\nbarkod.\n• Ako nema dostupnog MRZ koda ili barkoda,\ndodirnite Ručna pretraga.\nSistem će zatražiti podatke o licu koje pruža pomoć biraču.\nMRZ pretraga:\nOdmah provucite ličnu kartu s MRZ kodom kroz\nMRZ skener koji se nalazi na lijevoj strani uređaja.\nSkeniranje barkoda:\nSistem će omogućiti kameru uređaja za skeniranje\nbarkoda.\nPostavite ličnu kartu ispred kamere i namjestite je tako da\nbarkod bude unutar označenog kvadrata.\nRučna pretraga:\n• Odaberite vrstu dokumenta koju je dostavilo lice\nkoje pruža pomoć biraču.\nSistem će zatim prikazati polje za ručni unos.\n• Unesite podatke identifikacionog dokumenta da\npronađete birača.\n• Dodirnite Pretraži.\nSistem provjerava bazu podataka birača i prikazuje\npodatke lica koje pruža pomoć biraču kada su\npronađeni.\nDodirnite Dodijeli pomoć drugog lica.\nSistem će zatražiti razlog za pomoć.\nDodirnite pored razloga koji odgovara\npotrebi ovog birača za pomoć.\nNakon što je razlog odabran, sistem će\nomogućiti dugme Odobri.\nSistem će prikazati poruku za umetanje\npametne kartice na desnoj strani uređaja.\nUmetnite pametnu karticu predsjednika\nbiračkog odbora.\nSistem će prepoznati pametnu karticu i\nbiće mu potrebno nekoliko trenutaka da\nzavrši proces autorizacije.\nUnesite PIN predsjednika biračkog odbora\nkoristeći ekransku tastaturu.\nNakon autorizacije, sistem će prikazati\npotvrdu dodjele pomoći drugog lica\nbiraču.\nProvjerite podatke birača i lica koje\npruža pomoć biraču, a zatim dodirnite\nZatraži potvrdu.\nAko su bilo koji podaci netačni ili da\notkažete dodjelu, dodirnite Ne, otkaži."
+  },
+  {
+    "id": "identifikacija-instalacija-024",
+    "device": "Uređaj za identifikaciju birača",
+    "section": "Instalacija i podešavanje",
+    "title": "Preduslovi za zatvaranje glasanja",
+    "content": "Preduslov Detalji\nUloga Predsjednik biračkog odbora / Zamjenik predsjednika biračkog odbora\nStatus uređaja Otvoreno\nZahtjevi Dostignuto vrijeme i datum zatvaranja izbora. PIN kod pri ruci."
+  },
+  {
+    "id": "identifikacija-instalacija-025",
+    "device": "Uređaj za identifikaciju birača",
+    "section": "Instalacija i podešavanje",
+    "title": "Zatvaranje glasanja",
+    "content": "1 Zatvaranje glasanja na biračkom mjestu vrši predsjednik biračnog odbora, unošenjem svog 6-cifrenog\nPIN-a. Prethodno je potrebno da se član biračkog odbora zadužen za identifikaciju odjavi s uređaja.\n2 Iz glavnog menija odaberite „Zatvori izbore“.\n3 Ako se pokuša zatvaranje prije zakazanog vremena, sistem prikazuje upozorenje „Vrijeme zatvaranja\nnije dostignuto“ i vraća na glavni meni.\n4 Kada je vrijeme dostignuto, pregledajte informacije o izborima (skrolajte dolje ako je potrebno da\nvidite dugmad) i dodirnite „Da, zatvori“.\n5 Predsjednik biračkog odbora umetne pametnu karticu u utor na desnoj strani uređaja. Sistem\npotvrđuje da je kartica prepoznata.\n6 Predsjednik biračkog odbora unosi svoj PIN pomoću ekranske tastature da odobri zatvaranje glasanja."
+  },
+  {
+    "id": "identifikacija-instalacija-026",
+    "device": "Uređaj za identifikaciju birača",
+    "section": "Instalacija i podešavanje",
+    "title": "Konsolidacija i prijenos podataka",
+    "content": "1 Nakon autorizacije, sistem traži potvrdu da je potvrda ispravno odštampana. Ako nije, dodirnite „Ne,\npokušaj ponovo“.\n2 Sistem počinje proces zatvaranja - konsolidacija je na čekanju, dok se pripremaju podaci o glasanju.\n3 Sistem konsoliduje izborne podatke, a status uređaja mijenja se u „Zatvoreno“. Sačekajte dok se paket\nne sačuva i pošalje - ne isključujte uređaj.\n4 Kada se konsolidacija završi, sistem prikazuje potvrdu. Dodirnite „U redu“.\nNapomena: Ako prijenos ne uspije, glavni meni nudi opciju „Ponovni pokušaj prijenosa“."
+  },
+  {
+    "id": "identifikacija-instalacija-027",
+    "device": "Uređaj za identifikaciju birača",
+    "section": "Instalacija i podešavanje",
+    "title": "Izvještaj o zatvaranju glasanja",
+    "content": "Odštampani izvještaj o zatvaranju glasanja će prikazivati sljedeće informacije:\n• Logo\n• Naziv izvještaja\n• Biračko mjesto\n• Statistika biračkog mjesta\n• Potpis predsjednika biračkog odbora\n• Datum i vrijeme\n• Verzija softvera\n• Kodiranje"
+  },
+  {
+    "id": "identifikacija-instalacija-028",
+    "device": "Uređaj za identifikaciju birača",
+    "section": "Instalacija i podešavanje",
+    "title": "Ponovni ispis izvještaja o zatvaranju glasanja",
+    "content": "1 Za ponovni ispis, iz glavnog menija dodirnite „Ponovni ispis izvještaja o zatvaranju“. Sistem prikazuje\nizvještaj - dodirnite padajući meni da promijenite broj kopija, ili ikone za uvećanje/umanjenje pregleda\nako je potrebno.\n2 Dodirnite „Štampaj“. Sistem štampa traženi broj kopija. Dodirnite „Vrati se“ za povratak na glavni\nmeni.\nHvala na pažnji"
+  },
+  {
+    "id": "identifikacija-troubleshooting-001",
+    "device": "Uređaj za identifikaciju birača",
+    "section": "Otklanjanje poteškoća",
+    "title": "Hardver i napajanje",
+    "content": "1. Uređaj ne radi. Hardverski problemi. Primijenite postupak zamjene uređaja.\n2. Uređaj se ne uključuje\nnakon pritiska na dugme\nza uključivanje.\nLED lampica pored dugmeta za uključivanje ne\nsvijetli.\nProvjerite kabl za napajanje, zaštitnik od prenapona i DC ulaz da su\nsvi kablovi ispravno povezani. Provjerite da zaštitnik od prenapona\nprikazuje zeleno svjetlo. Ako je prikazano žuto svjetlo, napajanje\nse vraća u normalu i zeleno svjetlo bi se trebalo uskoro upaliti. Ako\nje prikazano crveno svjetlo, provjerite eksterni izvor napajanja.\nAko i dalje nema odgovora, isključite kabl za napajanje, sačekajte 5\nminuta, uključite uređaj. Ako problem i dalje postoji, zamijenite\nuređaj prema postupku zamjene uređaja iz ovog priručnika.\n3. Sistem prikazuje prazan\nili bijeli ekran. Aplikacija ne reaguje.\nIsključite uređaj pritiskom na dugme za uključivanje i ponovo ga\nuključite. Ako problem i dalje postoji, zamijenite uređaj prema\npostupku zamjene uređaja iz ovog priručnika."
+  },
+  {
+    "id": "identifikacija-troubleshooting-002",
+    "device": "Uređaj za identifikaciju birača",
+    "section": "Otklanjanje poteškoća",
+    "title": "PIN, prijava i pristup",
+    "content": "4. Sistem prikazuje grešku o unesenom pogrešnom PIN kodu. - Dodirnite ikonu za zatvaranje da zatvorite\nporuku o grešci.\n5. Kod previše neuspješnih pokušaja, sistem emituje zvučni\nsignal i aktivira vremensko zaključavanje početnog ekrana na\nnekoliko sekundi (podesivo vrijeme, podrazumijevano 60\nsekundi).\n- Sačekajte da istekne vrijeme zaključavanja i\npokušajte ponovo.\n6. Nevažeća lozinka korištena za pristup aplikaciji. Unesen je netačan PIN.\nProvjerite i unesite tačan PIN pomoću\nekranske tastature. Nakon 5 pokušaja,\naplikacija će blokirati pristup.\n7. Nevažeći autorizacijski PIN.\nNevažeći autorizacijski PIN\nkorišten za zamjenu uređaja.\nDozvoljena su samo tri (3)\nponovna pokušaja.\nProvjerite i unesite tačan PIN za vanredne\nsituacije (nije isti kao korisnički PIN-ovi).\nNakon 3 pokušaja, aplikacija će blokirati\npristup. Kontaktirajte Help desk ili izbornog\nzvaničnika za tačan PIN.\n8. Korisnik je blokiran za pristup, sistem prikazuje poruku o\nisteku vremena.\nNetačan PIN je korišten pet puta\ntokom procesa prijave.\nSačekajte 5 minuta dok uređaj ne omogući\npristup. Provjerite da li je PIN tačan i\npokušajte ponovo.\n9. Korisnik Konfigurator ne može se prijaviti u aplikaciju.\nStatus izbora je Otvoreno, a uloga\nKonfigurator nema pristup Smart\nPollBook aplikaciji u tom statusu.\nKorisnik se mora prijaviti s ulogom Tehničar."
+  },
+  {
+    "id": "identifikacija-troubleshooting-003",
+    "device": "Uređaj za identifikaciju birača",
+    "section": "Otklanjanje poteškoća",
+    "title": "USB memorija i podaci",
+    "content": "10. Prilikom pokretanja aplikacije (dodir na ikonu\nSmart PollBook), sistem javlja grešku da se ne može\ninicijalizovati jer USB memorija nije pronađena.\nUređaj koji sadrži biometrijske\npodatke nije povezan.\nDodirnite Izlaz. Isključite uređaj. Umetnite USB\nprimarni memorijski uređaj ili pametnu karticu s\nbiometrijskim podacima. Ponovo pokušajte\notvoriti Smart PollBook aplikaciju. Ako problem i\ndalje postoji, primijenite postupak zamjene USB\nmemorije.\n11. Prilikom inicijalizacije, greška „Izborni podaci\nnisu potpuni“.\nUSB primarni memorijski uređaj je\nneispravan.\nIsključite uređaj, provjerite da je USB čvrsto\numetnut, zatim ponovo pokrenite uređaj. Ako\ngreška i dalje postoji, zamijenite USB primarni\nmemorijski uređaj.\n12. Pametna kartica je netačna. - -"
+  },
+  {
+    "id": "identifikacija-troubleshooting-004",
+    "device": "Uređaj za identifikaciju birača",
+    "section": "Otklanjanje poteškoća",
+    "title": "Baterija i dijagnostika",
+    "content": "13. Upozorenje „Nizak\nnivo baterije“.\nInterna baterija uređaja ima manje od 20%\nnapunjenosti. Povežite uređaj na izvor napajanja. Dodirnite Razumijem.\n14. Sistem prikazuje\nsimbol upozorenja (crveni\nznak uzvika).\nKorisnik je preskočio korak dijagnostike. Pokrenite funkciju Dijagnostika (prijavljeni kao uloga Tehničar). Ne\npreskačite nijedan postupak.\n15. Sistem prikazuje\nsimbol upozorenja (žuti\nznak uzvika).\nSistem ili korisnik je otkrio problem tokom\nkoraka dijagnostike.\nPonovo pokrenite dijagnostiku. Ako problem i dalje postoji,\nkontaktirajte tehničku podršku."
+  },
+  {
+    "id": "identifikacija-troubleshooting-005",
+    "device": "Uređaj za identifikaciju birača",
+    "section": "Otklanjanje poteškoća",
+    "title": "Štampanje",
+    "content": "16. Sistem prikazuje\ngrešku: „Došlo je do\ngreške prilikom\nštampanja. Odjeljak za\npapir je prazan. Da li želite\nponovo odštampati\nizvještaj?“\nSistem primjećuje da nema papira u odjeljku.\nProvjerite da li ima papira u odjeljku. Zamijenite ili postavite novu\nrolu papira u odjeljak. Čvrsto zatvorite poklopac (vidi postupak\ninstalacije role papira u priručniku za hardver). Dodirnite Pokušaj\nponovo; ili dodirnite Otkaži da preskočite ovaj korak.\n17. Sistem prikazuje\nporuku o grešci štampača. Papir je zaglavljen ili postoji druga greška.\nProvjerite da li je papir ispravno instaliran i nije zaglavljen\notvaranjem odjeljka za štampač. Pratite uputstva opisana u\npriručniku za hardver. Dodirnite Pokušaj ponovo za nastavak.\n18. Sistem prikazuje\nporuku o grešci štampača. Hardverski problem tokom štampanja izvještaja.\nDodirnite Nastavi bez štampanja da preskočite ovaj korak; ili\nprovjerite: da li su vratanca za rolu papira zatvorena, da list papira\nnije blokiran. Primijenite korektivne mjere: ako su otvorena,\npritisnite vratanca da se zatvore dok ne kliknu; ako je zaglavljeno,\npratite uputstva opisana u odjeljku Instalacija role papira.\nDodirnite Pokušaj ponovo za nastavak.\n19. Kritična greška baterije\ntokom štampanja. Baterija je preslaba za uspješno štampanje. Povežite uređaj na eksterni izvor napajanja. Kada se baterija\nnapuni iznad 20%, ponovo pokušajte štampanje izvještaja."
+  },
+  {
+    "id": "identifikacija-troubleshooting-006",
+    "device": "Uređaj za identifikaciju birača",
+    "section": "Otklanjanje poteškoća",
+    "title": "Ostalo",
+    "content": "20. Sistem prikazuje\ngrešku „Potrebna je\npažnja“. Došlo je do\nneočekivane situacije.\nOdjavite se iz aplikacije,\nponovo pokrenite uređaj i\npokušajte ponovo. Ako se\nstanje nastavi,\nkontaktirajte tehničku\npodršku.\n- Odjavite se iz aplikacije. Ponovo pokrenite uređaj i pokušajte\nponovo. Ako se stanje nastavi, kontaktirajte tehničku podršku."
+  },
+  {
+    "id": "identifikacija-troubleshooting-007",
+    "device": "Uređaj za identifikaciju birača",
+    "section": "Otklanjanje poteškoća",
+    "title": "Ilustrovani primjeri",
+    "content": "1 Sistem prikazuje grešku o unesenom pogrešnom PIN kodu: „Netačan PIN unesen, pokušajte ponovo.“\nDodirnite ikonu za zatvaranje da zatvorite poruku o grešci.\n2 Kod previše neuspješnih pokušaja, sistem prikazuje poruku „Isteklo vrijeme“: „Dostignut je previše\nneuspješnih pokušaja prijave. Pokušajte ponovo za 59 sekundi.“\n3 Nevažeća lozinka korištena za pristup aplikaciji: sistem prikazuje „Nevažeća lozinka. Pokušajte ponovo“\niznad ekrana za unos šestocifrene lozinke.\n4 Nevažeći autorizacijski PIN korišten za zamjenu uređaja: sistem prikazuje „Nevažeći autorizacijski PIN.\nPokušaji (1/3)“ u dijalogu autorizacije za vanredne situacije.\n5 Korisnik je blokiran za pristup nakon pet neuspješnih pokušaja - sistem prikazuje istu poruku „Isteklo\nvrijeme“.\n6 Korisnik Konfigurator ne može se prijaviti dok je status izbora Otvoreno: sistem prikazuje upozorenje\n„Trenutni korisnik nema dostupnih radnji“.\n7 Prilikom štampanja kada je odjeljak za papir prazan, sistem prikazuje grešku štampača: „Došlo je do\ngreške prilikom štampanja: Odjeljak za papir je prazan. Da li želite ponovo odštampati izvještaj?“ s\ndugmadima „Otkaži“ i „Pokušaj ponovo“.\n8 Kada je papir zaglavljen ili postoji druga greška štampača, sistem prikazuje istu vrstu poruke o grešci\nštampača."
+  },
+  {
+    "id": "identifikacija-troubleshooting-008",
+    "device": "Uređaj za identifikaciju birača",
+    "section": "Otklanjanje poteškoća",
+    "title": "Zamjena uređaja",
+    "content": "U slučaju hardverskg kvara uređaja; ista USB memorija (s podacima) se prebacuje na novi uređaj;\nPotreban je PIN za vanredne situacije, koji osigurava call centar.\n1 Ako je primjenjivo, izađite iz aplikacije Smart PollBook.\nIsključite uređaj.2\n3 Uklonite USB primarni memorijski uređaj s podacima.\n4 Umetnite USB memorijski uređaj u novi uređaj za identifikaciju birača.\nUključite novi uređaj za identifikaciju birača.\nSistem automatski prepoznaje zamjenu uređaja.\n7 Pritisnite Nastavi.\nKada se zatraži, unesite PIN za vanredne situacije pomoću ekranske tastature.\n(Maksimalno 3 pokušaja; ako PIN bude odbijen, kontaktirajte call centar.)\nSistem pokreće proces zamjene i, nakon 1 do 2 minute, prikazuje potvrdu.\nPritisnite OK za završetak.\nUređaj se automatski resetuje.\nPrilikom sljedeće prijave člana biračkog odbora za identifikaciju),\nsistem vraća podatke o verifikaciji birača prikupljene prije zamjene;\nnijedan podatak nije izgubljen."
+  },
+  {
+    "id": "identifikacija-troubleshooting-009",
+    "device": "Uređaj za identifikaciju birača",
+    "section": "Otklanjanje poteškoća",
+    "title": "Zamjena USB memorijskog uređaja",
+    "content": "Uređaj za identifikaciju birača omogućava zamjenu oštećenog USB memorijskog uređaja.\nSam uređaj se ne mijenja; potreban je PIN za vanredne situacije , koji osigurava call centar.\n1 Izađite iz aplikacije Smart PollBook.\nIsključite uređaj.\nUklonite oštećeni USB memorijski uređaj.\nUmetnite novi USB memorijski uređaj.\nUključite uređaj.\n6 Sistem automatski prepoznaje zamjenski USB uređaj.\nSistem traži PIN za vanredne situacije, koji generiše call centar.\nKada se zatraži, unesite PIN za vanredne situacije pomoću ekranske tastature.\n9 Sistem pokreće postupak zamjene i, nakon 1 do 2 minute, prikazuje potvrdu zamjene.\nPritisnite OK za završetak.\nUređaj se automatski resetuje.\nUređaj se vraća na ekran za prijavu člana biračkog odbora za identifikaciju radi nastavka\nrada.\nHvala na pažnji"
+  },
+  {
+    "id": "skener-instalacija-001",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Instalacija i podešavanje",
+    "title": "Postavljanje glasačke kutije",
+    "content": "Postavljanje glasačke kutije – vrh kutije\nVrh glasačke kutije ima sljedeće elemente:\nPoklopac: Za pokrivanje/otkrivanje otvora za glasačke\nlistiće.\nPreklop: Zaključavanje optičkog skenera za brojanje\nglasova na gornji poklopac.\nVrh kutije zatvoren\nBrava poklopca: Za zatvaranje poklopca.\nUtori za glasački listić: Da bi glasački listić bio pravilno\nubačen.\nPostavljanje glasačke kutije – vrh kutije\nVrh glasačke kutije ima sljedeće elemente:\nPreklop: Zaključavanje optičkog skenera za brojanje\nglasova na gornji poklopac.\nSlot za validne glasačke listiće.\nPoklopac: Za pokrivanje/otkrivanje otvora za glasačke\nlistiće.\nVrh kutije otvoren\n1 Postavite gornji poklopac na glasačku kutiju tako što ćete\npritisnuti stranice.\nNapomena: Prije postavljanja gornjeg poklopca provjerite\nje li glasačka kutija prazna.\nNapomena: Pritisnite svaku bravu dok ne čujete klik. Oko gornjeg poklopca nalazi se 12 brava.\n2 Uvjerite se da su sve strane zaključane.\n3 Otvorite poklopac koji prekriva otvore za glasačke listiće."
+  },
+  {
+    "id": "skener-instalacija-002",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Instalacija i podešavanje",
+    "title": "Postavljanje optičkog skenera za brojanje glasova na vrh glasačke kutije",
+    "content": "1 Uzmite optički skener za brojanje glasova i stavite ga na vrh\nglasačke kutije.\n2 Lagano pritisnite da biste optički skener za brojanje glasova\npostavili u njegov konačni položaj.\nOptički skener za brojanje glasova će biti u svom konačnom položaju kada se glasački listić poklopi s utorima za glasački\nlistić na gornjem poklopcu glasačke kutije. Sljedeće slike prikazuju pravilno postavljanje optičkog skenera za brojanje\nglasova na gornji poklopac glasačke kutije:\n3 Postavite sigurnosnu plombu, kako biste pričvrstili optički\nskener za brojanje glasova za gornji poklopac."
+  },
+  {
+    "id": "skener-instalacija-003",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Instalacija i podešavanje",
+    "title": "Instaliranje termalnog papira",
+    "content": "Napomena: Optički skener za brojanje glasova isporučuje se sa već\numetnutom rolom termalnog papira. Ovaj postupak se provodi samo\nako termalni papir nije umetnut ili ga je potrebno zamijeniti.\nPristupite otvoru štampača laganim pritiskom i podizanjem poklopca.\nUmetnite ili zamijenite papir tako da rolu papira stavite u odjeljak\nštampača, pazeći pritom na pravilnu orijentaciju.\nNapomena: Papir se mora odmotavati s donje strane role prema otvoru\nza izlaz papira, kao što je prikazano na slici.\n3 Ako mijenjate termalni papir, uklonite postojeću rolu\npapira. Zatim postavite novu rolu termalnog papira u njen\nutor tako da se odmotava od dna prema glavi za ispis.\nIzvucite rolu termalnog papira dok ne bude otkriveno 5 cm\npapira i lagano zatvorite odjeljak, pazeći da papir nije\nstisnut."
+  },
+  {
+    "id": "skener-instalacija-004",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Instalacija i podešavanje",
+    "title": "Instaliranje rezervne baterije",
+    "content": "1 Uzmite rezervnu bateriju i postavite je na pod, pored\noptičkog skenera za brojanje glasova. Obavezno koristite\nizolacioni materijal (kao što je plastika, karton itd.) ispod\nbaterije kako biste izbjegli direktan kontakt s podom.\n.\n2 Uklonite plastični poklopac s terminala rezervne baterije.\n3 Uzmite kabl rezervne baterije i otpustite njegove leptir\nmatice.\n4 Spojite crveni kabl na pozitivni pol rezervne baterije (crveni terminal).\nPričvrstite leptir maticu pazeći da je kabl čvrsto pričvršćen na terminal\nrezervne baterije.\n6 Spojite crni kabl na negativni pol rezervne baterije (plavi ili\ncrni pol).\nPričvrstite leptir maticu pazeći da je kabl čvrsto pričvršćen\nza terminal rezervne baterije.\nNapomena: Kablovi baterije se ne mogu zamijeniti, jer će\nse time oštetiti optički skener za brojanje glasova.\n8 Otvorite odjeljak priključka za rezervnu bateriju optičkog\nskenera za brojanje glasova.\nUključite drugi kraj kabla rezervne baterije u priključak za\nrezervnu bateriju.\nNapomena: Odjeljak optičkog skenera za brojanje glasova\nza pomoćno napajanje i bateriju može se zatvoriti nakon\nspajanja optičkog skenera za brojanje glasova na utičnicu i\nnjegovog uključivanja."
+  },
+  {
+    "id": "skener-instalacija-005",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Instalacija i podešavanje",
+    "title": "Spajanje optičkog skenera za brojanje glasova na električnu utičnicu",
+    "content": "1 Uzmite električni adapter i kabl za napajanje koji se nalaze\nu kutiji optičkog skenera za brojanje glasova.\nSpojite kabl za napajanje na električni adapter optičkog\nskenera za brojanje glasova.\n3 Uključite električni adapter u ulazno napajanje.\nSpojite kabl za napajanje u utičnicu."
+  },
+  {
+    "id": "skener-instalacija-006",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Instalacija i podešavanje",
+    "title": "Uključivanje optičkog skenera za brojanje glasova",
+    "content": "1 Pritisnite dugme za uključivanje da biste uključili optički\nskener za brojanje glasova.\nZatvorite odjeljak za rezervno napajanje i bateriju za PCOS.\nNapomena: LED indikator uključenosti, koji se nalazi ispod\nodjeljka za dugme za napajanje, svijetli kada se optički\nskener za brojanje glasova uključi.\nNapomena: LED indikator uključenosti, koji se nalazi ispod\nodjeljka za dugme za napajanje, svijetli kada se optički\nskener za brojanje glasova uključi.\nOptički skener za brojanje glasova će prikazati ekran s informacijama o uređaju, a zatim ekran u stanju\nmirovanja. Optički skener za brojanje glasova je uspješno instaliran."
+  },
+  {
+    "id": "skener-instalacija-007",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Instalacija i podešavanje",
+    "title": "Pokretanje dijagnostike optičkog skenera za brojanje glasova",
+    "content": "izbora.\nDijagnostika optičkog skenera za brojanje glasova\nNa ekranu skenera, ispod opcija za upravljanje biračkim mjestom, odaberite\n\"Dijagnostika\", kao što je prikazano na slici.\nAutentificirajte se u optičkom skeneru za brojanje glasova\nkoristeći profil tehničara/operatera.\nDijagnostika optičkog skenera za brojanje glasova\nSistem će na ekranu pokazati opcije koje vidite ispod:\nA\nB Da se pokrene kompletna dijagnostika i štampanje\ndijagnostičkog izvještaja.\nDa pokrene pojedinačne korake dijagnostike u zavisnosti od\npotrebe.\nNapomena: Tokom procesa dijagnostike preporučuje se korištenje dugmeta \"Pokreni sve\" za\nizvođenje kompletne dijagnostike i ispisivanje kompletnog dijagnostičkog izvještaja. Pojedinačne\nopcije u meniju Dijagnostika uređaja mogu se koristiti za testiranje pojedinih komponenti zasebno i\nbit će objašnjene na sljedećim slajdovima."
+  },
+  {
+    "id": "skener-instalacija-008",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Instalacija i podešavanje",
+    "title": "Dijagnostika zvučnika izbora.",
+    "content": "Zvučnik\n1 Pritisnite dugme za zvuk.\nPokretanje dijagnostike audio signala vrši se pritiskom na dugme Zvučnici, kao što je\nprikazano na ekranu.\nSistem će generisati testni zvuk dok prikazuje sljedeći ekran:\nNa prikazanom upitu korisnik mora odgovoriti pritiskom na \"Da„\nako se zvuk čuje jasno ili na \"Ne\" ako se zvuk ne čuje.\nZvučnik\nZvučnik\nDijagnostika zvučnika neuspješna. Dijagnostika zvučnika uspješna.\nSistem će prikazati jedan od sljedećih ekrana, u zavisnosti od odabrane opcije (Da ili Ne):\nZvučnik\nAko se dijagnostički test ne završi u zadanom vremenu, prikazuje se interfejs, nakon\nčega se korisnik može vratiti u glavni meni."
+  },
+  {
+    "id": "skener-instalacija-009",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Instalacija i podešavanje",
+    "title": "Dijagnostika štampača",
+    "content": "Štampač\nNapomena: Prije nego se pokrene dijagnostika štampača neophodno je osigurati da je papir postavljen u\nuređaju.\n1 Pritisnite dugme za štampač.\nPokretanje štampača se vrši pritiskom na dugme Štampač, kao što je prikazano na ekranu.\ndijagnostika\nŠtampač\nOptički skener za brojanje glasova štampa obrazac na termalni papir dok prikazuje\nsljedeći ekran:\nŠtampač\nNapomena: Gornja slika je primjer pravilnog\nprikaza dijagnostičkog testa štampača.\nOptički skenera za brojanje glasova zahtijeva od korisnika da potvrdi da je uzorak otisnut sličan onome prikazanom na ekranu.\n2 Na prikazanom upitu korisnik mora odabrati ispravnu opciju u prikazanom meniju. Pritisnite Da da potvrdite da je ispis bio ispravan; u\nsuprotnom pritisnite Ne.\nŠtampač\nDijagnostika štampača neuspješna. Dijagnostika štampača uspješna.\nKada se test završi, prikazuje se potvrdna poruka na osnovu njegovog rezultata:\nŠtampač je ostao bez papira.\nŠtampač\nAko dijagnostički test nije dovršen u zadanom vremenu, prikazuje se interfejs."
+  },
+  {
+    "id": "skener-instalacija-010",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Instalacija i podešavanje",
+    "title": "Dijagnostika ekrana",
+    "content": "Ekran\n1 Pritisnite dugme za ekran osjetljiv na dodir.\nPokretanje dijagnostike ekrana osjetljivog na dodir vrši se pritiskom na dugme Ekran\nosjetljiv na dodir, kao što je prikazano na ekranu.\nPritiskom na prikazani interfejs se pokreće dijagnostika ekrana. Uređaj će prikazati četiri\nrazličita ekrana s različitim položajima elemenata koje treba potvrditi.\nEkran\nDijagnostika ekrana na dodir Dijagnostika ekrana na dodir\tDijagnostika ekrana na dodir Dijagnostika ekrana na dodir Dijagnostika ekrana na dodir\nPritisnite oznaku na gornjem lijevom uglu Pritisnite oznaku na gornjem desnom uglu Pritisnite oznaku na donjem desnom uglu Pritisnite oznaku na donjem lijevom uglu\nEkran\nDijagnostika ekrana neuspješna. Dijagnostika ekrana uspješna.\nKada se test završi, prikazuje se potvrdna poruka na osnovu njegovog rezultata:\nEkran\nDijagnostika ekrana nije dovršena u zadanom\nvremenu.\nDijagnostika ekrana otkazana.\nKada se test završi, prikazuje se potvrdna poruka na osnovu njegovog rezultata:"
+  },
+  {
+    "id": "skener-instalacija-011",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Instalacija i podešavanje",
+    "title": "Dijagnostika čitača pametnih kartica",
+    "content": "Čitač kartica\n1 Pritisnite dugme čitača pametne kartice.\nPokretanje dijagnostike čitača pametnih kartica vrši se pritiskom na dugme Čitač\npametnih kartica, kao što je prikazano na ekranu.\nČitač kartica\n2 Umetnite pametnu karticu u čitač pametnih kartica kada se to zatraži. Skener glasačkih listića detektuje karticu i prikazuje njen\nidentifikator na ekranu. Nakon što je kartica uspješno očitana, izvadite je kada se to zatraži.\nČitač kartica\nDijagnostika kartice neuspješna, provjeriti\nnačin na koji je kartica umetnuta.\nDijagnostika kartice uspješna.\nKada se test završi, prikazuje se potvrdna poruka na osnovu njegovog rezultata:\nČitač kartica\nDijagnostički test nije završen u zadanom vremenu. Interfejs koji ukazuje da je dijagnostika kartice\notkazana.\nKada se test završi, prikazuje se potvrdna poruka na osnovu njegovog rezultata:"
+  },
+  {
+    "id": "skener-instalacija-012",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Instalacija i podešavanje",
+    "title": "Dijagnostika skenera",
+    "content": "Skener\nPokretanje dijagnostike skenera vrši se pritiskom na dugme Skener, kao što je\nprikazano na ekranu.\n1 Pritisnite dugme za skeniranje.\nInterfejs kada se obavlja skeniranje\nglasačkog listića.\nSkener\nOd korisnika će se tražiti da umetne dijagnostički glasački listić.\n2 Umetnite dijagnostički glasački listić\nDijagnostički glasački listić\nNapomena: Samo dijagnostički glasački listić se može koristiti za pokretanje dijagnostičke funkcionalnosti skenera iz menija Dijagnostika.\nSkener\nNakon skeniranja, optički skener za brojanje glasova će na ekranu prikazati sliku dijagnostičkog listića.\nKorisnik može da podešava sliku, povećavajući ili smanjujući je, kako bi testirao oštrinu skenera i interfejs ekrana osjetljivog na dodir.\nNapomena: Samo dijagnostički glasački listić se može koristiti za pokretanje dijagnostičke funkcionalnosti skenera iz menija Dijagnostika.\n3 Pritisnite X (u gornjem lijevom uglu) da zatvorite sliku dijagnostičkog glasačkog listića.\nSkener\nOptički skener za brojanje glasova traži od korisnika da potvrdi da li skenirane slike odgovaraju dijagnostičkom listiću.\nKorisnik mora odabrati ispravnu opciju u prikazanom meniju.\nSkener\nKada se test završi, prikazuje se potvrdna poruka na osnovu njegovog rezultata:\nTest dijagnostike skenera nije dovršen.\tDijagnostika skenera je završena.\tDijagnostika skenera nije uspjela.\nSkener\nDijagnostički test nije dovršen u zadanom vremenu. Dijagnostika skenera otkazana.\nKada se test završi, prikazuje se potvrdna poruka na osnovu njegovog rezultata:"
+  },
+  {
+    "id": "skener-instalacija-013",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Instalacija i podešavanje",
+    "title": "Dijagnostika LED trake",
+    "content": "LED traka\nPokretanje dijagnostike LED indikatora skenera vrši se pritiskom na dugme LED\nindikator skenera, kao što je prikazano na ekranu.\n1 Pritisnite tipku LED indikatora skenera.\nLED traka\nSkener glasačkih listića pali LED indikator smješten ispod ekrana osjetljivog na dodir.\n2 Potvrdite da LED ispravno svijetli odabirom Da. Odaberite Ne ako se LED ne pali.\nLED traka\nDijagnostika LED trake je uspješna.\nKada se test završi, prikazuje se potvrdna poruka na osnovu njegovog rezultata:\nDijagnostički test nije završen u\nzadanom vremenu. Dijagnostika LED trake nije bila uspješna."
+  },
+  {
+    "id": "skener-instalacija-014",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Instalacija i podešavanje",
+    "title": "Dijagnostika USB modema",
+    "content": "USB modem\n1 Pritisnite dugme USB priključka.\nPokretanje dijagnostike USB modema vrši se pritiskom na dugme USB priključka, kao\nšto je prikazano na ekranu.\nNapomena: Za izvođenje ovog testa bit će potreban USB modem.\n2 Ubaciti USB modem u jedan od USB portova i pričekajte. Ako je\nUSB modem već ubačen potrebno ga je ukloniti. Korisnik može\npritisnuti dugme ako uređaj ne reaguje poslije 30-60 sekundi.\nUkloniti USB modem, kada uređaj to zatraži. Korisnik može\npritisnuti dugme ako uređaj ne reaguje.3\nUSB modem\nKako sistem nalaže, umetnite USB modem u USB priključke.\nUSB modem\nSistem detektuje mrežne interfejse, i\nprovjerava da li je mrežni uređaj\npovezan. Moguće je pritisnuti dugme,\nukoliko sistem ne reagira.\nSistem isključuje mogućnost transmisije u\nkoraku dijagnostike.\nUSB modem\nDijagnostika USB modema je završena.\nKada se test završi, prikazuje se potvrdna poruka na osnovu njegovog rezultata:"
+  },
+  {
+    "id": "skener-instalacija-015",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Instalacija i podešavanje",
+    "title": "Dijagnostika transmisije",
+    "content": "1 Pritisnite dugme Transmisija.\nPokretanje dijagnostike transmisije vrši se pritiskom na dugme Transmisija, kao što je\nprikazano na ekranu.\n2 Ubaciti USB modem u jedan od USB portova i pričekajte dok USB\nmodem ne pronađe konekciju. Ako je USB modem već ubačen\npotrebno ga je ukloniti. Korisnik može pritisnuti dugme ako\nuređaj ne reaguje poslije 30-60 sekundi.\nUkloniti USB modem, kada uređaj to zatraži. Korisnik može\npritisnuti dugme ako uređaj ne reaguje.3\nKako sistem nalaže, umetnite USB modem u USB priključke.\nSistem detektuje mrežne interfejse, i\nprovjerava da li je mrežni uređaj povezan.\nMoguće je pritisnuti dugme ukoliko sistem\nne odgovara.\nSistem prenosi dijagnostičku poruku na server.\nMoguće je pritisnuti dugme ukoliko sistem ne\nodgovara.\nSistem prikazuje poruku o uspješnom prijenosu\nna server. Moguće je pritisnuti dugme ukoliko\nsistem ne odgovara.\nDijagnostika transmisije uspješna.\nKada se test završi, prikazuje se potvrdna poruka na osnovu njegovog rezultata:"
+  },
+  {
+    "id": "skener-instalacija-016",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Instalacija i podešavanje",
+    "title": "Dijagnostika napajanja",
+    "content": "Napajanje\n1 Pritisnite tipku za napajanje i tipku za dijagnostiku na ekranu.\nPokretanje dijagnostike napajanja vrši se pritiskom na dugme Napajanje, kao što je\nprikazano na ekranu.\nNapajanje\nOptički skenera za brojanje glasova zahtijeva isključivanje kabla za napajanje, kako bi se potvrdilo da optičkog skenera za brojanje\nglasova radi s baterijom kao izvorom napajanja.\n2 Kada se prikaže upit, korisnik mora osigurati da je vanjska baterija\npriključena i pritisnuti opciju Da.\nOdspojite napojni kabl s uređaja kako biste potvrdili da uređaj\nradi s baterijom kao izvorom napajanja.3\nNapajanje\nOptički skenera za brojanje glasova nalaže priključivanje napojnog kabla i odspajanje baterije, kako bi se potvrdilo da optički skenera za brojanje\nglasova može raditi samo s priključenim izvorom napajanja.\n4 Kada se prikaže upit, korisnik mora ponovo priključiti kabl\nza napajanje i pritisnuti opciju Da.\nOdspojite kabl eksterne baterije s uređaja kako biste potvrdili da\nuređaj radi s glavnim izvorom napajanja.\nNapajanje\nDijagnostika napajanja nije uspješna. Dijagnostika napajanja uspješna.\nKada je test završen, prikazat će se poruka s rezultatom.\nDijagnostički test nije dovršen u\nzadanom vremenu."
+  },
+  {
+    "id": "skener-instalacija-017",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Instalacija i podešavanje",
+    "title": "Pokretanje kompletne dijagnostike sa štampanjem dijagnostičkog izvještaja",
+    "content": "Kompletna dijagnostika\nDiagnostička funkcija \"Pokreni sve\" je potpuna procjena sistema, koja automatski provjerava\nsvaku komponentu optičkog skenera za brojanje glasova, kako bi se osigurala funkcionalnost i\nperformanse.\nOdaberite opciju Pokreni sve dijagnostike. Ova radnja će potaknuti sistem da izvrši\nautomatizirani sekvencijalni test svih komponenti optičkog skenera za brojanje glasova.\nPridržavajte se uputa na ekranu dok se testira svaki komponenta. Ove upute se\nnadovezuju na dijagnostičke postupke za pojedinačne komponente detaljno opisane\nna prethodnim slajdovima. Izvršite sve potrebne korisničke radnje prema uputama\nkako biste omogućili temeljitu provjeru.\nOptički skenera za brojanje glasova će automatski generisati i odštampati\n\"Dijagnostički izvještaj\" nakon uspješnog testiranja svih komponenti. Ovaj dokument\npruža detaljnu analizu stanja svake komponente nakon dijagnoze.\nŠtampanje izvještaja Čuvanje (pohrana) izvještaja.\nKompletna dijagnostika\nNakon završetka testa, ispisat će se dijagnostički izvještaj:\nKompletna dijagnostika\nKompletna dijagnostika nije uspješna, interfejs prikazuje\nkoje konkretne aktivnosti nisu uspješno završene.\nKompletna dijagnostika je uspješno završena.\nKada je test završen, prikazat će se poruka s rezultatom."
+  },
+  {
+    "id": "skener-instalacija-018",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Instalacija i podešavanje",
+    "title": "Autentifikacija Odricanje odgovornosti : Ekrani optičkog skenera mogu se razlikovati od konačnih",
+    "content": "verzija koje će se koristiti na dan izbora.\nOptički skener za brojanje glasova uključuje više korisničkih profila, od kojih svaki omogućava pristup specifičnim konfigurisanim\nfunkcionalnostima.\nAutentifikacija\nProfil Funkcije\nPredsjednik biračkog\nodbora/Zamjenik\npredsjednika biračkog\nodbora\n• Inicijalizacija: Započnite glasanje inicijalizacijom sistema za brojanje glasova (Idite na opciju\nGlasanje).\n• Otvaranje/Zatvaranje biračkog mjesta: Otvorite biračka mjesta kako biste omogućili početak\nglasanja i zatvorite ih nakon glasanja.\n• Generisanje izvještaja: Izradite izvještaje o inicijalizaciji i zatvaranju za potrebe vođenja\nevidencije.\n• Zatvaranje glasanja i prijenos rezultata: Nadgledajte prijenos rezultata i druge funkcije nakon\nglasanja.\nTehničar • Dijagnostika: Po potrebi, testirajte različite komponente ili cijeli sistem.\n• Održavanje: Obavljajte rutinsko čišćenje.\n• Tehnička podešavanja: Pružite tehničku podršku za postupke rješavanja problema, zamjenu\nuređaja i zamjenu memorije podataka.\nNakon instaliranja i uključivanja optičkog skenera za brojanje glasova, sistem će prikazati ekran u stanju mirovanja:\nAutentifikacija\nUmetnite ovlaštenu pametnu karticu u čitač pametnih kartica, kada se to od vas zatraži. Optički skener za brojanje\nglasačkih listića detektuje pametnu karticu i pokreće proces autentifikacije korisnika.\nAutentifikacija\nSačekajte dok vam sistem ne zatraži da uklonite pametnu karticu.\n3 Izvadite pametnu karticu iz čitača pametnih kartica.\nAutentifikacija\nOptički skener za brojanje glasova prikazuje ekran za unos PIN-a kako bi se nastavio proces autentifikacije.\n4 Unesite PIN predsjednika biračkog odbora povezan s pametnom karticom pomoću numeričke tastature na ekranu."
+  },
+  {
+    "id": "skener-instalacija-019",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Instalacija i podešavanje",
+    "title": "Pristup otvaranju biračkog mjesta",
+    "content": "Sistem će prikazati meni Upravljanje biračkim mjestom.\n1 Pritisnite opciju Otvorite biračko mjesto u meniju.\nDa bi potvrdio otvoreno glasanje, optički skener za brojanje glasova prikazuje ekran za unos PIN-a kako\nbi se proces nastavio.\nUnesite PIN predsjednika biračkog odbora."
+  },
+  {
+    "id": "skener-instalacija-020",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Instalacija i podešavanje",
+    "title": "Izvještaj o inicijalizaciji",
+    "content": "Nakon što je otvoreno glasanje potvrđeno unosom PIN-a predsjednika biračkog mjesta, optički skener za brojanje\nglasačkih listića automatski ispisuje izvještaj.\nNakon štampanja izvještaja pojavljuje se poruka potvrde, pritisnite Gotovo za nastavak.\nSistem će prikazati sljedeći ekran:\nProvjerite u podnožju indikatore statusa na skeneru glasačkih listića kako biste se uvjerili da je prešao u stanje\nOtvoreno i da je spreman za primanje glasačkih listića.\nPotvrdite sljedeće stavke u izvještaju o inicijalizaciji:\n• Naziv biračkog mjesta i/ili broj lokacije su tačni.\n• Broj birača koji su glasali: 0\n• \"Broj važećih glasačkih listića: 0\"\n• Rezultati se postavljaju na nulu."
+  },
+  {
+    "id": "skener-instalacija-021",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Instalacija i podešavanje",
+    "title": "Glasanje",
+    "content": "Pritisnite Pokrenite skener za glasanje da biste omogućili glasanje na optičkom\nskeneru za brojanje glasačkih listića.\nNa ekranu se pojavljuje upit za potvrdu. Pregledajte upit kako biste bili\nsigurni da ste spremni aktivirati glasanje, a zatim pritisnite Gotovo za\nnastavak.\nOptički skener za brojanje glasova će prikazati sljedeći ekran.\nU ovom trenutku, glasanje je otvoreno i optički skener za brojanje glasova je spreman za primanje\nglasačkih listića od birača."
+  },
+  {
+    "id": "skener-instalacija-022",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Instalacija i podešavanje",
+    "title": "Proces glasanja Napomena: Ekrani optičkog skenera za brojanje glasova mogu se razlikovati od",
+    "content": "konačnih verzija koje će se koristiti na dan izbora.\nProces glasanja\nVažno: Molimo potpuno popunite kružić. Slika ispod prikazuje neke primjere:\nPotpuno popunjen kružić: Ovo je ispravan način popunjavanja kružića.\nDjelimično popunjen kružić: Nije preporučljivo.\nKružić s X oznakom: Nije preporučljivo.X\n✓ Kružić s znakom kvačice: Nije preporučljivo.\nKružić s linijom: Nije preporučljivo.\nPrekomjerno popunjen kružić: Nije preporučljivo.\nNakon što dobijete glasačke listiće, popunite kružić svojim izborom za svaki predmet\nglasanja (izborni nivo). Kada završite, stavite glasačke listiće u fasciklu za zaštitu tajnosti\nglasanja.\nProces glasanja\nPriđite optičkom skeneru za brojanje glasova i ubacite glasački listić u otvor za unos/vraćanje listića na\noptičkom skeneru za brojanje glasova.\nProces glasanja\nAko je glasački listić pravilno obrađen, optički skener za brojanje glasova prikazuje sljedeći ekran:\nProces glasanja\nSačekajte da sistem evidentira vaš glas. Dok čekate, sistem će prikazati sljedeći ekran:\nNapomena: Ako glasački listić nije pravilno obrađen, optički skener za brojanje glasova prikazuje poruku\nupozorenja. Pogledajte odjeljak Scenariji obrade glasačkog listića u ovoj prezentaciji.\nProces glasanja\nOptički skener za brojanje glasova ubacuje umetnuti glasački listić u\nglasačku kutiju i prikazuje informativnu poruku.\nOptički skener za brojanje glasova prikazuje poruku potvrde."
+  },
+  {
+    "id": "skener-instalacija-023",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Instalacija i podešavanje",
+    "title": "Scenariji obrade glasačkog listića",
+    "content": "Postoje određeni scenariji u kojima će optički skener za brojanje glasova vratiti glasački listić glasaču. Ti scenariji su:\n• Pogrešno očitani listići: Kada listić nije pravilno skeniran.\n• Nevažeći listić: Kada listić nije konfigurisan za dati optički skener za brojanje glasova.\n• Prethodno očitani listići: Kada je listić s istim identifikacionim brojem (QR kodom) već skeniran.\nScenariji obrade glasačkog listića – Pogrešno očitan listić\nOptički skener za brojanje glasova prikazuje poruku upozorenja o pogrešno očitanom listiću na ekranu, kada listić nije\nskeniran pravilno.\nMogući uzroci pogrešno očitanih listića su:\n• Listić je fizički oštećen (pocijepan, izgužvan ili presavijen).\n• Listić ima oznake koje ometaju određene identifikatore duž ivica ili dna listića.\n• Listić je nepravilno ubačen u otvor za unos/vraćanje listića optičkog skenera za brojanje glasova.\nNapomena: Glasač može pokušati da ubaci listić u drugačijim položajima.\nScenariji obrade glasačkog listića – Nevažeći listić\nOptički skener za brojanje glasova prikazuje poruku upozorenja o nevažećem listiću na ekranu, kada listić nije\nkonfigurisan za dati optički skener za brojanje glasova.\nMogući uzroci nevažećih listića su:\n• Listić ima pogrešan QR kod\n• Listić ima QR kod koji ne može biti pročitan\n• Listić pripada drugom biračkom mjestu.\nScenariji obrade glasačkog listića – Prethodno očitan listić\nOptički skener za brojanje glasova prikazuje poruku upozorenja o dupliranom listiću na ekranu, kada je listić s istim\nidentifikacionim brojem (QR kodom) već skeniran."
+  },
+  {
+    "id": "skener-instalacija-024",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Instalacija i podešavanje",
+    "title": "Ostali scenariji",
+    "content": "Maksimalan broj registrovanih birača\nOptički skener za brojanje glasova prikazuje poruku upozorenja o maksimalnom broju registrovanih birača na ekranu,\nnakon dostizanja konfigurisanog maksimalnog broja registrovanih birača.\nOptički skener za brojanje glasova traži od korisnika da ukloni listić iz otvora skenera i ne prihvata listić.\nZaglavljivanje papira\nOptički skener za brojanje glasova prikazuje poruku upozorenja o zaglavljivanju papira na ekranu, kada otkrije\nzaglavljivanje listića."
+  },
+  {
+    "id": "skener-instalacija-025",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Instalacija i podešavanje",
+    "title": "Zatvaranje glasanja",
+    "content": "Napomena: Ekrani optičkog skenera za brojanje glasova mogu se razlikovati od konačnih verzija koje će se\nkoristiti na dan izbora.\nNapomena: Da biste pristupili meniju Upravljanje biračkim mjestom, profili\nmoraju biti autentifikovani u optičkom skeneru za brojanje glasova.\n1 Prijava na optički skener za brojanje glasova:\n- Umetnite autorizovanu pametnu karticu u čitač pametnih\nkartica.\n- Unesite PIN predsjednika biračkog odbora povezan s\npametnom karticom pomoću numeričke tastature na\nekranu.\nSistem će prikazati sljedeći ekran:\nOdaberite opciju Zatvorite biračko mjesto u meniju Upravljanje\nbiračkim mjestom.\nDa biste potvrdili zatvaranje glasanja, optički skener za brojanje glasova prikazuje ekran za\nunos PIN-a predsjednika biračkog odbora za nastavak procesa.\nUnesite PIN predsjednika biračkog\nodbora.\nOptički skener za brojanje glasova će započeti proces zatvaranja i odštampati Izvještaj o zatvaranju glasanja.\nSačekajte dok sistem završi proces konsolidacije.\n• Nije potrebna nikakva radnja korisnika osim ako to sistem ne zatraži.\n• Nakon uspješnog završetka konsolidacije, optički skener za brojanje glasova prelazi na ekran za potvrdu\nzatvaranja.\nPojavljuje se poruka o potvrdi koja traži verifikaciju za nastavak zatvaranja glasanja. Potvrdite radnju pritiskom na Gotovo.\nNakon završetka procesa zatvaranja glasanja, optički skener za brojanje glasova konsoliduje izborne rezultate.\nNakon završetka procesa zatvaranja glasanja, optički skener za brojanje glasova konsoliduje izborne rezultate.\nProvjerite u podnožju indikatore statusa na optičkom skeneru za brojanje glasova kako biste se uvjerili da je prešao u stanje Zatvoreno, što\nznači da ne može prihvatiti niti obraditi dodatne glasačke listiće."
+  },
+  {
+    "id": "skener-instalacija-026",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Instalacija i podešavanje",
+    "title": "Konsolidacija rezultata",
+    "content": "Kada su izbori zatvoreni u optičkom skeneru za brojanje glasova, modul za konsolidaciju postaje dostupan. Ovaj proces je obavezan prije\nprijenosa rezultata, jer pohranjuje izborne rezultate na dodijeljenu pametnu karticu.\nZa biračka mjesta s jednim optičkim skenerom za brojanje glasova, proces pohranjuje rezultate s tog uređaja na pametnu karticu. Za biračka\nmjesta s više optičkih skenera za brojanje glasova dodijeljenih istom biračkom mjestu, proces konsoliduje rezultate sa svih optičkih skenera za\nbrojanje glasova u jedan skup rezultata pohranjen na pametnoj kartici.\nOvaj modul u početku uključuje sljedeće funkcije:\n• Konsoliduj rezultate\n• Kompajliraj rezultata\nNakon aktiviranja bilo koje od funkcija, sistem traži\nod predsjednika biračkog odbora da umetne\npametnu karticu.\nZatim sistem automatski prikazuje opcije zavisno\nod toga da li se radi o prvom optičkom skeneru za\nbrojanje glasova koji se kompajlira ili\ndrugom/kasnijem.\nKada je važeća pametna kartica umetnuta u čitač optičkog skenera za brojanje glasova tokom pripreme rezultata, prikazane opcije uključuju:\nOpcija Šta radi\nKonsoliduj Prikazuje sve rezultate optičkog skenera za brojanje glasova koje pametna\nkartica trenutno sadrži (ako ih ima), bez izmjene bilo čega. Ovo je funkcija\nsamo za pregled.\nPokreni novu kompilaciju Nakon potvrde, odbacuje sve rezultate koji se nalaze na pametnoj kartici i\nponovo pokreće proces kompilacije od početka.\nNastavi (*) Dodaje rezultate trenutnog optičkog skenera za brojanje glasova u tekuću\nkonsolidaciju rezultata na pametnoj kartici.\nPrenesi kompajlirane rezultate (*) Prenosi kompajlirane/konsolidovane rezultate koji su trenutno prisutni na\npametnoj kartici.\n(*) Prikazuje se samo kada pametna kartica već ima sačuvane rezultate\nVažno: Sva biračka mjesta, bez obzira na broj dodijeljenih skenera glasačkih listića, moraju izvršiti funkciju Pokreni novu kompilaciju.\nIzvršite funkciju Pokreni novu kompilaciju. U ovom slučaju:1\n• Sistem traži umetanje pametne kartice.\n• Sistem briše sve prethodne rezultate (ako ih ima) pohranjene na pametnoj kartici.\n• Sistem uzima trenutne rezultate optičkog skenera za brojanje glasova i pohranjuje ih na pametnu karticu.\n• Sistem prikazuje sažetak, iz kojeg kojeg predsjednik biračkog odbora može odštampati izvještaj o\nkompajliranim/konsolidovanim rezultatima\nNapomena:\n• U slučajevima kada postoji samo jedan (1) optički skener za brojanje glasova po biračkom mjestu, korisnik (predsjednik biračkog odbora)\nmora odštampati izvještaj u ovom trenutku.\n• U slučajevima kada postoji više od jednog optičkog skenera za brojanje glasova po biračkom mjestu, korisnik (predsjednik biračkog odbora)\nmora nastaviti na sljedeći korak bez štampanja izvještaja\nPrikupi rezultate na pametnu karticu Sačuvaj rezultate ovog uređajaUmetnite pametnu karticu\nPrikaz na ekranu: Čuvanje rezultata\tPrikaz na ekranu: Brisanje prethodnih rezultata s pametne kartice\tPrikaz na ekranu: Za nastavak odebarite DA\nPrikaz na ekranu: Rezultati sačuvani na pametnu karticu\tPrikaz na ekranu: Čitanje konsolidovanih rezultata\nPrikaz na ekranu: Da li želite nastaviti sa štampanjem izvještaja\nOpcija 1.\nAko se na biračkim mjestu koristi jedan\noptički skener za brojanje glasova, potrebno\nje odabrati DA.\nOpcija 2.\nAko se na biračkom mjestu koriste dva\noptička skenera za brojanje glasova,\npotrebno je odabrati NE i nastaviti s\nkoracima navedenim od slajda 20 do 25.\nKonsolidacija rezultata – Opcija 1.\nPrikaz na ekranu: Čuvanje izvještaja\tPrikaz na ekranu: generisanje izvještaja\tPrikaz na ekranu: Čuvanje konsolidiovanih podataka\nKonsolidacija rezultata – Opcija 1.\nPrikaz na ekranu: Rezultatati sačuvani na pametnoj kartici\tPrikaz na ekranu: Štampanje izvještaja Završeno\tPrikaz na ekranu: Štampanje izvještaja\nKonsolidacija rezultata – Opcija 1.\nPrikaz na ekranu: Ukloniti pametnu karticu Završeno\tPrikaz na ekranu: Ukloniti pametnu karticu Dalje\tPrikaz na ekranu: Prikupljeni rezultati\nKonsolidacija rezultata – optički skener br. 1 i br. 2\nAko biračko mjesto ima dva skenera, nakon što ste na prvom skeneru zatvorili biračko mjesto i konsolidirali\nrezultate, odaberite opciju „Nazad” kako biste nastavili postupak na drugom skeneru. Izvadite pametnu karticu iz\nna kojem radite (skener br. 1) i odložite je sa strane.\nPredsjednik biračkog odbora ubacuje pametnu karticu sa prvog uređaja i pritisne tipku „Nastavite”.\nNapomena:\n• U slučajevima kada su samo (2) optička skenera za brojanje glasova dodijeljena biračkom mjestu, korisnik (predsjednik biračkog odbora)\nmora odštampati izvještaj u ovom trenutku.\n• U slučajevima kada je više od 2 optička skenera za brojanje glasova dodijeljeno biračkom mjestu, korisnik (predsjednik biračkog odbora)\nmora nastaviti na sljedeći optički skener za brojanje glasova bez štampanja izvještaja i ponoviti ove korake sve dok ne dođe do posljednjeg\noptičkog skenera za brojanje glasova.\nNakon što je izvadio karticu na drugom uređaju, predsjednik pritisne tipku „Konsoliduj rezultate na istom uređaju.\nSistem će zatražiti da umetnete pametnu karticu prvog uređaja, na kojem su prethodno konsolidovani rezultati.\nUmetnite karticu koju ste do tog trenutka držali sa strane.\nPotom se predsjednik biračkog odbora prijavljuje na drugi uređaj koristeći pametnu karticu tog uređaja i PIN. Zatim\nzatvara biračko mjesto na tom uređaju. Nakon zatvaranja predsjednik vadi pametnu karticu tog uređaja i stavlja je\nsa strane.\nKonsolidacija rezultata – kompajliranje podataka dva skenera – Opcija 2.\nPrikaz na ekranu: Umetnite pametnu karticu\tPrikaz na ekranu skenera na koji se prenose podaci s drugog uređaja\nKonsolidacija rezultata – kompajliranje podataka dva skenera – Opcija 2.\nPrikaz na ekranu: Čitanje konsolidovanih rezultata\tPrikaz na ekranu: Izabrati opciju Nastavite Prikaz na ekranu: Čuvanje rezultata\nKonsolidacija rezultata – Opcija 2.\nKada korisnik (predsjednik biračkog odbora) odabere Štampaj izvještaj o rezultatima,\nsistem prikazuje upozorenje koje pita da li su svi optički skeneri za brojanje glasova\ndodijeljeni biračkom mjestu već konsolidovani, budući da će izvještaj uključivati sve\nrezultate koji su trenutno pohranjeni na pametnoj kartici.\n• Ako korisanik (predsjednik biračkog odbora) to potvrdi (Da): Izvještaj o konsolidovanim\nrezultatima se štampa, a paket konsolidovanih rezultata se generiše na pametnoj kartici.\n• Ako korisnik (predsjednik biračkog odbora) to odbije (Ne): Sistem se vraća na\nprethodni meni i ne generiše se izvještaj.\nNapomena: Nakon što su rezultati konsolidovani na pametnoj kartici,\nmože se izvršiti prijenos rezultata.\nOdaberite opciju „DA” ako su svi optički skeneri za brojanje glasova konsolidovani.\nKonsolidacija rezultata – kompajliranje podataka dva skenera – Opcija 2.\nPrikaz na ekranu: Čitanje konsolidovanih rezultata\tPrikaz na ekranu: Izabrati opciju Nastavite Prikaz na ekranu: Čuvanje rezultata\nKonsolidacija rezultata – kompajliranje podataka dva skenera – Opcija 2.\nPrikaz na ekranu: Sažetak konsolidacije\tPrikaz na ekranu: Štampanje izvještaja Prikaz na ekranu: Izvještaj o rezultatima Završeno"
+  },
+  {
+    "id": "skener-instalacija-027",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Instalacija i podešavanje",
+    "title": "Prijenos izbornih rezultata",
+    "content": "Nakon konsolidacije rezultata i štampanja konsolidovanih izbornih\nrezultata, odaberite Izvršite prijenos rezultata iz dostupnih opcija.\nNapomena: Provjerite da li je pametna kartica s konsolidovanim rezultatima\numetnuta u optički skener za brojanje glasova.\nDa biste potvrdili prijenos, optički skener za brojanje glasova prikazuje ekran na kojem traži da ubacite USB modem.\n2 Ubacite USB modem.\nPovežite USB modem na predviđeni priključak optičkog skenera za brojanje glasova, kada se to zatraži. Sačekajte dok modem\nuspostavi mrežnu vezu.\nProvjerite indikator signala prikazan na optičkom skeneru za brojanje glasova prije pokretanja prijenosa.\n• Zelene trake signala: Modem je uspostavio mrežnu vezu. Trake mogu treperiti dok je veza aktivna. Prijenos rezultata može se\nnastaviti.\n• Crvene trake signala: Modem nije uspostavio važeći signal ili mrežnu vezu. Ne pokrećite prijenos, dok veza ne bude dostupna.\nKada se uspostavi važeća mrežna veza, pokrenite prijenos.\nOptički skener za brojanje glasova prenosi konsolidovane izborne rezultate u centralni izborni sistem. Držite pametnu karticu i USB\nmodem povezanim dok je prijenos u toku.\nPrikaz na ekranu: Ubacite modem Prikaz na ekranu: Detekcija mrežnih interfejsa Prikaz na ekranu: Prenošenje konsolidovanih rezultata\nPrikaz na ekranu: Konsolidovani rezultati uspješno preneseni Prikaz na ekranu: Generisanje izvještaja Prikaz na ekranu: Štampanje izvještaja\nPrikaz na ekranu: Izvadite USB modem Prikaz na ekranu: Status prijenos rezultata Završeno\nSistem prikazuje da su rezultati preneseni\nNakon što su rezultati uspješno preneseni, optički skener za brojanje glasova štampa izvještaj o prijenosu rezultata. Pregledajte\nizvještaj da potvrdite da je prijenos uspješno završen.\nKada se to zatraži, uklonite USB modem i pametnu karticu.\nOptički skener za brojanje glasova potvrđuje da su mediji za prijenos uspješno uklonjeni. Pritisnite Gotovo za povratak na glavni meni.\nHvala na pažnji"
+  },
+  {
+    "id": "skener-troubleshooting-001",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Otklanjanje poteškoća",
+    "title": "Postupak zamjene role termalnog papira",
+    "content": "Instaliranje termalnog papira\nNapomena: Optički skener za brojanje glasova isporučuje se sa već\numetnutom rolom termalnog papira. Ovaj postupak se provodi samo\nako termalni papir nije umetnut ili ga je potrebno zamijeniti.\nPristupite otvoru štampača laganim pritiskom i podizanjem poklopca.\nUmetnite ili zamijenite papir tako da rolu papira stavite u odjeljak\nštampača, pazeći pritom na ispravnu orijentaciju.\nNapomena: Papir se mora odmotavati sa donje strane role prema otvoru\nza izlaz papira, kao što je prikazano na slici.\nInstaliranje termalnog papira\n3 Ako mijenjate termalni papir, uklonite postojeću rolu\npapira. Zatim postavite novu rolu termalnog papira u njen\nutor, tako da se odmotava od dna prema glavi za ispis.\nIzvucite rolu termalnog papira dok ne bude otkriveno 5 cm\npapira i lagano zatvorite odjeljak, pazeći da papir nije\nstisnut."
+  },
+  {
+    "id": "skener-troubleshooting-002",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Otklanjanje poteškoća",
+    "title": "Zamjena USB memorijskog uređaja",
+    "content": "U slučaju kada je jedan USB memorijski uređaj (glavni ili rezervni) oštećen; sam optički skener za brojanje glasova se\nne zamjenjuje, zamjenjuje se samo neispravni USB memorijski uređaj. Kontaktirajte tehničara.\nAko je zamjena uređaja odobrena, potrebno je izvršiti sljedeće korake.\nPreduslovi: 2 rezervna USB memorijska uređaja\nPostupak zamjene USB memorijskog uređaja\nIsključite optički skener. Sačekajte da se optički skener za\nbrojanje glasova pravilno isključi.1\nPresijecite plastičnu plombu (u skladu s pravilima CIK BiH) na\nodgovarajućem USB odjeljku.\n• U slučaju zamjene glavne USB memorije, potrebno je\notvoriti odjeljak A.\n• U slučaju zamjene rezervne USB memorije, potrebno je\notvoriti odjeljak B.\nOtvorite odgovarajući USB memorijski odjeljak na\noptičkom skeneru za brojanje glasova.\nPostupak zamjene USB memorijskog uređaja\nUmetnite zamjenski USB memorijski uređaj u odgovarajući utor.\nPokušaj 1: Izvadite USB memorijski uređaj iz priključka A i na njegovo mjesto umetnite\nnov, nekorišten rezervni USB memorijski uređaj. Ostavite USB memorijski uređaj u\npriključku B netaknut.\nUključite optički skener za brojanje glasova i provjerite da li se aplikacija normalno\npokreće. Ako se pokrene, USB memorijski uređaj izvađen u koraku 4 je bio oštećen.\nPostavite novu plombu.\nAko se ne pokrene, nastavite sa sljedećim koracima.\n6 Isključite uređaj. Vratite originalni USB memorijski uređaj u priključak\nA. Nemojte ponovo koristiti rezervni USB memorijski uređaj iz\nPokušaja 1.\nPostupak zamjene USB memorijskog uređaja\nPokušaj 2: Izvadite originalni USB memorijski uređaj iz priključka B i na njegovo mjesto\numetnite drugi, nov, nekorišten rezervni USB memorijski uređaj.\nUključite optičkog skenera za brojanje glasova i provjerite da li se aplikacija normalno\npokreće. Ako se pokrene, USB memorijski uređaj izvađen u koraku 7 je bio oštećen.\nPostavite novu plombu.\nAko se ne pokrene, kontaktirajte call centar.\nPostupak zamjene USB memorijskog uređaja"
+  },
+  {
+    "id": "skener-troubleshooting-003",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Otklanjanje poteškoća",
+    "title": "Zamjena optičkog skenera za brojanje glasova",
+    "content": "Isključite optički skener za brojanje glasova koji se\nzamjenjuje. Otvorite meni Ostale opcije i odaberite opciju\nIsključi. Sačekajte da se uređaj pravilno isključi.\nSačekajte da se LED lampica napajanja isključi.\nU slučaju hardverskog kvara optičkog skenera za brojanje glasova (ne uključuje kvar ekrana, mehanički kvar),\nkontaktirajte tehničara za zamjenu optičkog skenera za brojanje glasova. Oba USB memorijska uređaja (glavni i rezervni)\nprelaze na zamjenski uređaj. Ako je zamjena optičkog skenera za brojanje glasova odobrena, potrebno je izvršiti sljedeće\nkorake. Preduslov: Obavezno je imati zamjenski optički skener za brojanje glasova.\n3 Isključite uređaj iz električne utičnice i vanjske\nbaterije.\nPresijecite plastičnu plombu na USB odjeljcima (A i B) uređaja\nkoji se zamjenjuje (u skladu s pravilima CIK BiH).\nOtvorite USB odjeljke (A i B) uređaja i izvadite obje\nUSB memorijske uređaje (glavni i rezervni).\nPostupak zamjene optičkog skenera za brojanje glasova\n6 Presijecite plastičnu plombu koja povezuje i zaključava uređaj s\nglasačkom kutijom, a koja se nalazi na stražnjoj strani uređaja.\nPostupak zamjene optičkog skenera za brojanje glasova\nSpustite preklopni poklopac prema dolje kako biste otključali\nuređaj od gornjeg poklopca glasačke kutije.\n8 Povucite uređaj unazad kako biste ga odvojili od gornjeg poklopca\nglasačke kutije.\nStavite neispravni uređaj u njegovu originalni prijenosni\nkofer.\nPostupak zamjene optičkog skenera za brojanje glasova\nNapomena: PIN kodovi se ne smiju se čuvati zajedno s originalnim uređajem.\n10 Uzmite zamjenski uređaj i postavite ga na gornji poklopac\nglasačke kutije.\n11 Pažljivo gurnite i pomjerite uređaj klizanjem do njegovog\nkrajnjeg položaja.\nNapomena: Optički skener za brojanje glasova se nalazi u\nkrajnjem položaju kada se ulaz za glasačke listiće na uređaju\nporavna s otvorima za glasačke listiće na gornjem poklopcu\nglasačke kutije.\nPostupak zamjene optičkog skenera za brojanje glasova\n12 Podignite sigurnosni preklopni mehanizam koji se\nnalazi na donjoj strani poklopca otvora za\nglasačke listiće, sve dok se ne učvrsti u\nzaključanom položaju na stražnjoj strani uređaja.\n13 Umetnite plastičnu plombu kako biste osigurali\nzaključavanje uređaja za gornji poklopac glasačke\nkutije.\nPostupak zamjene optičkog skenera za brojanje glasova\n14 Spojite DC priključak zamjenskog uređaja na DC utičnicu za\nnapajanje koja je povezana s ispravnom električnom\nutičnicom.\n15 Spojite priključak baterije zamjenskog uređaja s priključkom\nvanjske baterije.\n16 Uključite uređaj.\nPostupak zamjene optičkog skenera za brojanje glasova\n17 Otvorite USB odjeljke (A i B) zamjenskog uređaja.\nPostupak zamjene optičkog skenera za brojanje glasova\nStavite glavni USB memorijski uređaj u USB utor A zamjenskog\nuređaja, a rezervni USB memorijski uređaj u USB utor B\nzamjenskog uređaja.\nOsigurajte USB odjeljak i utore plastičnim\nplombama (u skladu sa pravilima CIK BiH).\nPostupak zamjene optičkog skenera za brojanje glasova"
+  },
+  {
+    "id": "skener-troubleshooting-004",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Otklanjanje poteškoća",
+    "title": "Opći problemi – Poklopac glasačke kutije ne pristaje na odgovarajući način na…",
+    "content": "Problem: Poklopac glasačke kutije ne pristaje na odgovarajući način na glasačku kutiju, nije poravnat ili se pomiče.\nRješenje:\n• Poravnajte poklopac s prednjom stranom glasačke kutije i čvrsto pritisnite svaki ugao kako biste ga učvrstili."
+  },
+  {
+    "id": "skener-troubleshooting-005",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Otklanjanje poteškoća",
+    "title": "Opći problemi – Optički skener za brojanje glasova ne leži sigurno na poklopcu…",
+    "content": "Problem: Optički skener za brojanje glasova ne leži sigurno na poklopcu glasačke kutije i pomiče se.\nRješenje:\n• Koristite vodilice za zaključavanje da pravilno postavite optički skener za brojanje glasova.\n• Provjerite da je ulazna ladica za glasački listić u ravni s vođicama na poklopcu i da se plastični poklopac zakači na\npoleđinu optičkog skenera za brojanje glasova."
+  },
+  {
+    "id": "skener-troubleshooting-006",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Otklanjanje poteškoća",
+    "title": "Opći problemi – Nedostaju pribor ili komponente.",
+    "content": "Problem: Nedostaju pribor ili komponente.\nRješenje:\n• Identificirajte koji pribor nedostaje ili su nedovoljni i kontaktirajte tehničku podršku, kako biste prijavili\nnedostatak."
+  },
+  {
+    "id": "skener-troubleshooting-007",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Otklanjanje poteškoća",
+    "title": "Opći problemi – Biračkom mjestu nedostaju odgovarajući uslovi za postavljanje…",
+    "content": "Problem: Biračkom mjestu nedostaju odgovarajući uslovi za postavljanje optičkog skenera za brojanje glasova.\nRješenje:\n• Dokumentujte specifične probleme u vezi s okruženjem podešavanja i kontaktirajte tehničku podršku za moguća\nrješenja."
+  },
+  {
+    "id": "skener-troubleshooting-008",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Otklanjanje poteškoća",
+    "title": "Opći problemi – Neklasifikovani problemi s podešavanjem biračkog mjesta ili radom…",
+    "content": "Problem: Neklasifikovani problemi s podešavanjem biračkog mjesta ili radom optičkog skenera za brojanje glasova.\nRješenje:\n• Zabilježite detalje problema, uključujući poduzete radnje i kontekst u kojem se problem pojavio.\n• Zatim ih prijavite tehničkoj podršci za pomoć u rješavanju problema."
+  },
+  {
+    "id": "skener-troubleshooting-009",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Otklanjanje poteškoća",
+    "title": "Opći problemi – Pojavljuje se poruka „Čišćenje skenera nije dovršeno“.",
+    "content": "Problem: Pojavljuje se poruka „Čišćenje skenera nije dovršeno“.\nRješenje:\n• Nagnite ekran osjetljiv na dodir optičkog skenera za brojanje glasova unazad. Iza njega se nalazi unutrašnja\npristupna ploča i vrata koja omogućavaju pristup CIS modulu.\n• Čvrsto pritisnite ikonu ruke dok se vrata ne počnu se otvarati i pokaže se CIS modul.\n• Držite otkočenu kopču, djelmično izvucite CIS modul ostavljajući cijeli prostor s valjcima i vodilicom dostupnim za\nčišćenje.\n• Čistom suhom krpom izbrišite valjke i vodilice kroz koje prolaze listići.\n• Obrišite i podignuti poklopac prije zatvaranja.\n• Vratite CIS modul u prvobitni položaj unutar šine, pritisnite narandžastu tačku dok ne čujete klik, te zatvorite\npravilno vrata panela."
+  },
+  {
+    "id": "skener-troubleshooting-010",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Otklanjanje poteškoća",
+    "title": "Problem s napajanjem – Optički skener za brojanje glasova se ne može uključiti, a LED…",
+    "content": "Problem: Optički skener za brojanje glasova se ne može uključiti, a LED indikator na stražnjoj strani uređaja ne svijetli.\nRješenje:\n• Provjerite funkcioniše li utičnica pomoću drugog uređaja, poput punjača za mobilni telefon.\n• Potvrdite da je AC adapter sigurno povezan sa utičnicom i optičkim skenerom za brojanje glasova.\n• Ako postoji, provjerite indikatorsko svjetlo na adapteru kako biste bili sigurni da prima napajanje.\n• Ako je dostupan drugi kabl za napajanje, pokušajte ga koristiti.\n• Obratite se tehničkoj podršci za dalju pomoć ako se optički skener za brojanje glasova i dalje ne uključuje."
+  },
+  {
+    "id": "skener-troubleshooting-011",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Otklanjanje poteškoća",
+    "title": "Problem s napajanjem – Optički skener za brojanje glasova se nasumično gasi.",
+    "content": "Problem: Optički skener za brojanje glasova se nasumično gasi.\nRješenje:\n• Uvjerite se da je napajanje čvrsto povezano.\n• Ako se optički skener za brojanje glasova i dalje nasumično gasi, ostavite ga da se ohladi u slučaju pregrijavanja.\n• Ako problem i dalje postoji ili se jedinica ne čini pregrijanom, kontaktirajte tehničku podršku, što može ukazivati\nna interni hardverski problem."
+  },
+  {
+    "id": "skener-troubleshooting-012",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Otklanjanje poteškoća",
+    "title": "Mehanički problemi – Glasačka kutija ili poklopac glasačke kutije je oštećen ili udubljen.",
+    "content": "Problem: Glasačka kutija ili poklopac glasačke kutije je oštećen ili udubljen.\nRješenje:\n• Procijenite da li šteta utiče na funkcionalnost ili sigurnost.\n• Ako glasačka kutija još uvijek može osigurati glasačke listiće i pravilno funkcionisati, zabilježite problem i nastavite\nje koristiti.\n• Ako je glasačka kutija neupotrebljiva, kontaktirajte tehničku podršku za zamjenu."
+  },
+  {
+    "id": "skener-troubleshooting-013",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Otklanjanje poteškoća",
+    "title": "Mehanički problemi – LCD ekran optičkog skenera za brojanje glasova je slomljen ili…",
+    "content": "Problem: LCD ekran optičkog skenera za brojanje glasova je slomljen ili zamrljan.\nRješenje:\n• Ako je vidljivost ugrožena ili ekran osjetljiv na dodir ne reaguje ispravno, odmah prestanite da koristite optički\nskener za brojanje glasova da biste spriječili dalje probleme i kontaktirajte tehničku podršku za uputstva za\npopravku ili zamjenu."
+  },
+  {
+    "id": "skener-troubleshooting-014",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Otklanjanje poteškoća",
+    "title": "Mehanički problemi – Dijagnostika štampača prikazuje grešku ili se ne može završiti.",
+    "content": "Problem: Dijagnostika štampača prikazuje grešku ili se ne može završiti.\nRješenje:\n• Provjerite da li je poklopac štampača potpuno zatvoren.\n• Provjerite da li je termo papir instaliran, da ima dovoljno papira i da se uvlači u ispravnom smjeru.\n• Izaberite Pokušaj ponovo i dozvolite da se dijagnostika ponovo pokrene.\n• Ako dijagnostika istekne, zatvorite poruku, provjerite stanje štampača i papira i ponovo pokrenite dijagnostiku\nštampača.\n• Ako je dijagnostika otkazana, vratite se na meni za dijagnostiku i ponovo ga pokrenite kada budete spremni.\n• Ako dijagnostika i dalje ne uspijeva, kontaktirajte tehničku podršku."
+  },
+  {
+    "id": "skener-troubleshooting-015",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Otklanjanje poteškoća",
+    "title": "Mehanički problemi – Optički skene za brojanje glasova prikazuje „Izvještaj nije mogao…",
+    "content": "Problem: Optički skene za brojanje glasova prikazuje „Izvještaj nije mogao biti odštampan“. Imajte na umu da se ovaj\nekran može malo razlikovati u zavisnosti od izvještaja koji se štampa.\nRješenje:\n• Otvorite termalni poklopac printera i provjerite rolu papira.\n• Ako ima dovoljno papira, uklonite ga i ponovo ga postavite, pazeći da je pravilno postavljen.\n• Ako je papira malo, zamijenite ga novom rolom i pravilno ga pričvrstite, a zatim pokušajte ponovo da štampate.\n• Ako se poruka i dalje javlja, kontaktirajte tehničku podršku."
+  },
+  {
+    "id": "skener-troubleshooting-016",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Otklanjanje poteškoća",
+    "title": "Mehanički problemi – Papir izlazi kroz termalni štampač, ali se u izvještajima ne…",
+    "content": "Problem: Papir izlazi kroz termalni štampač, ali se u izvještajima ne pojavljuju tekst ili informacije.\nRješenje:\n• Otvorite termalni poklopac štampača, okrenite rolu papira i ponovo je postavite.\n• Pokrenite probni ispis da potvrdite da li je problem riješen.\n• Ako nije, termalna glava za štampanje može zahtijevati čišćenje ili servisiranje; kontaktirajte tehničku podršku."
+  },
+  {
+    "id": "skener-troubleshooting-017",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Otklanjanje poteškoća",
+    "title": "Mehanički problemi – Papir štampača je zaglavljen i prilikom štampanja se ne prikazuje…",
+    "content": "Problem: Papir štampača je zaglavljen i prilikom štampanja se ne prikazuje poruka o grešci.\nRješenje:\n• Otvorite odjeljak termalnog štampača, pažljivo uklonite sav zaglavljeni papir i umetnite novu rolu papira.\n• Zatvorite poklopac štampača i pokušajte ponovo sa štampanja.\n• Ako problem i dalje postoji, mehanizam štampača može imati mehanički problem; kontaktirajte tehničku podršku\nza dalju pomoć."
+  },
+  {
+    "id": "skener-troubleshooting-018",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Otklanjanje poteškoća",
+    "title": "Greške pri pokretanju – Optički skener za brojanje glasova prikazuje greške prilikom…",
+    "content": "Problem: Optički skener za brojanje glasova prikazuje greške prilikom učitavanja izborne datoteke ili povezane poruke\no grešci pri pokretanju.\nRješenje:\n• Isključite optički skener za brojanje glasova i uklonite USB memorijski uređaj.\n• Ponovo umetnite USB memorijski uređaj.\n• Ponovo pokrenite optički skener za brojanje glasova da provjerite je li problem riješen.\n• Ako datoteke nedostaju ili su oštećene, možda ćete morati ponovo prenijeti izborne datoteke iz zamjenskog USB\nmemorijskog uređaja ili zamjenskog optičkog skenera za brojanje glasova ili kontaktirati tehničku podršku za\nrješenje."
+  },
+  {
+    "id": "skener-troubleshooting-019",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Otklanjanje poteškoća",
+    "title": "Greške pri pokretanju – Optički skener za brojanje glasova pokazuje grešku.",
+    "content": "Problem: Optički skener za brojanje glasova pokazuje grešku.\nRješenje:\n• Ponovo pokrenite optički skener za brojanje glasova da provjerite je li problem riješen.\n• Ako potraje, kontaktirajte tehničku podršku."
+  },
+  {
+    "id": "skener-troubleshooting-020",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Otklanjanje poteškoća",
+    "title": "Greške pri pokretanju – Optički skener za brojanje glasova prikazuje poruku o nepopravljivoj…",
+    "content": "Problem: Optički skener za brojanje glasova prikazuje poruku o nepopravljivoj grešci i daje instrukcije operateru da\nisključi uređaj.\nRješenje:\n• Snimite prikazanu poruku i aktivnost koja se izvodi.\n• Koristite upute za napajanje/isključivanje koje prikazuje optički skener za brojanje glasova.\n• Ne nastavljajte izborne operacije na datoj jedinici, dok se ona uspješno ponovno ne pokrene ili dok tehnička\npodrška ne pruži upute.\n• Ako se greška vrati nakon ponovnog pokretanja, kontaktirajte tehničku podršku."
+  },
+  {
+    "id": "skener-troubleshooting-021",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Otklanjanje poteškoća",
+    "title": "Greške pri pokretanju – Optički skener za brojanje glasova ne reaguje ni na kakvu interakciju…",
+    "content": "Problem: Optički skener za brojanje glasova ne reaguje ni na kakvu interakciju ili zadatak.\nRješenje:\n• Pokušajte da ponovo pokrenete optički skener za brojanje glasova tako što ćete ga isključiti, sačekati 10 sekundi i\nponovo uključiti.\n• Ako problem i dalje postoji i nema interakcije, obratite se tehničkoj podršci za dalju pomoć."
+  },
+  {
+    "id": "skener-troubleshooting-022",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Otklanjanje poteškoća",
+    "title": "Greške pri pokretanju – Ekran optičkog skenera za brojanje glasova je prazan, prikazuje više…",
+    "content": "Problem: Ekran optičkog skenera za brojanje glasova je prazan, prikazuje više pruga ili se zamrzava tokom pokretanja.\nRješenje:\n• Ponovo pokrenite optički skener za brojanje glasova tako što ćete ga potpuno isključiti (uključujući odspajanje\nizvora napajanja ako je potrebno) i zatim ga ponovo uključiti.\n• Potvrdite da su svi periferni uređaji prisutni i ispravno povezani.\n• Ako problem i dalje postoji, a optički skener za brojanje glasova ne uspije da se pokrene, kontaktirajte tehničku\npodršku za daljnje upute o tome kako nastaviti.\nKomponenta: Zvučnici — Ne čuje se zvuk, operater bira Ne; dijagnostika nije uspjela ili je dijagnostika istekla.\nPreporučena radnja:\n• Uvjerite se da otvor zvučnika nije zapriječen.\n• Ponovo pokrenite dijagnostiku zvučnika i slušajte testni zvuk.\n• Ako test više puta ne uspije ili istekne, ponovo pokrenite optički slener za brojanje glasova i ponovite dijagnostiku.\n• Ako kvar i dalje postoji, kontaktirajte tehničku podršku.\nKomponenta: Štampač — Dijagnostika štampača ne uspijeva, istekne vrijeme, prijavljuje stanje ponestalo papira ili\nne može odštampati probni test.\nPreporučena radnja:\n• Provjerite poklopac štampača i rolu papira.\n• Uklonite zaglavljeni papir, zamijenite ili ispravno ponovo instalirajte papir i pokušajte ponovo.\n• Ako je papir postavljen, ali prikazuje da nema papira ili štampanje i dalje ne uspijeva, kontaktirajte tehničku\npodršku.\nKomponenta: Ekran osjetljiv na dodir — Potrebna dodirna tačka nije otkrivena, pritisnuta je pogrešna oblast,\ndijagnostika nije uspjela ili je dijagnostički test istekao.\nPreporučena radnja:\n• Ponovite test i pritisnite naznačeni cilj samo kada se to zatraži.\n• Očistite ekran osjetljiv na dodir ako je potrebno.\n• Ako ista oblast ne reaguje nakon ponovnog pokušaja, ponovo pokrenite optički skener za brojanje glasova i\nponovo pokrenite dijagnostiku.\n• Obratite se tehničkoj podršci ako se problem nastavi.\nKomponenta: Čitač pametne kartice— Pametna kartica nije otkrivena kada je umetnuta ili uklonjena, dijagnostika nije\nuspjela ili je vrijeme za dijagnostički test isteklo.\nPreporučena radnja:\n• Uklonite i ponovo umetnite pametnu karticu u naznačeni čitač i orijentaciju.\n• Uvjerite se da je kartica potpuno postavljena i da nije vidljivo oštećena.\n• Ponovite dijagnostiku.\n• Ako se zna da je kartica važeća, a čitač je i dalje ne otkrije, obratite se tehničkoj podršci.\nKomponenta: LED indikator skenera — Očekivano osvjetljenje skenera se ne opaža, dijagnostika nije uspjela ili je\nvrijeme za dijagnostiku isteklo.\nPreporučena radnja:\n• Ponovite dijagnostiku LED diode skenera i promatrajte područje skenera prema uputama.\n• Ako se očekivano osvjetljenje i dalje ne primijeti nakon ponovnog pokretanja, kontaktirajte tehničku podršku.\nKomponenta: USB portovi — Optički skener za brojanje glasova ne detektuje umetanje ili uklanjanje USB memorijskih\nuređaja za testiranje, ili USB dijagnostika ne uspije ili istekne.\nPreporučena radnja:\n• Koristite samo ovlašteni dijagnostički USB memorijski uređaj.\n• Umetnite ga ili uklonite sa određenog porta koji se traži u uputama na ekranu.\n• Ponovite test za svaki traženi USB port.\n• Nemojte silom pritiskati konektor.\n• Ako port više puta ne radi, kontaktirajte tehničku podršku.\nKomponenta: Baterija / napajanje — Optiučki skener za brojanje glasova ne detektuje traženo povezivanje ili\nisključenje baterije ili AC adaptera, ili dijagnostika ne uspije ili istekne.\nPreporučena radnja:\n• Tačno pratite redoslijed na ekranu kada povezujete ili odspajate bateriju i AC adapter.\n• Provjerite jesu li konektori u potpunosti postavljeni i kablovi neoštećeni.\n• Ponovite dijagnostiku.\n• Ako optički skener za brojanje glasova ne može otkriti poznati izvor napajanja ili bateriju, kontaktirajte tehničku\npodršku.\nKomponenta: Pokreni sve— Redoslijed Pokreni sve izvještava da jedna ili više dijagnostika nije dovršena.\nPreporučena radnja:\n• Pregledajte dijagnostički meni da identifikujete svaku nekompletnu ili neispravnu komponentu.\n• Pokrenite dijagnostiku te komponente pojedinačno i riješite odgovarajući problem.\n• Pokreni sve ponovo samo nakon što su pojedinačni kvarovi riješeni.\nOpći pristup: Ako se dijagnostika ne završi uspješno, prvo utvrdite je li rezultat neuspjeh, istek vremena, otkazivanje ili\nnepotpun rezultat Pokreni sve.\nKoraci:\n• Zatvorite ili potvrdite prikazanu dijagnostičku poruku.\n• Provjerite fizičko stanje i povezanost komponente koja se testira.\n• Ispravite svako očigledno stanje, kao što je nedostatak papira, nestabilan kabl, pogrešno umetnuta pametna\nkartica, USB memorijski uređaj ili glasački listić ili zaglavljivanje papira.\n• Ponovo pokrenite individualnu dijagnostiku. Vremensko ograničenje treba tretirati kao neuspješan test i ponoviti\nga nakon osnovnih provjera.\n• Ako ista dijagnostika ponovo ne uspije, ponovo pokrenite optički skener za brojanje glasova kada operativni uslovi\ndozvole i ponovite test.\n• Zabilježite komponentu, poruku/status i radnje koje ste već poduzeli prije kontaktiranja tehničke podrške."
+  },
+  {
+    "id": "skener-troubleshooting-023",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Otklanjanje poteškoća",
+    "title": "Poruke o greškama na početnom ekranu – „PIN koji ste unijeli nije tačan.“",
+    "content": "Problem: „PIN koji ste unijeli nije tačan.“\nRješenje:\n• Izaberite OK da potvrdite poruku.\n• Ponovo pažljivo unesite ovlašteni PIN.\n• Ako PIN nije poznat ili ponovljeni pokušaji ostaju neuspješni, prestanite s pokušajima pristupa i kontaktirajte\ntehničku podršku."
+  },
+  {
+    "id": "skener-troubleshooting-024",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Otklanjanje poteškoća",
+    "title": "Poruke o greškama na početnom ekranu – „Dostignuto je vrijeme za autentifikaciju korisnika.“",
+    "content": "Problem: „Dostignuto je vrijeme za autentifikaciju korisnika.“\nRješenje:\n• Izaberite OK ili pratite uputstva na ekranu da biste se vratili iz poruke isteka.\n• Ponovo pokrenite autentifikaciju korisnika.\n• Dovršite unos PIN-a i sve potrebne korake za autentifikaciju bez ostavljanja ekrana neaktivnim.\n• Ako autentifikacija više puta ističe uprkos aktivnoj upotrebi, kontaktirajte tehničku podršku."
+  },
+  {
+    "id": "skener-troubleshooting-025",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Otklanjanje poteškoća",
+    "title": "Problemi s aplikacijom – Optički skener za brojanje glasova prikazuje: „Pokrenute funkcije…",
+    "content": "Problem: Optički skener za brojanje glasova prikazuje: „Pokrenute funkcije nisu mogle biti završene.“\nRješenje:\n• Potvrdite da je štampač spreman, da je poklopac zatvoren, da je papir pravilno postavljen i da nema zaglavljenog\npapira.\n• Ako optički skener za brojanje glasova prikaže drugu poruku, snimite tačnu poruku prije nego što nastavite.\n• Ponovo pokušajte sa pokrenutim funkcijama nakon što je prijavljeno stanje ispravljeno.\n• Ako se pokrenute funkcije i dalje ne mogu završiti, nemojte zaobići grešku. Kontaktirajte tehničku podršku."
+  },
+  {
+    "id": "skener-troubleshooting-026",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Otklanjanje poteškoća",
+    "title": "Problemi s aplikacijom – Glasački listić možda neće biti skeniran.",
+    "content": "Problem: Glasački listić možda neće biti skeniran.\nRješenje:\n• Vratite glasački listić glasaču ako ga optički skener za brojanje glasova odbije.\n• Provjerite ima li nabora, mrlja ili drugih oštećenja; provjerite da li glasački listić pripada ispravnom biračkom\nmjestu i isprobajte dozvoljenu alternativnu orijentaciju.\n• Ako se ponovljeni važeći glasački listići ne mogu skenirati, pokrenite dijagnostiku skenera i kontaktirajte tehničku\npodršku."
+  },
+  {
+    "id": "skener-troubleshooting-027",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Otklanjanje poteškoća",
+    "title": "Problemi s aplikacijom – Nevažeći papirni glasački listić.",
+    "content": "Problem: Nevažeći papirni glasački listić.\nRješenje:\n• Nemojte gurati glasački listić kroz skener. Dozvolite optičkom skener za brojanje glasova da ga vrati/odbije.\n• Provjerite da li je za biračko mjesto izdat ispravan glasački listić i da glasački listić nije oštećen.\n• Pratite uputstva na ekranu i važeću izbornu proceduru za zamjenu ili rukovanje glasačkim listićem."
+  },
+  {
+    "id": "skener-troubleshooting-028",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Otklanjanje poteškoća",
+    "title": "Problemi s aplikacijom – Prazan / nedovoljno označen papirni glasački listić.",
+    "content": "Problem: Prazan / nedovoljno označen papirni glasački listić.\nRješenje:\n• Objasnite samo opcije koje dozvoljava tok rada na ekranu i izborna procedura.\n• Ako birač odluči da nastavi, dozvolite optičkom skeneru za brojanje glasova da obradi glasački listić.\n• Ako birač odluči da vrati/ispravi glasački listić, dozvolite optičkom skeneru za brojanje glasova da ga odbije/vrati i\nslijedite utvrđenu proceduru rukovanja glasačkim listićima."
+  },
+  {
+    "id": "skener-troubleshooting-029",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Otklanjanje poteškoća",
+    "title": "Problemi s aplikacijom – Prekomjerno označen papirni glasački listić.",
+    "content": "Problem: Prekomjerno označen papirni glasački listić.\nRješenje:\n• Pratite tok rada na ekranu.\n• Ako birač odluči da glasa kako je označeno, nastavite prema izbornoj proceduri.\n• Ako birač odluči da to ispravi, dozvolite optičkog skeneru za brojanje glasova da vrati/odbije glasački listić i slijedite\nutvrđenu proceduru zamjene glasačkog listića."
+  },
+  {
+    "id": "skener-troubleshooting-030",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Otklanjanje poteškoća",
+    "title": "Problemi s aplikacijom – Nepravilno uvučen papirni glasački listić.",
+    "content": "Problem: Nepravilno uvučen papirni glasački listić.\nRješenje:\n• Dozvolite optičkom skeneru za brojanje glasova da vrati/odbije glasački listić.\n• Uklonite glasački listić samo kada je to sigurno i nemojte vući o transportni mehanizam.\n• Provjerite ima li na glasačkom listiću nabora ili oštećenja i ima li prepreka na ulazu, a zatim pokušajte ponovo.\n• Ako se pogrešno ubacivanje nastavi s važećim glasačkim listićima, pokrenite dijagnostiku skenera i kontaktirajte\ntehničku podršku.\nHvala na pažnji"
+  }
+]

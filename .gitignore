@@ -36,6 +36,9 @@ yarn-error.log*
 # vercel
 .vercel
 
+# source PDFs (large binaries, not needed at runtime — only public/knowledge-base.json is shipped)
+/source-pdfs/*.pdf
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
