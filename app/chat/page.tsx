@@ -5,7 +5,7 @@ import { useEffect, useRef, useState, type FormEvent } from "react";
 import { getKnowledgeBase, type SourceRef } from "@/lib/knowledge-base";
 import { ManualSearchIndex, type SearchResult } from "@/lib/search";
 import { useNetworkStatus, type NetworkStatus } from "@/lib/useNetworkStatus";
-import { useVisualViewportHeight } from "@/lib/useVisualViewportHeight";
+import { useVisualViewport } from "@/lib/useVisualViewport";
 
 type ChatMessage =
   | { id: string; role: "user"; text: string }
@@ -16,7 +16,7 @@ type ChatMessage =
 const OFFLINE_RESULT_LIMIT = 5;
 
 export default function ChatPage() {
-  useVisualViewportHeight();
+  useVisualViewport();
   const status = useNetworkStatus();
   const [messages, setMessages] = useState<ChatMessage[]>([]);
   const [input, setInput] = useState("");
@@ -106,8 +106,8 @@ export default function ChatPage() {
 
   return (
     <div
-      className="fixed inset-x-0 top-0 flex flex-col overflow-hidden bg-background text-foreground"
-      style={{ height: "var(--app-height, 100dvh)" }}
+      className="fixed inset-x-0 flex flex-col overflow-hidden bg-background text-foreground"
+      style={{ top: "var(--app-offset-top, 0px)", height: "var(--app-height, 100dvh)" }}
     >
       <header
         className="flex shrink-0 items-center justify-between border-b border-black/10 px-4 pb-3 dark:border-white/10"
