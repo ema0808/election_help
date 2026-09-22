@@ -5,6 +5,7 @@ import { useEffect, useRef, useState, type FormEvent } from "react";
 import { getKnowledgeBase, type SourceRef } from "@/lib/knowledge-base";
 import { ManualSearchIndex, type SearchResult } from "@/lib/search";
 import { useNetworkStatus, type NetworkStatus } from "@/lib/useNetworkStatus";
+import { useVisualViewportHeight } from "@/lib/useVisualViewportHeight";
 
 type ChatMessage =
   | { id: string; role: "user"; text: string }
@@ -15,6 +16,7 @@ type ChatMessage =
 const OFFLINE_RESULT_LIMIT = 5;
 
 export default function ChatPage() {
+  useVisualViewportHeight();
   const status = useNetworkStatus();
   const [messages, setMessages] = useState<ChatMessage[]>([]);
   const [input, setInput] = useState("");
@@ -103,7 +105,7 @@ export default function ChatPage() {
   }
 
   return (
-    <div className="flex flex-1 flex-col bg-background text-foreground">
+    <div className="flex flex-col bg-background text-foreground" style={{ height: "var(--app-height, 100dvh)" }}>
       <header className="flex items-center justify-between border-b border-black/10 px-4 py-3 dark:border-white/10">
         <div className="flex items-center gap-2">
           <Link href="/" className="text-zinc-400 hover:text-foreground dark:text-zinc-500" aria-label="Početna">
@@ -138,7 +140,7 @@ export default function ChatPage() {
           placeholder="Postavite pitanje..."
           autoComplete="off"
           disabled={isLoading}
-          className="flex-1 rounded-full border border-black/10 bg-transparent px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 dark:border-white/15"
+          className="flex-1 rounded-full border border-black/10 bg-transparent px-4 py-2 text-base focus:outline-none focus:ring-2 focus:ring-blue-500 dark:border-white/15"
         />
         <button
           type="submit"

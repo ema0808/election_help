@@ -8,7 +8,7 @@ const FEATURES = [
   },
   {
     title: "Pametniji odgovori online",
-    text: "Kad ima interneta, dobijate precizniji odgovor uz izvore iz priručnika.",
+    text: "Kad imate internet, dobijate precizniji odgovor uz izvore iz priručnika.",
   },
   {
     title: "Oba uređaja na jednom mjestu",
@@ -32,7 +32,7 @@ export default function LandingPage() {
         <div className="flex flex-col gap-2">
           <h1 className="text-2xl font-semibold">Izbori - Tehnička podrška</h1>
           <p className="text-sm text-zinc-500 dark:text-zinc-400">
-            Tehnička podrška za volontere na dan izbora u Bosni i Hercegovini — brzo pronađite rješenje u
+            Tehnička podrška za operatere na biračkom mjestu na dan izbora u Bosni i Hercegovini — brzo pronađite rješenje u
             priručnicima za izborne uređaje, sa ili bez interneta.
           </p>
         </div>

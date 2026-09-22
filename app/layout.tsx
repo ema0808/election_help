@@ -38,6 +38,10 @@ export const metadata: Metadata = {
 
 export const viewport: Viewport = {
   themeColor: "#1D407A",
+  // On supporting browsers (Chrome/Android, iOS 17.4+), shrinks the visual
+  // viewport when the on-screen keyboard opens instead of overlaying it, so
+  // a dvh-based layout naturally keeps the input bar above the keyboard.
+  interactiveWidget: "resizes-content",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
