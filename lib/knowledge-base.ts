@@ -6,6 +6,12 @@ export interface KnowledgeBaseEntry {
   content: string;
 }
 
+export interface SourceRef {
+  device: string;
+  section: string;
+  title: string;
+}
+
 let cache: KnowledgeBaseEntry[] | null = null;
 
 /**

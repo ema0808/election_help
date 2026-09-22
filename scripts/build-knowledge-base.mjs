@@ -54,10 +54,17 @@ const FILES = [
 
 // Lines that are pure repeated boilerplate (disclaimers, footers, doc-title
 // recaps, diagram callout numbers) and carry no searchable meaning.
+// The "screens may differ" disclaimer wraps differently depending on where
+// pdf-parse's page/line breaks happen to fall (sometimes splitting mid-phrase,
+// e.g. "...na dan" / "izbora."), so it's stripped as one cross-line match
+// against the raw page text *before* splitting into lines, rather than
+// line-by-line. Bounded to 200 chars so the non-greedy match can't run away.
+const DISCLAIMER_RE = /(Napomena: Ekrani|Odricanje\s+(od\s+)?odgovornosti)[\s\S]{0,200}?koristiti na dan\s+izbora\.?/gi;
+
 const BOILERPLATE_PATTERNS = [
-  /^Napomena: Ekrani, periferni uređaji/i,
-  /^Odricanje od odgovornosti/i,
-  /razlikovati od onih koji će se kona[cč]no koristiti/i,
+  /^Napomena: Ekrani/i, // safety net in case a fragment survives the cross-line strip above
+  /^Odricanje\s+(od\s+)?odgovornosti/i,
+  /koristiti na dan izbora/i,
   /^www\./i,
   /^Copyright ©/i,
   /^Hvala na pažnju/i,
@@ -98,6 +105,7 @@ function extractChunks({ device, manual }, pages) {
 
   for (const page of pages) {
     const lines = page.text
+      .replace(DISCLAIMER_RE, "")
       .split("\n")
       .map((l) => l.trim())
       .filter(Boolean)
