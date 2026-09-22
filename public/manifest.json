@@ -1,7 +1,7 @@
 {
   "id": "/",
-  "name": "ElectionHelp",
-  "short_name": "ElectionHelp",
+  "name": "Izbori - Tehnička podrška",
+  "short_name": "Tehnička podrška",
   "description": "Tehnička podrška za izborne uređaje — radi i bez interneta.",
   "start_url": "/",
   "scope": "/",

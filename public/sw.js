@@ -15,6 +15,7 @@ const CACHE_NAME = `electionhelp-${CACHE_VERSION}`;
 
 const PRECACHE_URLS = [
   "/",
+  "/chat",
   "/manifest.json",
   "/knowledge-base.json",
   "/favicon.ico",

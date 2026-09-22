@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "ElectionHelp",
+  title: "Izbori - Tehnička podrška",
   description: "Tehnička podrška za izborne uređaje — radi i bez interneta.",
   manifest: "/manifest.json",
   icons: {
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   appleWebApp: {
     capable: true,
     statusBarStyle: "default",
-    title: "ElectionHelp",
+    title: "Tehnička podrška",
   },
   other: {
     // Next only emits the modern "mobile-web-app-capable" tag; older iOS
