@@ -18,7 +18,7 @@ const FEATURES = [
 
 export default function LandingPage() {
   return (
-    <div className="flex flex-1 flex-col items-center justify-center bg-background px-6 py-12 text-foreground">
+    <div className="flex h-dvh flex-col items-center justify-center overflow-y-auto bg-background px-6 py-12 text-foreground">
       <div className="flex w-full max-w-md flex-col items-center gap-8 text-center">
         <Image
           src="/icons/icon-512.png"

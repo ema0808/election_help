@@ -105,8 +105,14 @@ export default function ChatPage() {
   }
 
   return (
-    <div className="flex flex-col bg-background text-foreground" style={{ height: "var(--app-height, 100dvh)" }}>
-      <header className="flex items-center justify-between border-b border-black/10 px-4 py-3 dark:border-white/10">
+    <div
+      className="fixed inset-x-0 top-0 flex flex-col overflow-hidden bg-background text-foreground"
+      style={{ height: "var(--app-height, 100dvh)" }}
+    >
+      <header
+        className="flex shrink-0 items-center justify-between border-b border-black/10 px-4 pb-3 dark:border-white/10"
+        style={{ paddingTop: "max(0.75rem, env(safe-area-inset-top))" }}
+      >
         <div className="flex items-center gap-2">
           <Link href="/" className="text-zinc-400 hover:text-foreground dark:text-zinc-500" aria-label="Početna">
             ←
@@ -116,7 +122,7 @@ export default function ChatPage() {
         <StatusBadge status={status} />
       </header>
 
-      <main className="flex flex-1 flex-col gap-3 overflow-y-auto px-4 py-4">
+      <main className="flex min-h-0 flex-1 flex-col gap-3 overflow-y-auto px-4 py-4">
         {messages.length === 0 && (
           <p className="m-auto max-w-sm text-center text-sm text-zinc-500 dark:text-zinc-400">
             Postavite pitanje o uređaju za identifikaciju birača ili optičkom skeneru za brojanje glasova.
@@ -133,7 +139,10 @@ export default function ChatPage() {
         <div ref={bottomRef} />
       </main>
 
-      <form onSubmit={handleSubmit} className="flex gap-2 border-t border-black/10 p-3 dark:border-white/10">
+      <form
+        onSubmit={handleSubmit}
+        className="flex shrink-0 gap-2 border-t border-black/10 p-3 pb-[max(0.75rem,env(safe-area-inset-bottom))] dark:border-white/10"
+      >
         <input
           value={input}
           onChange={(e) => setInput(e.target.value)}

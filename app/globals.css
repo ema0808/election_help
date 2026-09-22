@@ -19,6 +19,19 @@
   }
 }
 
+html,
+body {
+  /* Lock the page itself to the viewport so nothing scrolls at the document
+     level — pages that need scrolling (the chat message list) opt in with
+     their own overflow-y: auto container. Gives the app a native-app feel
+     instead of a scrollable web page, and stops the on-screen keyboard from
+     dragging the whole layout around via the browser's default
+     scroll-input-into-view behavior. */
+  height: 100%;
+  overflow: hidden;
+  overscroll-behavior: none;
+}
+
 body {
   background: var(--background);
   color: var(--foreground);

@@ -42,6 +42,10 @@ export const viewport: Viewport = {
   // viewport when the on-screen keyboard opens instead of overlaying it, so
   // a dvh-based layout naturally keeps the input bar above the keyboard.
   interactiveWidget: "resizes-content",
+  // Lets fixed/pinned elements (the chat header and input bar) extend under
+  // the iPhone notch/home-indicator safe areas, which is required for the
+  // env(safe-area-inset-*) padding used to keep content clear of them.
+  viewportFit: "cover",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
