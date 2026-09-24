@@ -2,7 +2,10 @@
 
 import Link from "next/link";
 import { useEffect, useRef, useState, type FormEvent } from "react";
+import { InstallInstructions } from "@/components/InstallInstructions";
+import { Modal } from "@/components/Modal";
 import { getKnowledgeBase, type SourceRef } from "@/lib/knowledge-base";
+import { useInstallPrompt } from "@/lib/useInstallPrompt";
 import { ManualSearchIndex, type SearchResult } from "@/lib/search";
 import { useNetworkStatus, type NetworkStatus } from "@/lib/useNetworkStatus";
 import { useVisualViewport } from "@/lib/useVisualViewport";
@@ -24,6 +27,8 @@ const SCROLL_SETTLE_DELAYS_MS = [50, 150, 300, 500];
 export default function ChatPage() {
   useVisualViewport();
   const status = useNetworkStatus();
+  const { isStandalone } = useInstallPrompt();
+  const [showInstallModal, setShowInstallModal] = useState(false);
   const [messages, setMessages] = useState<ChatMessage[]>([]);
   const [input, setInput] = useState("");
   const [isLoading, setIsLoading] = useState(false);
@@ -134,7 +139,22 @@ export default function ChatPage() {
           </Link>
           <h1 className="text-lg font-semibold">Izbori - Tehnička podrška</h1>
         </div>
-        <StatusBadge status={status} />
+        <div className="flex items-center gap-3">
+          {!isStandalone && (
+            <button
+              type="button"
+              onClick={() => setShowInstallModal(true)}
+              aria-label="Dodaj na početni ekran"
+              className="text-zinc-400 hover:text-foreground dark:text-zinc-500"
+            >
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <path d="M12 3v12m0 0-4-4m4 4 4-4" strokeLinecap="round" strokeLinejoin="round" />
+                <path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+            </button>
+          )}
+          <StatusBadge status={status} />
+        </div>
       </header>
 
       <main className="flex min-h-0 flex-1 flex-col gap-3 overflow-y-auto px-4 py-4">
@@ -176,6 +196,12 @@ export default function ChatPage() {
           Pošalji
         </button>
       </form>
+
+      {showInstallModal && (
+        <Modal onClose={() => setShowInstallModal(false)}>
+          <InstallInstructions />
+        </Modal>
+      )}
     </div>
   );
 }

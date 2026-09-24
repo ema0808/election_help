@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { InstallInstructions } from "@/components/InstallInstructions";
 
 const FEATURES = [
   {
@@ -52,6 +53,8 @@ export default function LandingPage() {
         >
           Postavi pitanje →
         </Link>
+
+        <InstallInstructions />
       </div>
     </div>
   );
