@@ -141,7 +141,8 @@ export default function ChatPage() {
 
       <form
         onSubmit={handleSubmit}
-        className="flex shrink-0 gap-2 border-t border-black/10 p-3 pb-[max(0.75rem,env(safe-area-inset-bottom))] dark:border-white/10"
+        className="flex shrink-0 gap-2 border-t border-black/10 p-3 dark:border-white/10"
+        style={{ paddingBottom: "max(0.75rem, var(--app-keyboard-inset, env(safe-area-inset-bottom)))" }}
       >
         <input
           value={input}
