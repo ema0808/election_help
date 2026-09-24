@@ -15,6 +15,12 @@ type ChatMessage =
 
 const OFFLINE_RESULT_LIMIT = 5;
 
+// Matches the settle re-checks in useVisualViewport — the keyboard (and on
+// iOS, its QuickType bar) keeps resizing the visible area for a moment after
+// it starts opening, so scrolling to bottom needs a few follow-up attempts
+// to land correctly once the container has actually finished shrinking.
+const SCROLL_SETTLE_DELAYS_MS = [50, 150, 300, 500];
+
 export default function ChatPage() {
   useVisualViewport();
   const status = useNetworkStatus();
@@ -37,8 +43,17 @@ export default function ChatPage() {
       });
   }, []);
 
+  function scrollToBottom(behavior: ScrollBehavior = "smooth") {
+    bottomRef.current?.scrollIntoView({ behavior });
+  }
+
+  function scrollToBottomWhileKeyboardSettles() {
+    scrollToBottom("auto");
+    SCROLL_SETTLE_DELAYS_MS.forEach((delay) => setTimeout(() => scrollToBottom("auto"), delay));
+  }
+
   useEffect(() => {
-    bottomRef.current?.scrollIntoView({ behavior: "smooth" });
+    scrollToBottom();
   }, [messages, isLoading]);
 
   async function runOfflineSearch(question: string) {
@@ -147,6 +162,7 @@ export default function ChatPage() {
         <input
           value={input}
           onChange={(e) => setInput(e.target.value)}
+          onFocus={scrollToBottomWhileKeyboardSettles}
           placeholder="Postavite pitanje..."
           autoComplete="off"
           disabled={isLoading}
