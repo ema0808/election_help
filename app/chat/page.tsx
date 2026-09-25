@@ -5,6 +5,7 @@ import { useEffect, useRef, useState, type FormEvent } from "react";
 import { InstallInstructions } from "@/components/InstallInstructions";
 import { Modal } from "@/components/Modal";
 import { getKnowledgeBase, type SourceRef } from "@/lib/knowledge-base";
+import { useChatHistory } from "@/lib/useChatHistory";
 import { useInstallPrompt } from "@/lib/useInstallPrompt";
 import { ManualSearchIndex, type SearchResult } from "@/lib/search";
 import { useNetworkStatus, type NetworkStatus } from "@/lib/useNetworkStatus";
@@ -27,9 +28,9 @@ const SCROLL_SETTLE_DELAYS_MS = [50, 150, 300, 500];
 export default function ChatPage() {
   useVisualViewport();
   const status = useNetworkStatus();
-  const { isStandalone } = useInstallPrompt();
+  const { isStandalone, markPromptSeen } = useInstallPrompt();
   const [showInstallModal, setShowInstallModal] = useState(false);
-  const [messages, setMessages] = useState<ChatMessage[]>([]);
+  const { messages, setMessages, clearHistory } = useChatHistory<ChatMessage>();
   const [input, setInput] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const searchIndexRef = useRef<ManualSearchIndex | null>(null);
@@ -140,6 +141,22 @@ export default function ChatPage() {
           <h1 className="text-lg font-semibold">Izbori - Tehnička podrška</h1>
         </div>
         <div className="flex items-center gap-3">
+          {messages.length > 0 && (
+            <button
+              type="button"
+              onClick={clearHistory}
+              aria-label="Obriši razgovor"
+              className="text-zinc-400 hover:text-foreground dark:text-zinc-500"
+            >
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <path
+                  d="M4 7h16M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2m2 0v13a2 2 0 0 1-2 2H9a2 2 0 0 1-2-2V7"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </button>
+          )}
           {!isStandalone && (
             <button
               type="button"
@@ -198,7 +215,12 @@ export default function ChatPage() {
       </form>
 
       {showInstallModal && (
-        <Modal onClose={() => setShowInstallModal(false)}>
+        <Modal
+          onClose={() => {
+            setShowInstallModal(false);
+            markPromptSeen();
+          }}
+        >
           <InstallInstructions />
         </Modal>
       )}

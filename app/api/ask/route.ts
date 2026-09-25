@@ -8,7 +8,7 @@ const MODEL = "claude-sonnet-4-6";
 const MAX_QUESTION_LENGTH = 2000;
 const RELEVANT_CHUNK_LIMIT = 8;
 
-const SYSTEM_PROMPT = `Ti si asistent za tehničku podršku volonterima koji rade na dan izbora u Bosni i Hercegovini. Pomažeš im da brzo pronađu rješenje u priručnicima za uređaj za identifikaciju birača i optički skener za brojanje glasova.
+const SYSTEM_PROMPT = `Ti si asistent za tehničku podršku operaterima na biračkom mjestu koji rade na dan izbora u Bosni i Hercegovini. Pomažeš im da brzo pronađu rješenje u priručnicima za uređaj za identifikaciju birača i optički skener za brojanje glasova.
 
 Pravila:
 - Odgovaraj isključivo na bosanskom jeziku.

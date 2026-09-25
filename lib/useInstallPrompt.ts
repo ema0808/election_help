@@ -25,6 +25,16 @@ function detectStandalone(): boolean {
   return window.matchMedia("(display-mode: standalone)").matches || nav.standalone === true;
 }
 
+const SEEN_STORAGE_KEY = "electionhelp:install-prompt-seen";
+
+function detectHasSeenPrompt(): boolean {
+  try {
+    return localStorage.getItem(SEEN_STORAGE_KEY) === "true";
+  } catch {
+    return false;
+  }
+}
+
 /**
  * Wraps the "Add to Home Screen" flow. Android/Chrome exposes a real
  * `beforeinstallprompt` event that lets us trigger the native install dialog
@@ -39,9 +49,10 @@ export function useInstallPrompt() {
   // SSR-matching defaults and are filled in once this effect runs post-mount
   // — combined into one state object so that fill-in is a single render
   // rather than two.
-  const [env, setEnv] = useState<{ platform: Platform; isStandalone: boolean }>({
+  const [env, setEnv] = useState<{ platform: Platform; isStandalone: boolean; hasSeenPrompt: boolean }>({
     platform: "other",
     isStandalone: false,
+    hasSeenPrompt: false,
   });
 
   useEffect(() => {
@@ -49,7 +60,7 @@ export function useInstallPrompt() {
     // so this can only happen post-mount, not during the lazy useState
     // initializer — a legitimate exception to the rule below.
     // eslint-disable-next-line react-hooks/set-state-in-effect
-    setEnv({ platform: detectPlatform(), isStandalone: detectStandalone() });
+    setEnv({ platform: detectPlatform(), isStandalone: detectStandalone(), hasSeenPrompt: detectHasSeenPrompt() });
 
     const handleBeforeInstallPrompt = (e: Event) => {
       e.preventDefault();
@@ -76,10 +87,22 @@ export function useInstallPrompt() {
     return choice.outcome === "accepted";
   }
 
+  /** Marks the install prompt as seen, persisting across sessions — so it only auto-opens once, ever. */
+  function markPromptSeen() {
+    setEnv((prev) => ({ ...prev, hasSeenPrompt: true }));
+    try {
+      localStorage.setItem(SEEN_STORAGE_KEY, "true");
+    } catch {
+      // storage unavailable — the prompt may auto-open again next visit, not a big deal
+    }
+  }
+
   return {
     platform: env.platform,
     isStandalone: env.isStandalone,
+    hasSeenPrompt: env.hasSeenPrompt,
     canPromptInstall: deferredPrompt !== null,
     promptInstall,
+    markPromptSeen,
   };
 }

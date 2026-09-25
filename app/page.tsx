@@ -23,12 +23,18 @@ const FEATURES = [
 ];
 
 export default function LandingPage() {
-  const { isStandalone } = useInstallPrompt();
-  const [installModalDismissed, setInstallModalDismissed] = useState(false);
-  // Open by default as soon as the user lands here — dismissing it (or the
-  // app already being installed) is what hides it, rather than needing an
-  // effect to imperatively open it once we know installability.
-  const showInstallModal = !isStandalone && !installModalDismissed;
+  const { isStandalone, hasSeenPrompt, markPromptSeen } = useInstallPrompt();
+  // Reopening on demand (the link below) is session-local; whether it's
+  // already been seen before is persisted (see useInstallPrompt), so it only
+  // ever auto-opens on someone's very first visit — after that it's only
+  // reachable via that link.
+  const [manuallyOpened, setManuallyOpened] = useState(false);
+  const showInstallModal = !isStandalone && (!hasSeenPrompt || manuallyOpened);
+
+  function closeInstallModal() {
+    markPromptSeen();
+    setManuallyOpened(false);
+  }
 
   return (
     <div className="flex h-dvh flex-col items-center justify-center overflow-y-auto bg-background px-6 py-12 text-foreground">
@@ -66,10 +72,10 @@ export default function LandingPage() {
           Postavi pitanje →
         </Link>
 
-        {!isStandalone && installModalDismissed && (
+        {!isStandalone && !showInstallModal && (
           <button
             type="button"
-            onClick={() => setInstallModalDismissed(false)}
+            onClick={() => setManuallyOpened(true)}
             className="text-sm font-medium text-zinc-500 underline underline-offset-2 dark:text-zinc-400"
           >
             Dodaj na početni ekran
@@ -78,7 +84,7 @@ export default function LandingPage() {
       </div>
 
       {showInstallModal && (
-        <Modal onClose={() => setInstallModalDismissed(true)}>
+        <Modal onClose={closeInstallModal}>
           <InstallInstructions />
         </Modal>
       )}
