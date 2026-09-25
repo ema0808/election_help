@@ -1,6 +1,11 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
+import { useState } from "react";
 import { InstallInstructions } from "@/components/InstallInstructions";
+import { Modal } from "@/components/Modal";
+import { useInstallPrompt } from "@/lib/useInstallPrompt";
 
 const FEATURES = [
   {
@@ -18,6 +23,13 @@ const FEATURES = [
 ];
 
 export default function LandingPage() {
+  const { isStandalone } = useInstallPrompt();
+  const [installModalDismissed, setInstallModalDismissed] = useState(false);
+  // Open by default as soon as the user lands here — dismissing it (or the
+  // app already being installed) is what hides it, rather than needing an
+  // effect to imperatively open it once we know installability.
+  const showInstallModal = !isStandalone && !installModalDismissed;
+
   return (
     <div className="flex h-dvh flex-col items-center justify-center overflow-y-auto bg-background px-6 py-12 text-foreground">
       <div className="flex w-full max-w-md flex-col items-center gap-8 text-center">
@@ -54,8 +66,22 @@ export default function LandingPage() {
           Postavi pitanje →
         </Link>
 
-        <InstallInstructions />
+        {!isStandalone && installModalDismissed && (
+          <button
+            type="button"
+            onClick={() => setInstallModalDismissed(false)}
+            className="text-sm font-medium text-zinc-500 underline underline-offset-2 dark:text-zinc-400"
+          >
+            Dodaj na početni ekran
+          </button>
+        )}
       </div>
+
+      {showInstallModal && (
+        <Modal onClose={() => setInstallModalDismissed(true)}>
+          <InstallInstructions />
+        </Modal>
+      )}
     </div>
   );
 }
