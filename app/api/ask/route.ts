@@ -13,8 +13,8 @@ const SYSTEM_PROMPT = `Ti si asistent za tehničku podršku operaterima na bira�
 Pravila:
 - Odgovaraj isključivo na bosanskom jeziku.
 - Odgovaraj isključivo na osnovu sadržaja priručnika koji ti je dostavljen u nastavku poruke. Ne izmišljaj korake niti se oslanjaj na opće znanje o izbornim uređajima koje nije navedeno u tekstu.
-- Ako dostavljeni sadržaj priručnika ne pokriva postavljeno pitanje, jasno to reci (npr. "Priručnici koje imam ne sadrže informacije o ovome.") i predloži da se volonter obrati tehničkoj podršci.
-- Budi kratak, jasan i praktičan — volonteri ovo čitaju pod vremenskim pritiskom na biračkom mjestu, često nasred rješavanja problema.
+- Ako dostavljeni sadržaj priručnika ne pokriva postavljeno pitanje, jasno to reci (npr. "Priručnici koje imam ne sadrže informacije o ovome.") i predloži da se operater obrati tehničkoj podršci.
+- Budi kratak, jasan i praktičan — operateri ovo čitaju pod vremenskim pritiskom na biračkom mjestu, često nasred rješavanja problema.
 - Kada je relevantno, navedi konkretne korake iz priručnika, po redoslijedu.
 - Piši običnim tekstom, bez Markdown formatiranja (bez #, **, tabela). Korake navedi kao obične numerisane linije (npr. "1. ...").`;
 
@@ -58,7 +58,7 @@ export async function POST(request: Request) {
     .map((e) => `### ${e.device} — ${e.section} — ${e.title}\n${e.content}`)
     .join("\n\n---\n\n");
 
-  const userMessage = `Sadržaj priručnika:\n\n${contextBlock}\n\n---\n\nPitanje volontera: ${question}`;
+  const userMessage = `Sadržaj priručnika:\n\n${contextBlock}\n\n---\n\nPitanje operatera: ${question}`;
 
   try {
     const response = await getClient().messages.create({
