@@ -288,17 +288,29 @@ function MessageBubble({ message }: { message: ChatMessage }) {
   );
 }
 
+// Chat history persisted before this feature shipped won't have page data on
+// older messages (see lib/useChatHistory.ts) — fall back to omitting the
+// page part of the citation rather than rendering "str. undefined".
+function formatPageRange(pageStart?: number, pageEnd?: number): string | null {
+  if (typeof pageStart !== "number" || typeof pageEnd !== "number") return null;
+  return pageStart === pageEnd ? `str. ${pageStart}` : `str. ${pageStart}–${pageEnd}`;
+}
+
 function SourceList({ sources }: { sources: SourceRef[] }) {
   return (
     <div className="flex flex-wrap gap-1.5 pl-1">
-      {sources.slice(0, 4).map((s, i) => (
-        <span
-          key={i}
-          className="rounded-full border border-black/10 px-2 py-0.5 text-[11px] text-zinc-500 dark:border-white/15 dark:text-zinc-400"
-        >
-          {s.device} · {s.title}
-        </span>
-      ))}
+      {sources.slice(0, 4).map((s, i) => {
+        const pages = formatPageRange(s.pageStart, s.pageEnd);
+        return (
+          <span
+            key={i}
+            className="rounded-full border border-black/10 px-2 py-0.5 text-[11px] text-zinc-500 dark:border-white/15 dark:text-zinc-400"
+          >
+            {s.device} · {s.title}
+            {pages ? ` · ${pages}` : ""}
+          </span>
+        );
+      })}
     </div>
   );
 }
@@ -308,6 +320,7 @@ function ResultCard({ result }: { result: SearchResult }) {
   const { entry } = result;
   const isLong = entry.content.length > 400;
   const shown = expanded || !isLong ? entry.content : `${entry.content.slice(0, 400)}…`;
+  const pages = formatPageRange(entry.pageStart, entry.pageEnd);
 
   return (
     <div className="rounded-2xl rounded-bl-sm bg-zinc-100 px-4 py-3 text-sm dark:bg-zinc-800">
@@ -315,6 +328,12 @@ function ResultCard({ result }: { result: SearchResult }) {
         <span className="font-medium">{entry.device}</span>
         <span>·</span>
         <span>{entry.section}</span>
+        {pages && (
+          <>
+            <span>·</span>
+            <span>{pages}</span>
+          </>
+        )}
       </div>
       <div className="mb-1 font-medium">{entry.title}</div>
       <p className="whitespace-pre-line text-zinc-700 dark:text-zinc-300">{shown}</p>

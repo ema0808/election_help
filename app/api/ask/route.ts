@@ -16,7 +16,42 @@ Pravila:
 - Ako dostavljeni sadržaj priručnika ne pokriva postavljeno pitanje, jasno to reci (npr. "Priručnici koje imam ne sadrže informacije o ovome.") i predloži da se operater obrati tehničkoj podršci.
 - Budi kratak, jasan i praktičan — operateri ovo čitaju pod vremenskim pritiskom na biračkom mjestu, često nasred rješavanja problema.
 - Kada je relevantno, navedi konkretne korake iz priručnika, po redoslijedu.
-- Piši običnim tekstom, bez Markdown formatiranja (bez #, **, tabela). Korake navedi kao obične numerisane linije (npr. "1. ...").`;
+- Piši običnim tekstom, bez Markdown formatiranja (bez #, **, tabela). Korake navedi kao obične numerisane linije (npr. "1. ...").
+
+Format odgovora:
+- Polje "answer" sadrži tvoj odgovor operateru.
+- Polje "usedSourceIds" sadrži isključivo ID-eve onih odjeljaka (označenih kao "[id: ...]") iz kojih si stvarno preuzeo informacije za svoj odgovor. Nemoj navoditi odjeljke koje nisi koristio, čak i ako se odnose na isti uređaj. Ako nijedan odjeljak ne pokriva pitanje, ostavi listu praznom.`;
+
+const ANSWER_SCHEMA = {
+  type: "object" as const,
+  properties: {
+    answer: { type: "string" as const },
+    usedSourceIds: { type: "array" as const, items: { type: "string" as const } },
+  },
+  required: ["answer", "usedSourceIds"],
+  additionalProperties: false,
+};
+
+/**
+ * Structured outputs make the JSON shape reliable, but a truncated response
+ * (hitting max_tokens mid-object) still yields unparseable text — fall back
+ * to showing the raw text as the answer rather than failing the request.
+ */
+function parseAnswer(raw: string): { answer: string; usedIds: string[]; parsed: boolean } {
+  try {
+    const parsed = JSON.parse(raw) as { answer?: unknown; usedSourceIds?: unknown };
+    if (typeof parsed.answer !== "string" || !Array.isArray(parsed.usedSourceIds)) {
+      return { answer: raw, usedIds: [], parsed: false };
+    }
+    return {
+      answer: parsed.answer.trim(),
+      usedIds: parsed.usedSourceIds.filter((id): id is string => typeof id === "string"),
+      parsed: true,
+    };
+  } catch {
+    return { answer: raw, usedIds: [], parsed: false };
+  }
+}
 
 let anthropicClient: Anthropic | null = null;
 function getClient(): Anthropic {
@@ -55,7 +90,7 @@ export async function POST(request: Request) {
   const entries = results.length > 0 ? results.map((r) => r.entry) : knowledgeBase;
 
   const contextBlock = entries
-    .map((e) => `### ${e.device} — ${e.section} — ${e.title}\n${e.content}`)
+    .map((e) => `### [id: ${e.id}] ${e.device} — ${e.section} — ${e.title}\n${e.content}`)
     .join("\n\n---\n\n");
 
   const userMessage = `Sadržaj priručnika:\n\n${contextBlock}\n\n---\n\nPitanje operatera: ${question}`;
@@ -66,17 +101,35 @@ export async function POST(request: Request) {
       max_tokens: 1024,
       system: SYSTEM_PROMPT,
       messages: [{ role: "user", content: userMessage }],
+      output_config: { format: { type: "json_schema", schema: ANSWER_SCHEMA } },
     });
 
-    const answer = response.content
+    const raw = response.content
       .filter((block): block is Anthropic.TextBlock => block.type === "text")
       .map((block) => block.text)
-      .join("\n")
+      .join("")
       .trim();
 
-    const sources: SourceRef[] = entries
-      .slice(0, RELEVANT_CHUNK_LIMIT)
-      .map((e) => ({ device: e.device, section: e.section, title: e.title }));
+    const { answer, usedIds, parsed } = parseAnswer(raw);
+
+    // Cite only the sections Claude actually drew from, not everything search
+    // retrieved — otherwise an unrelated-but-same-device section (e.g. the
+    // login chapter on an assembly question) is presented as if it backed the
+    // answer. An empty list is meaningful and preserved: when the answer is
+    // "the manuals don't cover this", citing anything would be actively
+    // misleading. Only an unparseable response falls back to the retrieved
+    // set, so a truncated-but-useful answer still shows something.
+    const byId = new Map(entries.map((e) => [e.id, e]));
+    const cited = usedIds.map((id) => byId.get(id)).filter((e) => e !== undefined);
+    const sourceEntries = parsed ? cited : entries.slice(0, RELEVANT_CHUNK_LIMIT);
+
+    const sources: SourceRef[] = sourceEntries.map((e) => ({
+      device: e.device,
+      section: e.section,
+      title: e.title,
+      pageStart: e.pageStart,
+      pageEnd: e.pageEnd,
+    }));
 
     return NextResponse.json({ answer, sources });
   } catch (error) {

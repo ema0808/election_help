@@ -24,6 +24,26 @@ interface IndexedEntry {
   content: string;
 }
 
+// Bosnian verbal nouns ("-anje/-enje", roughly English "-ing") are common as
+// manual section titles ("sklapanje", "uključivanje", "instaliranje"), while
+// an operator naturally asks "kako sklopiti/uključiti/instalirati..." using
+// the infinitive. These can differ enough character-by-character — including
+// a stem vowel alternation for some verbs, e.g. sklOPiti vs sklAPanje — that
+// Fuse's fuzzy matching misses the connection entirely on the full word.
+// Stripping these common suffix groups down to a shared root and searching
+// that too (alongside the original word, not instead of it) recovers most of
+// these pairs without a hand-maintained synonym list.
+const STEM_SUFFIXES = ["ivanje", "ovanje", "anje", "enje", "ivati", "ovati", "jeti", "ati", "iti"];
+
+function stem(word: string): string | null {
+  for (const suffix of STEM_SUFFIXES) {
+    if (word.length >= suffix.length + 4 && word.endsWith(suffix)) {
+      return word.slice(0, -suffix.length);
+    }
+  }
+  return null;
+}
+
 const FUSE_OPTIONS: IFuseOptions<IndexedEntry> = {
   keys: [
     { name: "title", weight: 2 },
@@ -37,6 +57,7 @@ const FUSE_OPTIONS: IFuseOptions<IndexedEntry> = {
 
 export class ManualSearchIndex {
   private fuse: Fuse<IndexedEntry>;
+  private totalEntries: number;
 
   constructor(entries: KnowledgeBaseEntry[]) {
     const indexed: IndexedEntry[] = entries.map((entry) => ({
@@ -45,6 +66,7 @@ export class ManualSearchIndex {
       content: normalizeBosnian(entry.content),
     }));
     this.fuse = new Fuse(indexed, FUSE_OPTIONS);
+    this.totalEntries = entries.length;
   }
 
   /**
@@ -62,22 +84,60 @@ export class ManualSearchIndex {
       .filter((w) => w.length >= 2);
     if (words.length === 0) return [];
 
+    const MIN_WORD_RELEVANCE = 0.32; // per-word floor — see the comment below
     const relevanceById = new Map<string, { entry: KnowledgeBaseEntry; total: number }>();
+    let idfSum = 0;
     for (const word of words) {
-      for (const r of this.fuse.search(word)) {
-        const relevance = 1 - (r.score ?? 1);
-        const existing = relevanceById.get(r.item.entry.id);
+      const stemmed = stem(word);
+      const candidates = stemmed ? [word, stemmed] : [word];
+
+      // A word and its stemmed root both search the same entries, so keep
+      // only the *best* relevance per entry across candidate forms — summing
+      // them would double-count what's conceptually one query term.
+      const bestByEntry = new Map<string, { entry: KnowledgeBaseEntry; relevance: number }>();
+      for (const candidate of candidates) {
+        for (const r of this.fuse.search(candidate)) {
+          const relevance = 1 - (r.score ?? 1);
+          // A weak match (e.g. an unrelated word that happens to share a
+          // few characters with something) shouldn't count as a match at
+          // all — otherwise the IDF boost below (meant to reward genuinely
+          // rare, specific terms) ends up amplifying noise instead, since a
+          // coincidental one-off match is *also* technically "rare".
+          if (relevance < MIN_WORD_RELEVANCE) continue;
+          const existing = bestByEntry.get(r.item.entry.id);
+          if (!existing || relevance > existing.relevance) {
+            bestByEntry.set(r.item.entry.id, { entry: r.item.entry, relevance });
+          }
+        }
+      }
+      if (bestByEntry.size === 0) continue;
+
+      // Device/manual names (e.g. "uređaj", "identifikaciju", "birača") are
+      // repeated in nearly every chunk, so without down-weighting they'd
+      // swamp genuinely distinguishing words like "sklopiti" and make
+      // unrelated chunks score almost as high as the right one. Smoothed
+      // IDF: a word matching most of the corpus gets a multiplier near 1x,
+      // a word matching only a handful of chunks gets several times that.
+      const idf = Math.log((this.totalEntries + 1) / (bestByEntry.size + 1)) + 1;
+      idfSum += idf;
+
+      for (const { entry, relevance } of bestByEntry.values()) {
+        const weighted = relevance * idf;
+        const existing = relevanceById.get(entry.id);
         if (existing) {
-          existing.total += relevance;
+          existing.total += weighted;
         } else {
-          relevanceById.set(r.item.entry.id, { entry: r.item.entry, total: relevance });
+          relevanceById.set(entry.id, { entry, total: weighted });
         }
       }
     }
+    if (idfSum === 0) return [];
 
     const MIN_RELEVANCE = 0.15; // below this, matches are noise (e.g. unrelated queries)
     return [...relevanceById.values()]
-      .map(({ entry, total }) => ({ entry, score: Math.min(total / words.length, 1) }))
+      // Normalize by total possible idf-weighted relevance (idfSum), not
+      // word count — each word's max contribution is now `idf`, not 1.
+      .map(({ entry, total }) => ({ entry, score: Math.min(total / idfSum, 1) }))
       .filter((r) => r.score >= MIN_RELEVANCE)
       .sort((a, b) => b.score - a.score)
       .slice(0, limit);

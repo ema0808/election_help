@@ -4,12 +4,16 @@ export interface KnowledgeBaseEntry {
   section: string;
   title: string;
   content: string;
+  pageStart: number;
+  pageEnd: number;
 }
 
 export interface SourceRef {
   device: string;
   section: string;
   title: string;
+  pageStart: number;
+  pageEnd: number;
 }
 
 let cache: KnowledgeBaseEntry[] | null = null;

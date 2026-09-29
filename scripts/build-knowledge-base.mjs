@@ -89,7 +89,7 @@ function truncateAtWord(text, maxLen) {
 }
 
 function extractChunks({ device, manual }, pages) {
-  /** @type {{title: string, lines: string[]}[]} */
+  /** @type {{title: string, lines: string[], pages: Set<number>}[]} */
   const rawChunks = [];
   let current = null;
   let currentSectionNum = null;
@@ -98,7 +98,7 @@ function extractChunks({ device, manual }, pages) {
 
   const flush = () => {
     if (current && current.lines.some((l) => l.trim())) {
-      rawChunks.push({ title: current.title, lines: current.lines });
+      rawChunks.push({ title: current.title, lines: current.lines, pages: current.pages });
     }
     current = null;
   };
@@ -125,6 +125,7 @@ function extractChunks({ device, manual }, pages) {
       current = {
         title: titleLines.join(" ") || `Odjeljak ${currentSectionNum}`,
         lines: [],
+        pages: new Set([page.num]),
       };
       currentProblemCategory = null;
       expectCategoryNext = false;
@@ -140,7 +141,7 @@ function extractChunks({ device, manual }, pages) {
       if (line === SIMPTOM_TABLE_MARKER) {
         const subTitle = current.lines.pop() || current.title;
         flush();
-        current = { title: subTitle, lines: [] };
+        current = { title: subTitle, lines: [], pages: new Set([page.num]) };
         continue;
       }
 
@@ -162,22 +163,28 @@ function extractChunks({ device, manual }, pages) {
         flush();
         const excerpt = truncateAtWord(line.replace(PROBLEM_ITEM_RE, ""), 70);
         const title = currentProblemCategory ? `${currentProblemCategory} – ${excerpt}` : excerpt;
-        current = { title, lines: [line] };
+        current = { title, lines: [line], pages: new Set([page.num]) };
         continue;
       }
 
       if (line === current.title) continue; // dedupe repeated running header
       current.lines.push(line);
+      current.pages.add(page.num);
     }
   }
   flush();
 
-  return rawChunks.map((chunk) => ({
-    device,
-    manual,
-    title: chunk.title,
-    content: chunk.lines.join("\n"),
-  }));
+  return rawChunks.map((chunk) => {
+    const pageNums = [...chunk.pages];
+    return {
+      device,
+      manual,
+      title: chunk.title,
+      content: chunk.lines.join("\n"),
+      pageStart: Math.min(...pageNums),
+      pageEnd: Math.max(...pageNums),
+    };
+  });
 }
 
 async function main() {
@@ -199,6 +206,8 @@ async function main() {
         section: chunk.manual,
         title: chunk.title,
         content: chunk.content,
+        pageStart: chunk.pageStart,
+        pageEnd: chunk.pageEnd,
       });
     });
 

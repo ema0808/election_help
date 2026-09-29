@@ -1,36 +1,27 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Failure Story: Citations Showing Wrong Sources
 
-## Getting Started
+**Symptom:** For device-setup questions, the UI showed 3-4 source chips, but only one section actually contained the answer. The extra chips looked like a retrieval ranking bug — irrelevant chunks outranking the right one.
 
-First, run the development server:
+**Initial hypothesis (wrong):** Treated it as a ranking problem and tuned retrieval scoring. This didn't fix it, because the diagnosis was wrong.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+**Actual root cause:** The chips were rendering raw retrieval candidates, not citations. Any chunk mentioning the same device name got surfaced, whether or not Claude actually used it to answer. Ranking was never the bug — the system had no concept of "used to answer" versus "retrieved."
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Fix
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Tagged each chunk with an `id` in the context sent to the model.
+- Switched `/api/ask` to structured outputs (JSON schema) so the response is `{ answer, usedSourceIds }` instead of free text.
+- System prompt explicitly instructs the model not to list sections it didn't draw from, even if they mention the same device.
+- Only `usedSourceIds` render as chips.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+**Edge case caught during testing:** when the manuals don't cover a question, the model correctly returns an empty `usedSourceIds` list. My first fallback logic mistook "empty" for "failed" and substituted 3 irrelevant sources, which was worse than showing none. Fixed by treating empty as meaningful and only falling back on genuinely unparseable responses (e.g. truncation).
 
-## Learn More
+## Verification, not assumption
 
-To learn more about Next.js, take a look at the following resources:
+- Confirmed structured outputs work on this SDK/model combo by testing in isolation with a deliberate decoy source before shipping.
+- Ran targeted cases: assembly (1 source, correct), PIN limits (2 sources, correctly spanning both devices), paper jam (2), off-topic (0).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Result:** For the query that surfaced the bug, sources went from 4 chips to the 1 that was actually used (Fizičko sklapanje, str. 2-7).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Lesson
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Retrieval quality and citation faithfulness are separate problems. A search-relevance fix can be entirely correct and still not fix a bug that lives in how results are presented as "sources" downstream.
