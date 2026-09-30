@@ -1,0 +1,10 @@
+[
+  {
+    "role": "user",
+    "content": "Kako se konsolidiraju rezultati ako biračko mjesto ima više od jednog skenera glasačkih listića?"
+  },
+  {
+    "role": "assistant",
+    "content": "Za biračko mjesto s više skenera, slijedite ove korake:\n\n1. Na prvom skeneru (skener br. 1) zatvorite biračko mjesto i pokrenite funkciju \"Pokreni novu kompilaciju\". Sistem briše sve prethodne rezultate s pametne kartice i pohranjuje rezultate prvog skenera.\n\n2. Kada sistem pita da li želite štampati izvještaj, odaberite NE (jer imate više skenera, izvještaj se štampa tek na kraju).\n\n3. Izvadite pametnu karticu iz prvog skenera i odložite je sa strane.\n\n4. Prijeđite na drugi skener (skener br. 2). Prijavite se koristeći pametnu karticu tog uređaja i PIN, pa zatvorite biračko mjesto.\n\n5. Na drugom skeneru odaberite \"Konsoliduj rezultate\". Sistem će zatražiti da umetnete pametnu karticu s prvog skenera (onu koju ste odložili sa strane).\n\n6. Umetnite tu karticu. Sistem će dodati rezultate drugog skenera u konsolidaciju.\n\n7. Ako imate samo dva skenera, sada odštampajte izvještaj. Sistem će pitati jesu li svi skeneri konsolidovani - potvrdite s DA. Izvještaj i konsolidovani paket se generišu na pametnoj kartici.\n\n8. Ako imate više od dva skenera, ne štampajte još, nego ponovite korake 3-6 za svaki naredni skener, sve do posljednjeg.\n\nVažno: Sva biračka mjesta, bez obzira na broj skenera, moraju izvršiti funkciju \"Pokreni novu kompilaciju\" na prvom skeneru. Nakon konsolidacije može se pokrenuti prijenos rezultata.\n\n[Citirani izvori: skener-instalacija-026]"
+  }
+]

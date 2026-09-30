@@ -1,0 +1,10 @@
+[
+  {
+    "role": "user",
+    "content": "Šta se dešava ako se otisak prsta ne može uzeti?"
+  },
+  {
+    "role": "assistant",
+    "content": "Prema priručniku, ako se dijagnostika čitača otiska prsta otkaže ili test ne uspije, sistem će prikazati poruku: \"Dijagnostika čitača otiska prsta preskočena. Test čitača otiska prsta ne radi.\"\n\nAko ne vidite sliku otiska prsta tokom dijagnostike, dodirnite 'Ne, ne vidim je' na ekranu.\n\nPriručnik ne daje dodatne korake za rješavanje ovog problema. Preporučujem da kontaktirate tehničku podršku za dalju pomoć.\n\n[Citirani izvori: identifikacija-instalacija-011]"
+  }
+]

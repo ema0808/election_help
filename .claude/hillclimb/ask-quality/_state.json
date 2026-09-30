@@ -1,0 +1,30 @@
+{
+  "metrics": [
+    {
+      "id": "citation_correct",
+      "label": "Citation",
+      "kind": "binary"
+    },
+    {
+      "id": "grounded_ok",
+      "label": "Grounded",
+      "kind": "binary"
+    }
+  ],
+  "perf_fields": [
+    {
+      "id": "latency_s",
+      "label": "Latency",
+      "unit": "s"
+    },
+    {
+      "id": "truncated",
+      "label": "Truncated"
+    }
+  ],
+  "harness_paths": [
+    "evals/ask-quality/runner.mjs",
+    "evals/ask-quality/cases.json"
+  ],
+  "harness_sha": "818d38202679ad238c3dc64a221f2a27f2de5d65c7ef36afa954ea73bf4d0a53"
+}

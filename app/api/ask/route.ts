@@ -124,6 +124,7 @@ export async function POST(request: Request) {
     const sourceEntries = parsed ? cited : entries.slice(0, RELEVANT_CHUNK_LIMIT);
 
     const sources: SourceRef[] = sourceEntries.map((e) => ({
+      id: e.id,
       device: e.device,
       section: e.section,
       title: e.title,
@@ -131,7 +132,16 @@ export async function POST(request: Request) {
       pageEnd: e.pageEnd,
     }));
 
-    return NextResponse.json({ answer, sources });
+    return NextResponse.json({
+      answer,
+      sources,
+      // Diagnostic fields, unused by the chat UI — exposed so the eval runner
+      // (evals/ask-quality/) can record real cost/truncation data instead of
+      // reconstructing the Claude call itself to get at them.
+      model: response.model,
+      usage: response.usage,
+      stop_reason: response.stop_reason,
+    });
   } catch (error) {
     console.error("/api/ask failed:", error);
     if (error instanceof Anthropic.RateLimitError) {

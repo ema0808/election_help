@@ -9,6 +9,7 @@ export interface KnowledgeBaseEntry {
 }
 
 export interface SourceRef {
+  id: string;
   device: string;
   section: string;
   title: string;

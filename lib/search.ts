@@ -44,6 +44,28 @@ function stem(word: string): string | null {
   return null;
 }
 
+// Short Bosnian function words (pronouns, conjunctions, prepositions,
+// interrogatives) carry essentially no topical signal, but Fuse's fuzzy
+// matching is unreliable for 2-3 letter patterns against long content
+// strings — a pattern this short can spuriously "fuzzy-match" almost any
+// chunk with deceptively high relevance (observed: "se" scoring 0.81 against
+// an unrelated chunk). Filtered out before matching rather than relying on
+// the relevance floor below, since the spurious scores clear that floor too.
+const STOPWORDS = new Set([
+  "se", "je", "da", "na", "za", "ne", "su", "li", "od", "do", "iz", "sa", "ka", "ko",
+  "ce", "bi", "ili", "pa", "kao", "sto", "sta", "kako", "koji", "koja", "koje",
+  "ovaj", "ova", "ovo", "taj", "ta", "to", "onaj", "ona", "ono", "biti",
+  "jesam", "jesi", "jesmo", "jeste", "jesu", "moci", "ali", "vec", "jos",
+  "samo", "kad", "kada", "gdje", "zasto", "koliko", "kome", "koga", "kojoj", "kojim",
+]);
+
+// Strips leading/trailing punctuation a query word picks up from natural
+// sentence phrasing (a trailing "?" on the last word of a question was
+// silently turning it into a near-unmatchable literal pattern).
+function stripPunctuation(word: string): string {
+  return word.replace(/^[^\p{L}\p{N}]+|[^\p{L}\p{N}]+$/gu, "");
+}
+
 const FUSE_OPTIONS: IFuseOptions<IndexedEntry> = {
   keys: [
     { name: "title", weight: 2 },
@@ -73,20 +95,37 @@ export class ManualSearchIndex {
    * Natural-language questions ("štampač ne radi") rarely appear verbatim in
    * the manuals, so matching the whole query as a single fuzzy pattern (Fuse's
    * default) tends to miss even when most words are present. Instead, each
-   * word is matched independently and per-entry relevance is accumulated
-   * across word matches — an entry hit by more query words, and matched more
-   * closely, ranks higher.
+   * word is matched independently against the corpus, and per-entry scores
+   * are accumulated as a BM25-style sum of independent, saturating per-word
+   * contributions — *not* normalized by the query's total matched weight.
+   *
+   * That normalization was tried first and reliably broke on two patterns,
+   * caught by an eval's oracle sanity check against real operator questions:
+   *   - A single highly-specific, correct word match (e.g. "baterija", which
+   *     only occurs in 2 of 94 chunks) would get diluted into irrelevance by
+   *     several other query words that each weakly matched *other* chunks —
+   *     dividing by "how much of the query matched anywhere" punishes a
+   *     precise hit just for coexisting with generic words in a full sentence.
+   *   - A word that's both highly relevant to the correct chunk AND common
+   *     across a topic family (e.g. "dijagnostiku" spanning ~28 diagnostics
+   *     chunks) got its IDF crushed by that family size, even on the one
+   *     chunk where it was the single best, correct signal.
+   * BM25's per-term score is independent of what else matched, and TF is
+   * saturated (via k1) rather than divided away, so a strong single match can
+   * win outright instead of needing near-complete query coverage.
    */
   search(query: string, limit = 5): SearchResult[] {
     const words = normalizeBosnian(query)
+      .toLowerCase()
       .split(/\s+/)
-      .map((w) => w.trim())
-      .filter((w) => w.length >= 2);
+      .map((w) => stripPunctuation(w.trim()))
+      .filter((w) => w.length >= 2 && !STOPWORDS.has(w));
     if (words.length === 0) return [];
 
     const MIN_WORD_RELEVANCE = 0.32; // per-word floor — see the comment below
-    const relevanceById = new Map<string, { entry: KnowledgeBaseEntry; total: number }>();
-    let idfSum = 0;
+    const K1 = 1.5; // BM25 term-frequency saturation constant (standard default range 1.2–2.0)
+    const scoreById = new Map<string, { entry: KnowledgeBaseEntry; total: number }>();
+
     for (const word of words) {
       const stemmed = stem(word);
       const candidates = stemmed ? [word, stemmed] : [word];
@@ -100,9 +139,9 @@ export class ManualSearchIndex {
           const relevance = 1 - (r.score ?? 1);
           // A weak match (e.g. an unrelated word that happens to share a
           // few characters with something) shouldn't count as a match at
-          // all — otherwise the IDF boost below (meant to reward genuinely
-          // rare, specific terms) ends up amplifying noise instead, since a
-          // coincidental one-off match is *also* technically "rare".
+          // all — a coincidental one-off match is also technically "rare",
+          // so without this floor the IDF term below would amplify noise
+          // exactly as readily as it rewards genuinely specific terms.
           if (relevance < MIN_WORD_RELEVANCE) continue;
           const existing = bestByEntry.get(r.item.entry.id);
           if (!existing || relevance > existing.relevance) {
@@ -119,25 +158,32 @@ export class ManualSearchIndex {
       // IDF: a word matching most of the corpus gets a multiplier near 1x,
       // a word matching only a handful of chunks gets several times that.
       const idf = Math.log((this.totalEntries + 1) / (bestByEntry.size + 1)) + 1;
-      idfSum += idf;
 
       for (const { entry, relevance } of bestByEntry.values()) {
-        const weighted = relevance * idf;
-        const existing = relevanceById.get(entry.id);
+        // BM25's saturating TF term, substituting Fuse's fuzzy relevance
+        // (0–1) for a true term count: contribution grows with relevance but
+        // flattens out rather than scaling linearly, so one very strong
+        // match can't be arbitrarily outweighed by summing several
+        // middling ones the way a linear sum would allow.
+        const termScore = idf * ((relevance * (K1 + 1)) / (relevance + K1));
+        const existing = scoreById.get(entry.id);
         if (existing) {
-          existing.total += weighted;
+          existing.total += termScore;
         } else {
-          relevanceById.set(entry.id, { entry, total: weighted });
+          scoreById.set(entry.id, { entry, total: termScore });
         }
       }
     }
-    if (idfSum === 0) return [];
+    if (scoreById.size === 0) return [];
 
-    const MIN_RELEVANCE = 0.15; // below this, matches are noise (e.g. unrelated queries)
-    return [...relevanceById.values()]
-      // Normalize by total possible idf-weighted relevance (idfSum), not
-      // word count — each word's max contribution is now `idf`, not 1.
-      .map(({ entry, total }) => ({ entry, score: Math.min(total / idfSum, 1) }))
+    // Normalized against the best-scoring entry *in this result set* (not a
+    // query-wide theoretical ceiling that assumes every word must match —
+    // that was the source of the bug above), so scores stay a well-behaved
+    // 0–1 range for the MIN_RELEVANCE filter and any UI display.
+    const maxScore = Math.max(...[...scoreById.values()].map((v) => v.total));
+    const MIN_RELEVANCE = 0.1; // below this, matches are noise (e.g. unrelated queries)
+    return [...scoreById.values()]
+      .map(({ entry, total }) => ({ entry, score: total / maxScore }))
       .filter((r) => r.score >= MIN_RELEVANCE)
       .sort((a, b) => b.score - a.score)
       .slice(0, limit);

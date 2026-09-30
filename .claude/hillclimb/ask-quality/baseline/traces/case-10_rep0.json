@@ -1,0 +1,10 @@
+[
+  {
+    "role": "user",
+    "content": "Šta je prvo na kraju glasanja: štampanje izvještaja o rezultatima ili prijenos rezultata?"
+  },
+  {
+    "role": "assistant",
+    "content": "Prema priručniku, redoslijed je sljedeći:\n\n1. Prvo se vrši konsolidacija rezultata (funkcija \"Pokreni novu kompilaciju\"), koja pohranjuje rezultate na pametnu karticu.\n2. Nakon konsolidacije, štampa se izvještaj o konsolidovanim rezultatima.\n3. Tek nakon toga slijedi prijenos rezultata.\n\nDakle, štampanje izvještaja o rezultatima dolazi prije prijenosa rezultata. Prijenos ne može početi dok konsolidacija nije završena i dok pametna kartica s konsolidovanim rezultatima nije umetnuta u skener.\n\n[Citirani izvori: skener-instalacija-026, skener-instalacija-027]"
+  }
+]

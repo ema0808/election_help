@@ -1,0 +1,10 @@
+[
+  {
+    "role": "user",
+    "content": "Sta se desava ako se otisak prsta ne moze uzeti na uredjaju za identifikaciju biraca?"
+  },
+  {
+    "role": "assistant",
+    "content": "Ako traženi prsti nisu dostupni, predsjednik biračkog odbora postupa u skladu s propisanom procedurom. Na ekranu postoji opcija \"Preskoči prst\" koja omogućava nastavak procesa kada određeni prst nije dostupan.\n\nVažno: Priručnik ne navodi detaljno šta tačno propisana procedura podrazumijeva u tom slučaju. Za konkretne upute o daljem postupanju preporučujemo da se obratite tehničkoj podršci ili da konsultujete relevantne izborne procedure CIK-a BiH.\n\n[Citirani izvori: identifikacija-instalacija-021]"
+  }
+]
