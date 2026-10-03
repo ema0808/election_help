@@ -5,6 +5,6 @@
   },
   {
     "role": "assistant",
-    "content": "Priručnici koje imam ne sadrže informacije o broju dozvoljenih pokušaja očitavanja otiska prsta. Predlažem da se obratite tehničkoj podršci za ovaj podatak.\n\n[Nema citiranih izvora]"
+    "content": "Birač može pokušati maksimalno 3 puta po svakom kažiprstu (oba kažiprsta). Ako se otisak ne može uhvatiti ili se ne podudara, prst ili ruka se preskače uz odabir razloga i odobrenje predsjednika biračkog odbora svojom pametnom karticom i PIN-om.\n\n[Citirani izvori: faq-081, faq-076]"
   }
 ]

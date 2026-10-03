@@ -5,6 +5,6 @@
   },
   {
     "role": "assistant",
-    "content": "Priručnici koje imam ne sadrže informacije o priključivanju baterije optičkog skenera za brojanje glasova. Predlažem da se obratite tehničkoj podršci za ovu informaciju.\n\n[Nema citiranih izvora]"
+    "content": "Bateriju postavite na pod pored skenera, s izolacijom ispod nje. Zatim:\n1. Crveni kabl priključite na pozitivni pol (+).\n2. Crni kabl priključite na negativni pol (−).\n3. Kabl baterije priključite na skener.\n\nVažno: Držite bateriju u uspravnom položaju i ne naginjite je. Pazite da ne pomiješate kleme i polove.\n\nNapomena: Ako priključujete i mrežno napajanje i bateriju, prvo priključite mrežno napajanje, a tek onda kabl za rezervno napajanje (bateriju). Isključivanje se vrši obrnutim redoslijedom.\n\n[Citirani izvori: faq-045, faq-052]"
   }
 ]

@@ -3,25 +3,25 @@
     "id": "case-01",
     "tags": ["positive", "identifikacija", "dijagnostika"],
     "prompt": "Šta mi je potrebno za dijagnostiku biometrijskog uređaja za identifikaciju birača? Mogu li koristiti svoju ličnu kartu?",
-    "expected": { "type": "cited", "chunkIds": ["identifikacija-instalacija-006"] }
+    "expected": { "type": "cited", "chunkIds": ["identifikacija-instalacija-006", "faq-020"] }
   },
   {
     "id": "case-02",
     "tags": ["positive", "identifikacija", "pin"],
     "prompt": "Šta se dešava ako nekoliko puta unesem pogrešan PIN?",
-    "expected": { "type": "cited", "chunkIds": ["identifikacija-troubleshooting-002"] }
+    "expected": { "type": "cited", "chunkIds": ["identifikacija-troubleshooting-002", "faq-033"] }
   },
   {
     "id": "case-03",
     "tags": ["positive", "skener", "konsolidacija"],
     "prompt": "Kako se konsolidiraju rezultati ako biračko mjesto ima više od jednog skenera glasačkih listića?",
-    "expected": { "type": "cited", "chunkIds": ["skener-instalacija-026"] }
+    "expected": { "type": "cited", "chunkIds": ["skener-instalacija-026", "faq-037", "faq-038", "faq-042"] }
   },
   {
     "id": "case-04",
     "tags": ["positive", "skener", "baterija"],
     "prompt": "Kako se priključuje baterija skenera glasačkih listića?",
-    "expected": { "type": "cited", "chunkIds": ["skener-instalacija-004"] }
+    "expected": { "type": "cited", "chunkIds": ["skener-instalacija-004", "faq-045"] }
   },
   {
     "id": "case-05",
@@ -36,25 +36,28 @@
     "id": "case-06",
     "tags": ["positive", "skener", "zamjena-uredjaja"],
     "prompt": "Šta se dešava s podacima na zamijenjenom skeneru glasačkih listića?",
-    "expected": { "type": "cited", "chunkIds": ["skener-troubleshooting-002", "skener-troubleshooting-003"] }
+    "expected": {
+      "type": "cited",
+      "chunkIds": ["skener-troubleshooting-002", "skener-troubleshooting-003", "faq-069"]
+    }
   },
   {
     "id": "case-07",
     "tags": ["positive", "skener", "glasacki-listic"],
     "prompt": "Šta skener radi s glasačkim listićem koji ne može očitati?",
-    "expected": { "type": "cited", "chunkIds": ["skener-instalacija-023"] }
+    "expected": { "type": "cited", "chunkIds": ["skener-instalacija-023", "faq-071"] }
   },
   {
     "id": "case-08",
     "tags": ["positive", "identifikacija", "biometrija"],
     "prompt": "Šta se dešava ako se otisak prsta ne može uzeti?",
-    "expected": { "type": "cited", "chunkIds": ["identifikacija-instalacija-022"] }
+    "expected": { "type": "cited", "chunkIds": ["identifikacija-instalacija-022", "faq-076"] }
   },
   {
     "id": "case-09",
     "tags": ["positive", "identifikacija", "biometrija"],
     "prompt": "Koliko puta birač može pokušati očitavanje otiska prsta?",
-    "expected": { "type": "cited", "chunkIds": ["identifikacija-instalacija-022"] }
+    "expected": { "type": "cited", "chunkIds": ["identifikacija-instalacija-022", "faq-081"] }
   },
   {
     "id": "case-10",
@@ -62,32 +65,37 @@
     "prompt": "Šta je prvo na kraju glasanja: štampanje izvještaja o rezultatima ili prijenos rezultata?",
     "expected": {
       "type": "cited",
-      "chunkIds": ["skener-instalacija-026", "identifikacija-instalacija-026", "identifikacija-instalacija-027"]
+      "chunkIds": [
+        "skener-instalacija-026",
+        "identifikacija-instalacija-026",
+        "identifikacija-instalacija-027",
+        "faq-016"
+      ]
     }
   },
   {
     "id": "case-11",
-    "tags": ["gap", "skener", "glasacki-listic"],
+    "tags": ["positive", "faq", "skener", "glasacki-listic"],
     "prompt": "Kako se uklanja zaglavljeni glasački listić u skeneru?",
-    "expected": { "type": "not_covered" }
+    "expected": { "type": "cited", "chunkIds": ["faq-035"] }
   },
   {
     "id": "case-12",
-    "tags": ["gap", "skener", "odrzavanje"],
-    "prompt": "Kako se skener glasačkih listića čisti?",
-    "expected": { "type": "not_covered" }
+    "tags": ["positive", "faq", "skener", "odrzavanje"],
+    "prompt": "Kako se skener čisti?",
+    "expected": { "type": "cited", "chunkIds": ["faq-058"] }
   },
   {
     "id": "case-13",
-    "tags": ["gap", "cross-device", "iskljucivanje"],
+    "tags": ["positive", "faq", "cross-device", "iskljucivanje"],
     "prompt": "Kako se uređaji pravilno isključuju?",
-    "expected": { "type": "not_covered" }
+    "expected": { "type": "cited", "chunkIds": ["faq-048"] }
   },
   {
     "id": "case-14",
-    "tags": ["negative", "organizational", "uloge"],
+    "tags": ["positive", "faq", "organizational", "uloge"],
     "prompt": "Koja je razlika između operatera, terenskog tehničara i biračkog odbora?",
-    "expected": { "type": "not_covered" }
+    "expected": { "type": "cited", "chunkIds": ["faq-001"] }
   },
   {
     "id": "case-15",
@@ -100,15 +108,16 @@
         "identifikacija-instalacija-024",
         "identifikacija-instalacija-025",
         "skener-instalacija-019",
-        "skener-instalacija-025"
+        "skener-instalacija-025",
+        "faq-012"
       ]
     }
   },
   {
     "id": "case-16",
-    "tags": ["negative", "organizational", "cik-bih"],
+    "tags": ["positive", "faq", "organizational", "cik-bih"],
     "prompt": "Kada se stavljaju plombe na glasačku kutiju?",
-    "expected": { "type": "not_covered" }
+    "expected": { "type": "cited", "chunkIds": ["faq-019"] }
   },
   {
     "id": "case-17",
@@ -123,26 +132,33 @@
         "skener-troubleshooting-013",
         "skener-troubleshooting-016",
         "identifikacija-troubleshooting-008",
-        "identifikacija-troubleshooting-009"
+        "identifikacija-troubleshooting-009",
+        "faq-066"
       ]
     }
   },
   {
     "id": "case-18",
-    "tags": ["negative", "organizational", "logistika"],
+    "tags": ["positive", "faq", "organizational", "logistika"],
     "prompt": "Mogu li koristiti svoj mobilni telefon za pregled materijala tokom rada?",
-    "expected": { "type": "not_covered" }
+    "expected": { "type": "cited", "chunkIds": ["faq-088"] }
   },
   {
     "id": "case-19",
-    "tags": ["negative", "organizational", "smart-poll-worker"],
+    "tags": ["positive", "faq", "organizational", "smart-poll-worker"],
     "prompt": "Gdje mogu ponovo pogledati video materijale s obuke?",
-    "expected": { "type": "not_covered" }
+    "expected": { "type": "cited", "chunkIds": ["faq-093"] }
   },
   {
     "id": "case-20",
     "tags": ["positive", "identifikacija", "biometrija", "robustness", "no-diacritics"],
     "prompt": "Sta se desava ako se otisak prsta ne moze uzeti na uredjaju za identifikaciju biraca?",
-    "expected": { "type": "cited", "chunkIds": ["identifikacija-instalacija-022"] }
+    "expected": { "type": "cited", "chunkIds": ["identifikacija-instalacija-022", "faq-076"] }
+  },
+  {
+    "id": "case-21",
+    "tags": ["negative", "off-topic"],
+    "prompt": "Koji je glavni grad Francuske?",
+    "expected": { "type": "not_covered" }
   }
 ]

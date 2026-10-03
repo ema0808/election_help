@@ -5,6 +5,6 @@
   },
   {
     "role": "assistant",
-    "content": "Priručnici koje imam ne sadrže informacije o ovome. Za objašnjenje razlika između tih uloga, obratite se tehničkoj podršci.\n\n[Nema citiranih izvora]"
+    "content": "Razlika između ove tri uloge je sljedeća:\n\n1. Operater: Zadužen je za instalaciju, provjeru i pripremu uređaja (biometrijski uređaj za identifikaciju birača i skener glasačkih listića), njihovu deinstalaciju i rješavanje tehničkih problema na biračkom mjestu. Radi pod nadzorom predsjednika biračkog odbora i nije član biračkog odbora. Uređaje instalira u subotu (dan prije izbora), pruža podršku tokom izbornog dana i prvi je nivo tehničke podrške. Ako ne može riješiti problem, poziva terenskog tehničara.\n\n2. Terenski tehničar: Dolazi na biračko mjesto na poziv operatera i rješava probleme s uređajima. Ako ni on ne može riješiti problem, kontaktira call centar, proglašava uređaj neispravnim i organizuje zamjenu. Tokom izbora ne čeka kod kuće, već obilazi dodijeljena birčka mjesta i mora biti dostupan za pozive.\n\n3. Birački odbor (BO): Neposredno rukovodi radom biračkog mjesta, osigurava pravilnost i tajnost glasanja te evidentira rezultate glasanja. Predsjednik biračkog odbora nadzire rad operatera.\n\n[Citirani izvori: faq-001, faq-005]"
   }
 ]

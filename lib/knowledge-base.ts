@@ -1,5 +1,12 @@
 export interface KnowledgeBaseEntry {
   id: string;
+  // "manual" = one of the 4 device manuals; "faq" = the operator FAQ. Used
+  // server-side to retrieve each source with its own independently-ranked
+  // search rather than one merged ranking — see app/api/ask/route.ts for why
+  // (a shared ranking let the FAQ's own near-exact question-phrase matches
+  // crowd out richer manual answers, and skew the other group's relative
+  // scores besides, since both were normalized against the same best match).
+  source: "manual" | "faq";
   device: string;
   section: string;
   title: string;

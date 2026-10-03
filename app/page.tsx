@@ -17,8 +17,8 @@ const FEATURES = [
     text: "Kad imate internet, dobijate precizniji odgovor uz izvore iz priručnika.",
   },
   {
-    title: "Oba uređaja na jednom mjestu",
-    text: "Uređaj za identifikaciju birača i optički skener za brojanje glasova.",
+    title: "Uređaji, uloge i procedure",
+    text: "Uređaj za identifikaciju birača, optički skener za brojanje glasova, i česta pitanja o radu na biračkom mjestu.",
   },
 ];
 
@@ -51,8 +51,8 @@ export default function LandingPage() {
         <div className="flex flex-col gap-2">
           <h1 className="text-2xl font-semibold">Izbori - Tehnička podrška</h1>
           <p className="text-sm text-zinc-500 dark:text-zinc-400">
-            Tehnička podrška za operatere na biračkom mjestu na dan izbora u Bosni i Hercegovini — brzo pronađite rješenje u
-            priručnicima za izborne uređaje, sa ili bez interneta.
+            Tehnička podrška za operatere na biračkom mjestu na dan izbora u Bosni i Hercegovini — brzo pronađite odgovor o
+            izbornim uređajima ili procedurama, sa ili bez interneta.
           </p>
         </div>
 

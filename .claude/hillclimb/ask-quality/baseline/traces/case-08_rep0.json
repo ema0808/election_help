@@ -5,6 +5,6 @@
   },
   {
     "role": "assistant",
-    "content": "Prema priručniku, ako se dijagnostika čitača otiska prsta otkaže ili test ne uspije, sistem će prikazati poruku: \"Dijagnostika čitača otiska prsta preskočena. Test čitača otiska prsta ne radi.\"\n\nAko ne vidite sliku otiska prsta tokom dijagnostike, dodirnite 'Ne, ne vidim je' na ekranu.\n\nPriručnik ne daje dodatne korake za rješavanje ovog problema. Preporučujem da kontaktirate tehničku podršku za dalju pomoć.\n\n[Citirani izvori: identifikacija-instalacija-011]"
+    "content": "Ako se otisak prsta ne može uzeti, postupite ovako:\n\n1. Uređaj dozvoljava maksimalno 3 pokušaja po svakom kažiprstu (prvo desni, pa lijevi kažiprst).\n2. Ako otisak i dalje ne može biti uhvaćen ili se ne podudara, prst se može preskočiti odabirom jednog od razloga: otisak prsta nije uključen u registrovane podatke, kvalitet skeniranja je loš, birač ima fizički nedostatak, ili se otisak ne podudara.\n3. Ako se ni na jednoj ruci ne može uzeti otisak kažiprsta, preskače se cijela ruka.\n4. U oba slučaja, predsjednik biračkog odbora mora dati odobrenje svojom pametnom karticom i PIN-om.\n5. Isti postupak vrijedi i kada birač nema ruku ili prst — odabire se razlog \"fizički nedostatak\".\n\nDodatno: Ako čitač uzastopno ne uspijeva kod više različitih birača, očistite ga krpom iz kompleta. Ako ni to ne pomogne, primijenite proceduru CIK BiH i odobrite autentifikaciju s nepotpunim biometrijskim podacima.\n\n[Citirani izvori: faq-076, faq-081, faq-080]"
   }
 ]

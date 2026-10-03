@@ -1,10 +1,10 @@
 [
   {
     "role": "user",
-    "content": "Kako se skener glasačkih listića čisti?"
+    "content": "Kako se skener čisti?"
   },
   {
     "role": "assistant",
-    "content": "Priručnici koje imam ne sadrže informacije o čišćenju skenera glasačkih listića. Predlažem da se obratite tehničkoj podršci za upute o ovome.\n\n[Nema citiranih izvora]"
+    "content": "Čišćenje skenera smijete obaviti samo ako to odobri pozivni centar. Ako dobijete odobrenje, slijedite ove korake:\n\n1. Nagnite ekran osjetljiv na dodir prema nazad. Iza njega se nalazi unutrašnji pristupni panel.\n2. Pronađite panel označen ikonom ruke. To su vratašca koja omogućavaju pristup CIS modulu.\n3. Čvrsto pritisnite ikonu ruke dok se vratašca ne otpuste i počnu otvarati.\n4. Pritisnite narandžastu tačku s natpisom „Press till click\n\n[Citirani izvori: faq-058, faq-059]"
   }
 ]

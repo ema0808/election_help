@@ -177,7 +177,8 @@ export default function ChatPage() {
       <main className="flex min-h-0 flex-1 flex-col gap-3 overflow-y-auto px-4 py-4">
         {messages.length === 0 && (
           <p className="m-auto max-w-sm text-center text-sm text-zinc-500 dark:text-zinc-400">
-            Postavite pitanje o uređaju za identifikaciju birača ili optičkom skeneru za brojanje glasova.
+            Postavite pitanje o uređaju za identifikaciju birača, optičkom skeneru za brojanje glasova, ili o ulogama i
+            procedurama na biračkom mjestu.
           </p>
         )}
         {messages.map((m) => (

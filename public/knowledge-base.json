@@ -1,6 +1,7 @@
 [
   {
     "id": "identifikacija-instalacija-001",
+    "source": "manual",
     "device": "Uređaj za identifikaciju birača",
     "section": "Instalacija i podešavanje",
     "title": "Fizičko sklapanje uređaja za identifikaciju birača",
@@ -10,6 +11,7 @@
   },
   {
     "id": "identifikacija-instalacija-002",
+    "source": "manual",
     "device": "Uređaj za identifikaciju birača",
     "section": "Instalacija i podešavanje",
     "title": "Instalacija role papira",
@@ -19,6 +21,7 @@
   },
   {
     "id": "identifikacija-instalacija-003",
+    "source": "manual",
     "device": "Uređaj za identifikaciju birača",
     "section": "Instalacija i podešavanje",
     "title": "Uključivanje uređaja za identifikaciju birača",
@@ -28,6 +31,7 @@
   },
   {
     "id": "identifikacija-instalacija-004",
+    "source": "manual",
     "device": "Uređaj za identifikaciju birača",
     "section": "Instalacija i podešavanje",
     "title": "Prijava na uređaj za identifikaciju birača",
@@ -37,6 +41,7 @@
   },
   {
     "id": "identifikacija-instalacija-005",
+    "source": "manual",
     "device": "Uređaj za identifikaciju birača",
     "section": "Instalacija i podešavanje",
     "title": "Status uređaja",
@@ -46,6 +51,7 @@
   },
   {
     "id": "identifikacija-instalacija-006",
+    "source": "manual",
     "device": "Uređaj za identifikaciju birača",
     "section": "Instalacija i podešavanje",
     "title": "Pokreni dijagnostiku",
@@ -55,6 +61,7 @@
   },
   {
     "id": "identifikacija-instalacija-007",
+    "source": "manual",
     "device": "Uređaj za identifikaciju birača",
     "section": "Instalacija i podešavanje",
     "title": "Štampač",
@@ -64,6 +71,7 @@
   },
   {
     "id": "identifikacija-instalacija-008",
+    "source": "manual",
     "device": "Uređaj za identifikaciju birača",
     "section": "Instalacija i podešavanje",
     "title": "MRZ Skener",
@@ -73,6 +81,7 @@
   },
   {
     "id": "identifikacija-instalacija-009",
+    "source": "manual",
     "device": "Uređaj za identifikaciju birača",
     "section": "Instalacija i podešavanje",
     "title": "Barkod skener",
@@ -82,6 +91,7 @@
   },
   {
     "id": "identifikacija-instalacija-010",
+    "source": "manual",
     "device": "Uređaj za identifikaciju birača",
     "section": "Instalacija i podešavanje",
     "title": "Zvučnik",
@@ -91,6 +101,7 @@
   },
   {
     "id": "identifikacija-instalacija-011",
+    "source": "manual",
     "device": "Uređaj za identifikaciju birača",
     "section": "Instalacija i podešavanje",
     "title": "Čitač otiska prsta",
@@ -100,6 +111,7 @@
   },
   {
     "id": "identifikacija-instalacija-012",
+    "source": "manual",
     "device": "Uređaj za identifikaciju birača",
     "section": "Instalacija i podešavanje",
     "title": "Čitač pametnih kartica",
@@ -109,6 +121,7 @@
   },
   {
     "id": "identifikacija-instalacija-013",
+    "source": "manual",
     "device": "Uređaj za identifikaciju birača",
     "section": "Instalacija i podešavanje",
     "title": "Datum i vrijeme",
@@ -118,6 +131,7 @@
   },
   {
     "id": "identifikacija-instalacija-014",
+    "source": "manual",
     "device": "Uređaj za identifikaciju birača",
     "section": "Instalacija i podešavanje",
     "title": "SIM kartica",
@@ -127,6 +141,7 @@
   },
   {
     "id": "identifikacija-instalacija-015",
+    "source": "manual",
     "device": "Uređaj za identifikaciju birača",
     "section": "Instalacija i podešavanje",
     "title": "Štampanje završnog izvještaja",
@@ -136,6 +151,7 @@
   },
   {
     "id": "identifikacija-instalacija-016",
+    "source": "manual",
     "device": "Uređaj za identifikaciju birača",
     "section": "Instalacija i podešavanje",
     "title": "Preduslovi za otvaranje izbora",
@@ -145,6 +161,7 @@
   },
   {
     "id": "identifikacija-instalacija-017",
+    "source": "manual",
     "device": "Uređaj za identifikaciju birača",
     "section": "Instalacija i podešavanje",
     "title": "Otvaranje izbora",
@@ -154,6 +171,7 @@
   },
   {
     "id": "identifikacija-instalacija-018",
+    "source": "manual",
     "device": "Uređaj za identifikaciju birača",
     "section": "Instalacija i podešavanje",
     "title": "Izvještaj o otvaranju",
@@ -163,6 +181,7 @@
   },
   {
     "id": "identifikacija-instalacija-019",
+    "source": "manual",
     "device": "Uređaj za identifikaciju birača",
     "section": "Instalacija i podešavanje",
     "title": "Preduslovi za pretragu birača",
@@ -172,6 +191,7 @@
   },
   {
     "id": "identifikacija-instalacija-020",
+    "source": "manual",
     "device": "Uređaj za identifikaciju birača",
     "section": "Instalacija i podešavanje",
     "title": "Pretraga birača",
@@ -181,6 +201,7 @@
   },
   {
     "id": "identifikacija-instalacija-021",
+    "source": "manual",
     "device": "Uređaj za identifikaciju birača",
     "section": "Instalacija i podešavanje",
     "title": "Potvrda birača verifikacija/autentifikacija",
@@ -190,6 +211,7 @@
   },
   {
     "id": "identifikacija-instalacija-022",
+    "source": "manual",
     "device": "Uređaj za identifikaciju birača",
     "section": "Instalacija i podešavanje",
     "title": "Potvrda birača s nepotpunim biometrijskim podacima",
@@ -199,6 +221,7 @@
   },
   {
     "id": "identifikacija-instalacija-023",
+    "source": "manual",
     "device": "Uređaj za identifikaciju birača",
     "section": "Instalacija i podešavanje",
     "title": "Pomoć biračima",
@@ -208,6 +231,7 @@
   },
   {
     "id": "identifikacija-instalacija-024",
+    "source": "manual",
     "device": "Uređaj za identifikaciju birača",
     "section": "Instalacija i podešavanje",
     "title": "Preduslovi za zatvaranje glasanja",
@@ -217,6 +241,7 @@
   },
   {
     "id": "identifikacija-instalacija-025",
+    "source": "manual",
     "device": "Uređaj za identifikaciju birača",
     "section": "Instalacija i podešavanje",
     "title": "Zatvaranje glasanja",
@@ -226,6 +251,7 @@
   },
   {
     "id": "identifikacija-instalacija-026",
+    "source": "manual",
     "device": "Uređaj za identifikaciju birača",
     "section": "Instalacija i podešavanje",
     "title": "Konsolidacija i prijenos podataka",
@@ -235,6 +261,7 @@
   },
   {
     "id": "identifikacija-instalacija-027",
+    "source": "manual",
     "device": "Uređaj za identifikaciju birača",
     "section": "Instalacija i podešavanje",
     "title": "Izvještaj o zatvaranju glasanja",
@@ -244,6 +271,7 @@
   },
   {
     "id": "identifikacija-instalacija-028",
+    "source": "manual",
     "device": "Uređaj za identifikaciju birača",
     "section": "Instalacija i podešavanje",
     "title": "Ponovni ispis izvještaja o zatvaranju glasanja",
@@ -253,6 +281,7 @@
   },
   {
     "id": "identifikacija-troubleshooting-001",
+    "source": "manual",
     "device": "Uređaj za identifikaciju birača",
     "section": "Otklanjanje poteškoća",
     "title": "Hardver i napajanje",
@@ -262,6 +291,7 @@
   },
   {
     "id": "identifikacija-troubleshooting-002",
+    "source": "manual",
     "device": "Uređaj za identifikaciju birača",
     "section": "Otklanjanje poteškoća",
     "title": "PIN, prijava i pristup",
@@ -271,6 +301,7 @@
   },
   {
     "id": "identifikacija-troubleshooting-003",
+    "source": "manual",
     "device": "Uređaj za identifikaciju birača",
     "section": "Otklanjanje poteškoća",
     "title": "USB memorija i podaci",
@@ -280,6 +311,7 @@
   },
   {
     "id": "identifikacija-troubleshooting-004",
+    "source": "manual",
     "device": "Uređaj za identifikaciju birača",
     "section": "Otklanjanje poteškoća",
     "title": "Baterija i dijagnostika",
@@ -289,6 +321,7 @@
   },
   {
     "id": "identifikacija-troubleshooting-005",
+    "source": "manual",
     "device": "Uređaj za identifikaciju birača",
     "section": "Otklanjanje poteškoća",
     "title": "Štampanje",
@@ -298,6 +331,7 @@
   },
   {
     "id": "identifikacija-troubleshooting-006",
+    "source": "manual",
     "device": "Uređaj za identifikaciju birača",
     "section": "Otklanjanje poteškoća",
     "title": "Ostalo",
@@ -307,6 +341,7 @@
   },
   {
     "id": "identifikacija-troubleshooting-007",
+    "source": "manual",
     "device": "Uređaj za identifikaciju birača",
     "section": "Otklanjanje poteškoća",
     "title": "Ilustrovani primjeri",
@@ -316,6 +351,7 @@
   },
   {
     "id": "identifikacija-troubleshooting-008",
+    "source": "manual",
     "device": "Uređaj za identifikaciju birača",
     "section": "Otklanjanje poteškoća",
     "title": "Zamjena uređaja",
@@ -325,6 +361,7 @@
   },
   {
     "id": "identifikacija-troubleshooting-009",
+    "source": "manual",
     "device": "Uređaj za identifikaciju birača",
     "section": "Otklanjanje poteškoća",
     "title": "Zamjena USB memorijskog uređaja",
@@ -334,6 +371,7 @@
   },
   {
     "id": "skener-instalacija-001",
+    "source": "manual",
     "device": "Optički skener za brojanje glasova",
     "section": "Instalacija i podešavanje",
     "title": "Postavljanje glasačke kutije",
@@ -343,6 +381,7 @@
   },
   {
     "id": "skener-instalacija-002",
+    "source": "manual",
     "device": "Optički skener za brojanje glasova",
     "section": "Instalacija i podešavanje",
     "title": "Postavljanje optičkog skenera za brojanje glasova na vrh glasačke kutije",
@@ -352,6 +391,7 @@
   },
   {
     "id": "skener-instalacija-003",
+    "source": "manual",
     "device": "Optički skener za brojanje glasova",
     "section": "Instalacija i podešavanje",
     "title": "Instaliranje termalnog papira",
@@ -361,6 +401,7 @@
   },
   {
     "id": "skener-instalacija-004",
+    "source": "manual",
     "device": "Optički skener za brojanje glasova",
     "section": "Instalacija i podešavanje",
     "title": "Instaliranje rezervne baterije",
@@ -370,6 +411,7 @@
   },
   {
     "id": "skener-instalacija-005",
+    "source": "manual",
     "device": "Optički skener za brojanje glasova",
     "section": "Instalacija i podešavanje",
     "title": "Spajanje optičkog skenera za brojanje glasova na električnu utičnicu",
@@ -379,6 +421,7 @@
   },
   {
     "id": "skener-instalacija-006",
+    "source": "manual",
     "device": "Optički skener za brojanje glasova",
     "section": "Instalacija i podešavanje",
     "title": "Uključivanje optičkog skenera za brojanje glasova",
@@ -388,6 +431,7 @@
   },
   {
     "id": "skener-instalacija-007",
+    "source": "manual",
     "device": "Optički skener za brojanje glasova",
     "section": "Instalacija i podešavanje",
     "title": "Pokretanje dijagnostike optičkog skenera za brojanje glasova",
@@ -397,6 +441,7 @@
   },
   {
     "id": "skener-instalacija-008",
+    "source": "manual",
     "device": "Optički skener za brojanje glasova",
     "section": "Instalacija i podešavanje",
     "title": "Dijagnostika zvučnika",
@@ -406,6 +451,7 @@
   },
   {
     "id": "skener-instalacija-009",
+    "source": "manual",
     "device": "Optički skener za brojanje glasova",
     "section": "Instalacija i podešavanje",
     "title": "Dijagnostika štampača",
@@ -415,6 +461,7 @@
   },
   {
     "id": "skener-instalacija-010",
+    "source": "manual",
     "device": "Optički skener za brojanje glasova",
     "section": "Instalacija i podešavanje",
     "title": "Dijagnostika ekrana",
@@ -424,6 +471,7 @@
   },
   {
     "id": "skener-instalacija-011",
+    "source": "manual",
     "device": "Optički skener za brojanje glasova",
     "section": "Instalacija i podešavanje",
     "title": "Dijagnostika čitača pametnih kartica",
@@ -433,6 +481,7 @@
   },
   {
     "id": "skener-instalacija-012",
+    "source": "manual",
     "device": "Optički skener za brojanje glasova",
     "section": "Instalacija i podešavanje",
     "title": "Dijagnostika skenera",
@@ -442,6 +491,7 @@
   },
   {
     "id": "skener-instalacija-013",
+    "source": "manual",
     "device": "Optički skener za brojanje glasova",
     "section": "Instalacija i podešavanje",
     "title": "Dijagnostika LED trake",
@@ -451,6 +501,7 @@
   },
   {
     "id": "skener-instalacija-014",
+    "source": "manual",
     "device": "Optički skener za brojanje glasova",
     "section": "Instalacija i podešavanje",
     "title": "Dijagnostika USB modema",
@@ -460,6 +511,7 @@
   },
   {
     "id": "skener-instalacija-015",
+    "source": "manual",
     "device": "Optički skener za brojanje glasova",
     "section": "Instalacija i podešavanje",
     "title": "Dijagnostika transmisije",
@@ -469,6 +521,7 @@
   },
   {
     "id": "skener-instalacija-016",
+    "source": "manual",
     "device": "Optički skener za brojanje glasova",
     "section": "Instalacija i podešavanje",
     "title": "Dijagnostika napajanja",
@@ -478,6 +531,7 @@
   },
   {
     "id": "skener-instalacija-017",
+    "source": "manual",
     "device": "Optički skener za brojanje glasova",
     "section": "Instalacija i podešavanje",
     "title": "Pokretanje kompletne dijagnostike sa štampanjem dijagnostičkog izvještaja",
@@ -487,6 +541,7 @@
   },
   {
     "id": "skener-instalacija-018",
+    "source": "manual",
     "device": "Optički skener za brojanje glasova",
     "section": "Instalacija i podešavanje",
     "title": "Autentifikacija",
@@ -496,6 +551,7 @@
   },
   {
     "id": "skener-instalacija-019",
+    "source": "manual",
     "device": "Optički skener za brojanje glasova",
     "section": "Instalacija i podešavanje",
     "title": "Pristup otvaranju biračkog mjesta",
@@ -505,6 +561,7 @@
   },
   {
     "id": "skener-instalacija-020",
+    "source": "manual",
     "device": "Optički skener za brojanje glasova",
     "section": "Instalacija i podešavanje",
     "title": "Izvještaj o inicijalizaciji",
@@ -514,6 +571,7 @@
   },
   {
     "id": "skener-instalacija-021",
+    "source": "manual",
     "device": "Optički skener za brojanje glasova",
     "section": "Instalacija i podešavanje",
     "title": "Glasanje",
@@ -523,6 +581,7 @@
   },
   {
     "id": "skener-instalacija-022",
+    "source": "manual",
     "device": "Optički skener za brojanje glasova",
     "section": "Instalacija i podešavanje",
     "title": "Proces glasanja",
@@ -532,6 +591,7 @@
   },
   {
     "id": "skener-instalacija-023",
+    "source": "manual",
     "device": "Optički skener za brojanje glasova",
     "section": "Instalacija i podešavanje",
     "title": "Scenariji obrade glasačkog listića",
@@ -541,6 +601,7 @@
   },
   {
     "id": "skener-instalacija-024",
+    "source": "manual",
     "device": "Optički skener za brojanje glasova",
     "section": "Instalacija i podešavanje",
     "title": "Ostali scenariji",
@@ -550,6 +611,7 @@
   },
   {
     "id": "skener-instalacija-025",
+    "source": "manual",
     "device": "Optički skener za brojanje glasova",
     "section": "Instalacija i podešavanje",
     "title": "Zatvaranje glasanja",
@@ -559,6 +621,7 @@
   },
   {
     "id": "skener-instalacija-026",
+    "source": "manual",
     "device": "Optički skener za brojanje glasova",
     "section": "Instalacija i podešavanje",
     "title": "Konsolidacija rezultata",
@@ -568,6 +631,7 @@
   },
   {
     "id": "skener-instalacija-027",
+    "source": "manual",
     "device": "Optički skener za brojanje glasova",
     "section": "Instalacija i podešavanje",
     "title": "Prijenos izbornih rezultata",
@@ -577,6 +641,7 @@
   },
   {
     "id": "skener-troubleshooting-001",
+    "source": "manual",
     "device": "Optički skener za brojanje glasova",
     "section": "Otklanjanje poteškoća",
     "title": "Postupak zamjene role termalnog papira",
@@ -586,6 +651,7 @@
   },
   {
     "id": "skener-troubleshooting-002",
+    "source": "manual",
     "device": "Optički skener za brojanje glasova",
     "section": "Otklanjanje poteškoća",
     "title": "Zamjena USB memorijskog uređaja",
@@ -595,6 +661,7 @@
   },
   {
     "id": "skener-troubleshooting-003",
+    "source": "manual",
     "device": "Optički skener za brojanje glasova",
     "section": "Otklanjanje poteškoća",
     "title": "Zamjena optičkog skenera za brojanje glasova",
@@ -604,6 +671,7 @@
   },
   {
     "id": "skener-troubleshooting-004",
+    "source": "manual",
     "device": "Optički skener za brojanje glasova",
     "section": "Otklanjanje poteškoća",
     "title": "Opći problemi – Poklopac glasačke kutije ne pristaje na odgovarajući način na…",
@@ -613,6 +681,7 @@
   },
   {
     "id": "skener-troubleshooting-005",
+    "source": "manual",
     "device": "Optički skener za brojanje glasova",
     "section": "Otklanjanje poteškoća",
     "title": "Opći problemi – Optički skener za brojanje glasova ne leži sigurno na poklopcu…",
@@ -622,6 +691,7 @@
   },
   {
     "id": "skener-troubleshooting-006",
+    "source": "manual",
     "device": "Optički skener za brojanje glasova",
     "section": "Otklanjanje poteškoća",
     "title": "Opći problemi – Nedostaju pribor ili komponente.",
@@ -631,6 +701,7 @@
   },
   {
     "id": "skener-troubleshooting-007",
+    "source": "manual",
     "device": "Optički skener za brojanje glasova",
     "section": "Otklanjanje poteškoća",
     "title": "Opći problemi – Biračkom mjestu nedostaju odgovarajući uslovi za postavljanje…",
@@ -640,6 +711,7 @@
   },
   {
     "id": "skener-troubleshooting-008",
+    "source": "manual",
     "device": "Optički skener za brojanje glasova",
     "section": "Otklanjanje poteškoća",
     "title": "Opći problemi – Neklasifikovani problemi s podešavanjem biračkog mjesta ili radom…",
@@ -649,6 +721,7 @@
   },
   {
     "id": "skener-troubleshooting-009",
+    "source": "manual",
     "device": "Optički skener za brojanje glasova",
     "section": "Otklanjanje poteškoća",
     "title": "Opći problemi – Pojavljuje se poruka „Čišćenje skenera nije dovršeno“.",
@@ -658,6 +731,7 @@
   },
   {
     "id": "skener-troubleshooting-010",
+    "source": "manual",
     "device": "Optički skener za brojanje glasova",
     "section": "Otklanjanje poteškoća",
     "title": "Problem s napajanjem – Optički skener za brojanje glasova se ne može uključiti, a LED…",
@@ -667,6 +741,7 @@
   },
   {
     "id": "skener-troubleshooting-011",
+    "source": "manual",
     "device": "Optički skener za brojanje glasova",
     "section": "Otklanjanje poteškoća",
     "title": "Problem s napajanjem – Optički skener za brojanje glasova se nasumično gasi.",
@@ -676,6 +751,7 @@
   },
   {
     "id": "skener-troubleshooting-012",
+    "source": "manual",
     "device": "Optički skener za brojanje glasova",
     "section": "Otklanjanje poteškoća",
     "title": "Mehanički problemi – Glasačka kutija ili poklopac glasačke kutije je oštećen ili udubljen.",
@@ -685,6 +761,7 @@
   },
   {
     "id": "skener-troubleshooting-013",
+    "source": "manual",
     "device": "Optički skener za brojanje glasova",
     "section": "Otklanjanje poteškoća",
     "title": "Mehanički problemi – LCD ekran optičkog skenera za brojanje glasova je slomljen ili…",
@@ -694,6 +771,7 @@
   },
   {
     "id": "skener-troubleshooting-014",
+    "source": "manual",
     "device": "Optički skener za brojanje glasova",
     "section": "Otklanjanje poteškoća",
     "title": "Mehanički problemi – Dijagnostika štampača prikazuje grešku ili se ne može završiti.",
@@ -703,6 +781,7 @@
   },
   {
     "id": "skener-troubleshooting-015",
+    "source": "manual",
     "device": "Optički skener za brojanje glasova",
     "section": "Otklanjanje poteškoća",
     "title": "Mehanički problemi – Optički skene za brojanje glasova prikazuje „Izvještaj nije mogao…",
@@ -712,6 +791,7 @@
   },
   {
     "id": "skener-troubleshooting-016",
+    "source": "manual",
     "device": "Optički skener za brojanje glasova",
     "section": "Otklanjanje poteškoća",
     "title": "Mehanički problemi – Papir izlazi kroz termalni štampač, ali se u izvještajima ne…",
@@ -721,6 +801,7 @@
   },
   {
     "id": "skener-troubleshooting-017",
+    "source": "manual",
     "device": "Optički skener za brojanje glasova",
     "section": "Otklanjanje poteškoća",
     "title": "Mehanički problemi – Papir štampača je zaglavljen i prilikom štampanja se ne prikazuje…",
@@ -730,6 +811,7 @@
   },
   {
     "id": "skener-troubleshooting-018",
+    "source": "manual",
     "device": "Optički skener za brojanje glasova",
     "section": "Otklanjanje poteškoća",
     "title": "Greške pri pokretanju – Optički skener za brojanje glasova prikazuje greške prilikom…",
@@ -739,6 +821,7 @@
   },
   {
     "id": "skener-troubleshooting-019",
+    "source": "manual",
     "device": "Optički skener za brojanje glasova",
     "section": "Otklanjanje poteškoća",
     "title": "Greške pri pokretanju – Optički skener za brojanje glasova pokazuje grešku.",
@@ -748,6 +831,7 @@
   },
   {
     "id": "skener-troubleshooting-020",
+    "source": "manual",
     "device": "Optički skener za brojanje glasova",
     "section": "Otklanjanje poteškoća",
     "title": "Greške pri pokretanju – Optički skener za brojanje glasova prikazuje poruku o nepopravljivoj…",
@@ -757,6 +841,7 @@
   },
   {
     "id": "skener-troubleshooting-021",
+    "source": "manual",
     "device": "Optički skener za brojanje glasova",
     "section": "Otklanjanje poteškoća",
     "title": "Greške pri pokretanju – Optički skener za brojanje glasova ne reaguje ni na kakvu interakciju…",
@@ -766,6 +851,7 @@
   },
   {
     "id": "skener-troubleshooting-022",
+    "source": "manual",
     "device": "Optički skener za brojanje glasova",
     "section": "Otklanjanje poteškoća",
     "title": "Greške pri pokretanju – Ekran optičkog skenera za brojanje glasova je prazan, prikazuje više…",
@@ -775,6 +861,7 @@
   },
   {
     "id": "skener-troubleshooting-023",
+    "source": "manual",
     "device": "Optički skener za brojanje glasova",
     "section": "Otklanjanje poteškoća",
     "title": "Poruke o greškama na početnom ekranu – „PIN koji ste unijeli nije tačan.“",
@@ -784,6 +871,7 @@
   },
   {
     "id": "skener-troubleshooting-024",
+    "source": "manual",
     "device": "Optički skener za brojanje glasova",
     "section": "Otklanjanje poteškoća",
     "title": "Poruke o greškama na početnom ekranu – „Dostignuto je vrijeme za autentifikaciju korisnika.“",
@@ -793,6 +881,7 @@
   },
   {
     "id": "skener-troubleshooting-025",
+    "source": "manual",
     "device": "Optički skener za brojanje glasova",
     "section": "Otklanjanje poteškoća",
     "title": "Problemi s aplikacijom – Optički skener za brojanje glasova prikazuje: „Pokrenute funkcije…",
@@ -802,6 +891,7 @@
   },
   {
     "id": "skener-troubleshooting-026",
+    "source": "manual",
     "device": "Optički skener za brojanje glasova",
     "section": "Otklanjanje poteškoća",
     "title": "Problemi s aplikacijom – Glasački listić možda neće biti skeniran.",
@@ -811,6 +901,7 @@
   },
   {
     "id": "skener-troubleshooting-027",
+    "source": "manual",
     "device": "Optički skener za brojanje glasova",
     "section": "Otklanjanje poteškoća",
     "title": "Problemi s aplikacijom – Nevažeći papirni glasački listić.",
@@ -820,6 +911,7 @@
   },
   {
     "id": "skener-troubleshooting-028",
+    "source": "manual",
     "device": "Optički skener za brojanje glasova",
     "section": "Otklanjanje poteškoća",
     "title": "Problemi s aplikacijom – Prazan / nedovoljno označen papirni glasački listić.",
@@ -829,6 +921,7 @@
   },
   {
     "id": "skener-troubleshooting-029",
+    "source": "manual",
     "device": "Optički skener za brojanje glasova",
     "section": "Otklanjanje poteškoća",
     "title": "Problemi s aplikacijom – Prekomjerno označen papirni glasački listić.",
@@ -838,11 +931,972 @@
   },
   {
     "id": "skener-troubleshooting-030",
+    "source": "manual",
     "device": "Optički skener za brojanje glasova",
     "section": "Otklanjanje poteškoća",
     "title": "Problemi s aplikacijom – Nepravilno uvučen papirni glasački listić.",
     "content": "Problem: Nepravilno uvučen papirni glasački listić.\nRješenje:\n• Dozvolite optičkom skeneru za brojanje glasova da vrati/odbije glasački listić.\n• Uklonite glasački listić samo kada je to sigurno i nemojte vući o transportni mehanizam.\n• Provjerite ima li na glasačkom listiću nabora ili oštećenja i ima li prepreka na ulazu, a zatim pokušajte ponovo.\n• Ako se pogrešno ubacivanje nastavi s važećim glasačkim listićima, pokrenite dijagnostiku skenera i kontaktirajte\ntehničku podršku.\nHvala na pažnji",
     "pageStart": 57,
     "pageEnd": 58
+  },
+  {
+    "id": "faq-001",
+    "source": "faq",
+    "device": "Opće informacije (operater FAQ)",
+    "section": "Uloge: operater, terenski tehničar i birački odbor",
+    "title": "Koja je razlika između operatera, terenskog tehničara i biračkog odbora (BO)?",
+    "content": "1.1 Koja je razlika između operatera, terenskog tehničara i biračkog odbora (BO)?\n● Operater: Operater je lice zaduženo za instalaciju, provjeru funkcionalnosti i pripremu uređaja za\nbiometrijsku identifikaciju/autentifikaciju i skenera glasačkih listića, njihovu deinstalaciju, kao i\nrješavanje svih tehničkih problema na biračkom mjestu u vezi ovih uređaja. Operater radi pod\nnadzorom predsjednika biračkog odbora. U slučaju potrebe, operater kontaktira tehničare tehničke\npodrške radi zamjene neispravnog uređaja.Instalira i provjerava uređaje u subotu, dan prije izbora,\npruža podršku biračkom odboru tokom izbornog dana i predstavlja prvi nivo tehničke podrške. Radi\npod nadzorom predsjednika biračkog odbora. Operater nije član biračkog odbora.\n● Terenski tehničar: Tehničar tereske podrške na poziv operatera dolaze na biračko mjesto i rješavaju\nprobleme u radu uređaja za biometrijsku identifikaciju/autentifikaciju i skenera glasačkih listića, prvo\nna poziv operatera, a po potrebi i na liocu mjesta. Ukoliko tehničar tehničke podrške ne može riješiti\ntehnički problem na uređaju, kontaktira call centar, proglašava uređaj neispravnim i organizuje\nzamjenu za novi ispravni uređaj.\n● Birački odbor (BO): Birački odbor neposredno rukovodi radom biračkog mjesta, osigurava pravilnost i\ntajnost glasanja i evidentira rezultate glasanja na biračkom mjestu.",
+    "pageStart": 4,
+    "pageEnd": 4
+  },
+  {
+    "id": "faq-002",
+    "source": "faq",
+    "device": "Opće informacije (operater FAQ)",
+    "section": "Uloge: operater, terenski tehničar i birački odbor",
+    "title": "Zašto uređaji traže profil tehničara ako sam ja operater?",
+    "content": "1.2 Zašto uređaji traže profil tehničara ako sam ja operater?\nNa oba uređaja, uređaju za biometrijsku identifikaciju i optičkom skeneru za brojanje glasova, naziv profila koji\nse koristi i za operatera i za tehničara je „Tehničar“, međutim naziv sistemskog profila je „Tehničar“. Operater\ni tehničar obavljaju različite funkcije i aktivnosti, iako koriste isti profil u sistemu.",
+    "pageStart": 4,
+    "pageEnd": 4
+  },
+  {
+    "id": "faq-003",
+    "source": "faq",
+    "device": "Opće informacije (operater FAQ)",
+    "section": "Uloge: operater, terenski tehničar i birački odbor",
+    "title": "Da li operater obučava predsjednika BO?",
+    "content": "1.3 Da li operater obučava predsjednika BO?\nNe. CIK BiH je zadužena za obuku predsjednika/zamjenika predsjednika biračkih odbora.",
+    "pageStart": 4,
+    "pageEnd": 4
+  },
+  {
+    "id": "faq-004",
+    "source": "faq",
+    "device": "Opće informacije (operater FAQ)",
+    "section": "Uloge: operater, terenski tehničar i birački odbor",
+    "title": "Hoću li biti raspoređen na jednu ili na više lokacija biračkih mjesta?",
+    "content": "1.4 Hoću li biti raspoređen na jednu ili na više lokacija biračkih mjesta?\nOperater može biti raspoređen na više biračkih mjesta. Dodijeljene lokacije vidljive su u odjeljku „Assignments“\naplikacije Smart Poll Worker.",
+    "pageStart": 4,
+    "pageEnd": 4
+  },
+  {
+    "id": "faq-005",
+    "source": "faq",
+    "device": "Opće informacije (operater FAQ)",
+    "section": "Uloge: operater, terenski tehničar i birački odbor",
+    "title": "Može li terenski tehničar tokom izbora čekati kod kuće?",
+    "content": "1.5 Može li terenski tehničar tokom izbora čekati kod kuće?\nNe. Terenski tehničar treba obilaziti birača mjesta koji su mu dodijeljena, i u subotu i u nedjelju, i biti dostupan\nza pozive operatera.",
+    "pageStart": 4,
+    "pageEnd": 4
+  },
+  {
+    "id": "faq-006",
+    "source": "faq",
+    "device": "Opće informacije (operater FAQ)",
+    "section": "Uloge: operater, terenski tehničar i birački odbor",
+    "title": "Zašto su na obuci prikazani i koraci koje obavlja BO?",
+    "content": "1.6 Zašto su na obuci prikazani i koraci koje obavlja BO?\nObuka pokazuje cijeli proces na oba uređaja kako bi operater razumio šta birački odbor radi i mogao mu pružiti\npodršku kada je zatraži. To ne znači da operater izvodi te korake. Otvaranje i zatvaranje izbora na uređajima,\nkonsolidaciju i prijenos rezultata vrši predsjednik biračkog odbora. Idnetifikaciju birača vrši član biračkog odbora\nzadužen za identifikaciju birača.",
+    "pageStart": 4,
+    "pageEnd": 4
+  },
+  {
+    "id": "faq-007",
+    "source": "faq",
+    "device": "Uređaj za identifikaciju birača",
+    "section": "Zadaci operatera tokom izbora",
+    "title": "Da li operater identifikuje birače na biometrijskom uređaju za identifikaciju birača?",
+    "content": "2.1 Da li operater identifikuje birače na biometrijskom uređaju za identifikaciju birača?\nNe. Identifikaciju birača vrši član biračkog odbora zadužen za identifikaciju, sa svojim PIN-om. Operater ne\nprovlači lične dokumente, ne uzima otiske prstiju i ne daje biraču potvrdu na potpis. Ako član biračkog odbora\nzadužen za identifikaciju ima problem s uređajem, operater mu pruža podršku.",
+    "pageStart": 5,
+    "pageEnd": 5
+  },
+  {
+    "id": "faq-008",
+    "source": "faq",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Zadaci operatera tokom izbora",
+    "title": "Da li operater pomaže biračima sa skenerom glasačkih listića?",
+    "content": "2.2 Da li operater pomaže biračima sa skenerom glasačkih listića?\nBirač sam ubacuje svoje glasačke listiće, jedan po jedan. Operater intervenira samo u slučaju tehničkog\nproblema, na primjer zaglavljivanja listića, i uvijek zajedno s članom biračkog odbora koji nadgleda skener,\nčuvajući tajnost glasanja.\nObjašnjavanje biračima kako da označe i ubace listić, uključujući starije birače, zadatak je člana biračkog odbora\nzaduženog za izdavanje glasačkih listića, a ne operatera.",
+    "pageStart": 5,
+    "pageEnd": 5
+  },
+  {
+    "id": "faq-009",
+    "source": "faq",
+    "device": "Opće informacije (operater FAQ)",
+    "section": "Zadaci operatera tokom izbora",
+    "title": "Koji su zadaci operatera po danima?",
+    "content": "2.3 Koji su zadaci operatera po danima?\nDan Zadaci operatera\nSubota (dan\nprije izbora)\n● Dolazak nja biračko mjesto i označavanje „Arrived“ u aplikaciji Smart Poll Worker.\n● Instalacija i dijagnostika uređaja, u prisustvu biračkog odbora i pod nadzorom\npredsjednika biračkog odbora.\n● Predaja izvještaja o dijagnostici predsjedniku biračkog odbora.\n● Popunjavanje anketa i označavanje „Finished“.\nNedjelja\n(izborni dan)\n● Dolazak najmanje 1 sat prije otvaranja biračkog mjesta (6 sati) i označavanje\n„Arrived“ u aplikaciji Smart Poll Worker.\n● Uključivanje uređaja.\n● Kontinuirana podrška tokom cijelog izbornog dana.\n● Otklanjanje tehničkih problema na biračkom mjestu, kada je to moguće.\n● Prijava terenskom tehničaru svakog problema koji se ne može riješiti na biračkom\nmjestu.\nZatvaranje ● Podrška predsjedniku biračkog odbora pri zatvaranju, konsolidaciji i prijenosu\nrezultata, samo ako se zatraži.\n● Deinstalacija i pakovanje uređaja nakon prijenosa rezultata.\n● Popunjavanje anketa i označavanje „Finished“.",
+    "pageStart": 5,
+    "pageEnd": 5
+  },
+  {
+    "id": "faq-010",
+    "source": "faq",
+    "device": "Opće informacije (operater FAQ)",
+    "section": "Zadaci operatera tokom izbora",
+    "title": "Ko šta radi? Pregled po aktivnostima Aktivnost Izvršilac Uloga operatera",
+    "content": "2.4 Ko šta radi? Pregled po aktivnostima\nAktivnost Izvršilac Uloga operatera\nOtvaranje prijenosnog kofera i\ninstalacija uređaja (subota)\nOperater, pod nadzorom\npredsjednika BO i u prisustvu\nčlanova BO\nIzvršilac\nDijagnostika (subota) Operater, koristeći profil\n„Tehničar“\nIzvršilac\nUključivanje uređaja (nedjelja) Operater Izvršilac\nOtvaranje biračkog mjesta Predsjednik BO (pametna kartica i\nPIN)\nPrisutan; pruža podršku po\npotrebi\nIdentifikacija birača Član BO zadužen za identifikaciju\n(PIN)\nPruža podršku samo kod\nproblema s uređajem\nUbacivanje glasačkih listića Birač, pod nadzorom člana BO Samo u slučaju tehničkog\nproblema\nUklanjanje zaglavljenog glasačkog\nlistića\nČlan BO; ako ne uspije, operater Pomaže\nZamjena termo papira Član BO; ako ne uspije, operater Pomaže na zahtjev\nZatvaranje, konsolidacija,\nštampanje i prijenos rezultata\nPredsjednik BO Pruža podršku samo na zahtjev\nDeinstalacija i pakovanje uređaja Operater Izvršilac\nPrijava tehničkih problema Operater → terenski tehničar →\npozivni centar (call centar)\nPokreće\nZamjena neispravnog uređaja Terenski tehničar i operater, uz\nodobrenje pozivnog centra (call\ncentar)\nUčestvuje",
+    "pageStart": 6,
+    "pageEnd": 6
+  },
+  {
+    "id": "faq-011",
+    "source": "faq",
+    "device": "Opće informacije (operater FAQ)",
+    "section": "Zadaci operatera tokom izbora",
+    "title": "Smije li operater raditi na uređajima bez prisustva biračkog odbora?",
+    "content": "2.5 Smije li operater raditi na uređajima bez prisustva biračkog odbora?\nNe. Operater radi pod nadzorom predsjednika biračkog odbora. Kofer s uređajem otvara se u prisustvu biračkog\nodbora, a svaka intervencija tokom glasanja obavlja se zajedno s predsjednikom biračkog odbora.",
+    "pageStart": 6,
+    "pageEnd": 6
+  },
+  {
+    "id": "faq-012",
+    "source": "faq",
+    "device": "Opće informacije (operater FAQ)",
+    "section": "Otvaranje, zatvaranje, konsolidacija i prijenos rezultata",
+    "title": "Ko otvara i zatvara biračko mjesto na uređajima?",
+    "content": "3.1 Ko otvara i zatvara biračko mjesto na uređajima?\nPredsjednikbiračkog odbora otvara i zatvara biračko mjesto (izbore) svojom pametnom karticom i PIN-om.\nOperater ne otvara niti zatvara biračko mjesto i ne unosi PIN predsjednika. Operater je prisutan kako bi pružio\npodršku, samo ako je potrebno.",
+    "pageStart": 6,
+    "pageEnd": 6
+  },
+  {
+    "id": "faq-013",
+    "source": "faq",
+    "device": "Opće informacije (operater FAQ)",
+    "section": "Otvaranje, zatvaranje, konsolidacija i prijenos rezultata",
+    "title": "Ko obavlja konsolidaciju i prijenos rezultata?",
+    "content": "3.2 Ko obavlja konsolidaciju i prijenos rezultata?\nPredsjednik biračkog odbora. Operater pruža podršku samo ako se to zatraži.",
+    "pageStart": 7,
+    "pageEnd": 7
+  },
+  {
+    "id": "faq-014",
+    "source": "faq",
+    "device": "Uređaj za identifikaciju birača",
+    "section": "Otvaranje, zatvaranje, konsolidacija i prijenos rezultata",
+    "title": "Koji se profili koriste na biometrijskom uređaju za identifikaciju birača i kada?",
+    "content": "3.3 Koji se profili koriste na biometrijskom uređaju za identifikaciju birača i kada?\n● Subota: Profil tehničara (operater), za instalaciju i dijagnostiku.\n● Nedjelja: Otvaranje i zatvaranje: Potrebno je odobrenje pametnom karticom i PIN-om predsjednika\nBO.\n● Nedjelja: Pretraga birača: PIN člana BO zaduženog za identifikaciju, a pametna kartica i PIN\npredsjednika biračkog odbora samo u propisanim slučajevima (npr. pomoć biraču, nepotpuni\nbiometrijski podaci i dr.).",
+    "pageStart": 7,
+    "pageEnd": 7
+  },
+  {
+    "id": "faq-015",
+    "source": "faq",
+    "device": "Opće informacije (operater FAQ)",
+    "section": "Otvaranje, zatvaranje, konsolidacija i prijenos rezultata",
+    "title": "Da li se biračko mjesto na uređajima automatski zatvara u 19:00 sati?",
+    "content": "3.4 Da li se biračko mjesto na uređajima automatski zatvara u 19:00 sati?\nNe. Automatsko zatvaranje ne postoji. Biračko mjesto se ne može zatvoriti prije 19:00 sati. Zatvaranje biračkog\nmjesta odobrava predsjednik biračkog odbora svojom pametnom karticom i PIN-om. Biračko mjesto se zatvara\nu 19 sati, a ukoliko je bilo prekida u radu biračkog odbora, u skladu s pravilima CIK BiH o završetku glasanja i\nzatvaranju biračkog mjesta.",
+    "pageStart": 7,
+    "pageEnd": 7
+  },
+  {
+    "id": "faq-016",
+    "source": "faq",
+    "device": "Opće informacije (operater FAQ)",
+    "section": "Otvaranje, zatvaranje, konsolidacija i prijenos rezultata",
+    "title": "Šta je prvo na kraju glasanja: štampanje izvještaja o rezultatima ili prijenos rezultata?",
+    "content": "3.5 Šta je prvo na kraju glasanja: štampanje izvještaja o rezultatima ili prijenos rezultata?\nNakon što se zatvori biračko mjesto, Prvo se štampaju rezultati glasanja, a nakon toga se vrši transmisija\nrezultata.",
+    "pageStart": 7,
+    "pageEnd": 7
+  },
+  {
+    "id": "faq-017",
+    "source": "faq",
+    "device": "Opće informacije (operater FAQ)",
+    "section": "Instalacija i dijagnostika dan prije izbora (subota)",
+    "title": "Da li se dijagnostika radi samo u subotu ili i u nedjelju?",
+    "content": "4.1 Da li se dijagnostika radi samo u subotu ili i u nedjelju?\nSamo u subotu, dijagnostika se vrši nakon instalacije uređaja. Prije otvaranja biračkog mjesta operateri su dužni\nprovjeriti funkcionačnost uređaja o čemu izvještavaju izbornu komisiju putem predsjednika biračkog odbora.",
+    "pageStart": 7,
+    "pageEnd": 7
+  },
+  {
+    "id": "faq-018",
+    "source": "faq",
+    "device": "Opće informacije (operater FAQ)",
+    "section": "Instalacija i dijagnostika dan prije izbora (subota)",
+    "title": "Da li nakon dijagnostike ostavljam uređaje instalirane ili ih vraćam u kofere?",
+    "content": "4.2 Da li nakon dijagnostike ostavljam uređaje instalirane ili ih vraćam u kofere?\nUređaji se isključuju i odlažu u kofere, a u nedjelju se ponovo sklapaju prije 07:00 sati.",
+    "pageStart": 7,
+    "pageEnd": 7
+  },
+  {
+    "id": "faq-019",
+    "source": "faq",
+    "device": "Opće informacije (operater FAQ)",
+    "section": "Instalacija i dijagnostika dan prije izbora (subota)",
+    "title": "Kada se stavljaju plombe?",
+    "content": "4.3 Kada se stavljaju plombe?\nNa dan izbora, prije 07:00 sati, nakon što se potvrdi da je glasačka kutija potpuno prazna, stavljaju se 4 plombe\nna glasačku kutiju, postavlja skener na poklopac glasačke kutije i vrši njegovo plombiranje za glasačku kutiju,\nplombiranjem poklopca skenera sa stražnje strane.",
+    "pageStart": 7,
+    "pageEnd": 7
+  },
+  {
+    "id": "faq-020",
+    "source": "faq",
+    "device": "Uređaj za identifikaciju birača",
+    "section": "Instalacija i dijagnostika dan prije izbora (subota)",
+    "title": "Šta mi je potrebno za dijagnostiku biometrijskog uređaja za identifikaciju birača? Mogu li koristiti svoju ličnu kartu?",
+    "content": "4.4 Šta mi je potrebno za dijagnostiku biometrijskog uređaja za identifikaciju birača? Mogu li\nkoristiti svoju ličnu kartu?\n● MRZ čitač: Može se koristiti bilo koji dokument s MRZ kodom, uključujući vašu ličnu kartu.\n● Čitač barkoda: Barkod koji odštampa dijagnostika štampača (preporučeno) ili bilo koji identifikacioni\ndokument s barkodom.\n● Čitač pametnih kartica: Pametne kartice koje pripadaju biometrijskom uređaju za identifikaciju birača.\n● Čitač otisaka prstiju: Koristi se prst osobe koja obavlja dijagnostiku (ili bilo koje druge osobe).\nVažno: Pametne kartice biometrijskog uređaja za identifikaciju birača ne smiju se miješati s pametnim\nkarticama skenera glasačkih listića.",
+    "pageStart": 7,
+    "pageEnd": 8
+  },
+  {
+    "id": "faq-021",
+    "source": "faq",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Instalacija i dijagnostika dan prije izbora (subota)",
+    "title": "Šta mi je potrebno za dijagnostiku skenera glasačkih listića?",
+    "content": "4.5 Šta mi je potrebno za dijagnostiku skenera glasačkih listića?\nDijagnostički glasački listić i USB modem. Oboje se nalazi u koferu skenera. Dijagnostički glasački listić može se\nubaciti u bilo kojem smjeru, licem prema gore ili prema dolje.",
+    "pageStart": 8,
+    "pageEnd": 8
+  },
+  {
+    "id": "faq-022",
+    "source": "faq",
+    "device": "Opće informacije (operater FAQ)",
+    "section": "Instalacija i dijagnostika dan prije izbora (subota)",
+    "title": "Šta da radim s odštampanim izvještajem o dijagnostici?",
+    "content": "4.6 Šta da radim s odštampanim izvještajem o dijagnostici?\nIzvještaj o dijagnoistici se dostavlja predsjedniku biračkog odbora, koji izvještaj prilaže u Zapisnik o radu\nbiračkog odbora.",
+    "pageStart": 8,
+    "pageEnd": 8
+  },
+  {
+    "id": "faq-023",
+    "source": "faq",
+    "device": "Opće informacije (operater FAQ)",
+    "section": "Instalacija i dijagnostika dan prije izbora (subota)",
+    "title": "Da li je važno koji se uređaj prvi uključuje?",
+    "content": "4.7 Da li je važno koji se uređaj prvi uključuje?\nPrema propisima CIK BiH prvo se uključuje optički skener za brojanje glasova.",
+    "pageStart": 8,
+    "pageEnd": 8
+  },
+  {
+    "id": "faq-024",
+    "source": "faq",
+    "device": "Opće informacije (operater FAQ)",
+    "section": "Instalacija i dijagnostika dan prije izbora (subota)",
+    "title": "Ko čuva uređaje od subote do nedjelje?",
+    "content": "4.8 Ko čuva uređaje od subote do nedjelje?\nZaključano biračko mjesto osiguravaju pripadnici policije.",
+    "pageStart": 8,
+    "pageEnd": 8
+  },
+  {
+    "id": "faq-025",
+    "source": "faq",
+    "device": "Opće informacije (operater FAQ)",
+    "section": "Instalacija i dijagnostika dan prije izbora (subota)",
+    "title": "Šta ako uređaj ne prođe dijagnostiku?",
+    "content": "4.9 Šta ako uređaj ne prođe dijagnostiku?\nPonovite neuspjeli dijagnostički test prateći uputstva na ekranu. Ako i dalje test nije uspješan, kontaktirajte\nterenskog tehničara. Da li je uređaj potrebno zamijeniti, zavisi od procjene terenskog tehničara.",
+    "pageStart": 8,
+    "pageEnd": 8
+  },
+  {
+    "id": "faq-026",
+    "source": "faq",
+    "device": "Opće informacije (operater FAQ)",
+    "section": "Instalacija i dijagnostika dan prije izbora (subota)",
+    "title": "S kim operater instalira uređaje u subotu? Da li je terenski tehničar prisutan?",
+    "content": "4.10 S kim operater instalira uređaje u subotu? Da li je terenski tehničar prisutan?\nOperater obavlja instalaciju i dijagnostiku pod nadzorom predsjednika biračkog odbora i u prisustvu boračkog\nodbora. Uređaje od izborne komisije na biračkom mjestu preuzima birački odbor, a kofere s uređajima operater\npreuzima i otvara u njihovom prisustvu. Terenski tehničar nije prisutan tokom preuzimanje uređaja; dolazi kada\nje pozvan ili tokom obilaska dodijeljenih biračkih mjesta.",
+    "pageStart": 8,
+    "pageEnd": 8
+  },
+  {
+    "id": "faq-027",
+    "source": "faq",
+    "device": "Opće informacije (operater FAQ)",
+    "section": "Instalacija i dijagnostika dan prije izbora (subota)",
+    "title": "Kako da znam koji uređaj pripada kojem biračkom mjestu, na primjer u školi s više biračkih mjesta?",
+    "content": "4.11 Kako da znam koji uređaj pripada kojem biračkom mjestu, na primjer u školi s više biračkih\nmjesta?\nSvaki kofer s uređajem označen je šifrom biračkog mjesta. Prije instalacije uređaja, zajedno s biračkim odborom,\nprovjerite da li se šifra na koferu podudara s šifrom biračkog mjesta na kojem instalirate uređaj.",
+    "pageStart": 8,
+    "pageEnd": 8
+  },
+  {
+    "id": "faq-028",
+    "source": "faq",
+    "device": "Opće informacije (operater FAQ)",
+    "section": "Instalacija i dijagnostika dan prije izbora (subota)",
+    "title": "Da li se dijagnostika radi i na zamjenskom uređaju?",
+    "content": "4.12 Da li se dijagnostika radi i na zamjenskom uređaju?\nDijagnostku nije potrebno raditi.",
+    "pageStart": 8,
+    "pageEnd": 8
+  },
+  {
+    "id": "faq-029",
+    "source": "faq",
+    "device": "Opće informacije (operater FAQ)",
+    "section": "Pametne kartice i PIN",
+    "title": "Kada i kako dobijam svoj PIN?",
+    "content": "5.1 Kada i kako dobijam svoj PIN?\nPIN za profil „Tehničar“ nalazi se unutar plombiranog kofera, koji se otvara u prisustvu biračkog odbora.",
+    "pageStart": 8,
+    "pageEnd": 8
+  },
+  {
+    "id": "faq-030",
+    "source": "faq",
+    "device": "Opće informacije (operater FAQ)",
+    "section": "Pametne kartice i PIN",
+    "title": "Ko ima pametnu karticu?",
+    "content": "5.2 Ko ima pametnu karticu?\nPredsjednik biračkog odbora i zamjenik predsjednika biračkog odbora imaju svoju pametnu karticu i PIN za svaki\nod uređaja, koje koriste za odobravanje radnji. Svaki uređaj dolazi sa svojim pametnim karticama (2 po uređaju).\nOperater nema vlastitu pametnu karticu.\nVažno: Pametne kartice biometrijskog uređaja za identifikaciju birača ne smiju se miješati s pametnim\nkarticama skenera glasačkih listića.",
+    "pageStart": 8,
+    "pageEnd": 9
+  },
+  {
+    "id": "faq-031",
+    "source": "faq",
+    "device": "Opće informacije (operater FAQ)",
+    "section": "Pametne kartice i PIN",
+    "title": "Da li mi je za dijagnostiku potrebna pametna kartica predsjednika biračkog odbora?",
+    "content": "5.3 Da li mi je za dijagnostiku potrebna pametna kartica predsjednika biračkog odbora?\nDa. Koristi se za provjeru ispravnog rada čitača pametnih kartica na biometrijskom uređaju za identifikaciju\nbirača i na skeneru glasačkih listića. Sama dijagnostika obavlja se u profilu „Tehničar“, s PIN-om koji dolazi u\nkoferu uređaja.\nVažno: Pametne kartice biometrijskog uređaja za identifikaciju birača ne smiju se miješati s pametnim\nkarticama skenera glasačkih listića.",
+    "pageStart": 9,
+    "pageEnd": 9
+  },
+  {
+    "id": "faq-032",
+    "source": "faq",
+    "device": "Opće informacije (operater FAQ)",
+    "section": "Pametne kartice i PIN",
+    "title": "Da li operater ili terenski tehničar ima vlastitu pametnu karticu ili PIN?",
+    "content": "5.4 Da li operater ili terenski tehničar ima vlastitu pametnu karticu ili PIN?\nNi operater ni terenski tehničar nemaju vlastitu pametnu karticu, ali imaju svoj PIN. Operater koristi samo PIN\nza profil „Tehničar“, koji dolazi u koferu uređaja.",
+    "pageStart": 9,
+    "pageEnd": 9
+  },
+  {
+    "id": "faq-033",
+    "source": "faq",
+    "device": "Opće informacije (operater FAQ)",
+    "section": "Pametne kartice i PIN",
+    "title": "Šta se dešava ako nekoliko puta unesem pogrešan PIN?",
+    "content": "5.5 Šta se dešava ako nekoliko puta unesem pogrešan PIN?\nPristup se blokira na 59 sekundi.",
+    "pageStart": 9,
+    "pageEnd": 9
+  },
+  {
+    "id": "faq-034",
+    "source": "faq",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Zaglavljen glasački listić u skeneru",
+    "title": "Ko uklanja zaglavljeni glasački listić?",
+    "content": "6.1 Ko uklanja zaglavljeni glasački listić?\nPreporučuje se da birački odbor prvo pokuša riješiti problem. Ako ne uspije, pokušava operater. Ako je pomoć\ni dalje potrebna, problem se prijavljuje terenskom tehničaru i, po potrebi, pozivnom centru (call centar).",
+    "pageStart": 9,
+    "pageEnd": 9
+  },
+  {
+    "id": "faq-035",
+    "source": "faq",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Zaglavljen glasački listić u skeneru",
+    "title": "Kako se uklanja zaglavljeni glasački listić?",
+    "content": "6.2 Kako se uklanja zaglavljeni glasački listić?\nU većini slučajeva skener sam vraća glasački listić, uz poruku na ekranu. Ne gurajte glasački listić i ne izvlačite\nga protiv mehanizma; pustite da ga skener vrati.\nAko se glasački listić zaglavio na putanji uvlačenja skenera i ne može se normalno ni pomjeriti naprijed ni vratiti:\n● Ne izvlačite glasački listić protiv transportnog mehanizma i ne ubacujte drugi glasački listić.\n● Slijedite uputstva na ekranu, ako su prikazana.\n● Kada je to sigurno, pažljivo uklonite zaglavljeni papir i provjerite putanju uvlačenja zbog pocijepanih\nkomadića ili drugih prepreka. Za to će možda biti potrebno prekinuti jednu plombu, onu kojom je\nskener glasačkih listića pričvršćen za gornji poklopac.\n● Prije nastavka rada pokrenite dijagnostiku skenera.\n● Ako se papir ne može sigurno ukloniti, ako dio papira ostane u skeneru ili ako se zaglavljivanje\nponavlja, prestanite koristiti skener glasačkih listića i kontaktirajte tehničku podršku.\n● Ako je glasački listić zaglavljen na izlaznom otvoru, podignite skener glasačkih listića s glasačke kutije\nkako biste pristupili izlaznom otvoru.",
+    "pageStart": 9,
+    "pageEnd": 9
+  },
+  {
+    "id": "faq-036",
+    "source": "faq",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Zaglavljen glasački listić u skeneru",
+    "title": "Da li je zaglavljeni glasački listić već prebrojan?",
+    "content": "6.3 Da li je zaglavljeni glasački listić već prebrojan?\nNe. Glasački listić se evidentira kao skeniran tek kada su svi potrebni koraci obrade uspješno završeni; tada pada\nu glasačku kutiju i biva prebrojan. Ako u bilo kojoj fazi dođe do greške, glasački listić se automatski vraća biraču,\nčime se sprječava bilo kakvo neslaganje između fizičkog glasačkog listića i evidentiranog glasa.",
+    "pageStart": 9,
+    "pageEnd": 9
+  },
+  {
+    "id": "faq-037",
+    "source": "faq",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Konsolidacija rezultata sa dva skenera glasačkih listića",
+    "title": "Kako se konsolidiraju rezultati ako biračko mjesto ima više od jednog skenera?",
+    "content": "7.1 Kako se konsolidiraju rezultati ako biračko mjesto ima više od jednog skenera?\nBiračko mjesto s dva skenera glasačkih listića ima primarni i sekundarni skener (na primjer, 150A000.01 i\n150A000.02). Postupak je sljedeći:\n1. Kada nastupi vrijeme zatvaranja, zatvorite biračko mjesto na primarnom skeneru. Nakon zatvaranja\nodaberite opciju Konsolidacija.\n2. Kada se to zatraži, ubacite pametnu karticu dodijeljenu skeneru glasačkih listića.\n3. U meniju Konsolidacija pokrenite novu konsolidaciju. Time se rezultati primarnog skenera prenose na\npametnu karticu.\n4. Kada se postupak završi, izađite iz menija Konsolidacija i izvadite pametnu karticu.\n5. Pređite na sekundarni skener, prijavite se istim korisnikom i zatvorite biračko mjesto i na ovom\nuređaju. Nakon zatvaranja odaberite opciju Konsolidacija.\n6. Kada se to zatraži, ubacite istu pametnu karticu koja je korištena na primarnom skeneru.\n7. U meniju Konsolidacija odaberite opciju za objedinjavanje rezultata. Time se rezultati sekundarnog\nskenera prenose na pametnu karticu i kreira se jedinstveni paket konsolidiranih rezultata.\n8. Kada se postupak završi, odaberite opciju za štampanje izvještaja o konsolidiranim rezultatima.\n9. Nakon što se izvještaj odštampa, vratite se u meni Konsolidacija i odaberite opciju za prijenos\nrezultata.\n10. Nakon prijenosa slijedite proceduru za isključivanje uređaja i pakovanje.",
+    "pageStart": 10,
+    "pageEnd": 10
+  },
+  {
+    "id": "faq-038",
+    "source": "faq",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Konsolidacija rezultata sa dva skenera glasačkih listića",
+    "title": "Može li biračko mjesto imati tri ili više skenera?",
+    "content": "7.2 Može li biračko mjesto imati tri ili više skenera?\nNe. Najveći broj je dva skenera glasačkih listića po biračkom mjestu. Broj skenera za svako biračko mjesto\nutvrđuje se unaprijed, tako da konsolidacija s tri ili više skenera nije predviđena.",
+    "pageStart": 10,
+    "pageEnd": 10
+  },
+  {
+    "id": "faq-039",
+    "source": "faq",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Konsolidacija rezultata sa dva skenera glasačkih listića",
+    "title": "S kojeg se skenera štampaju i prenose rezultati?",
+    "content": "7.3 S kojeg se skenera štampaju i prenose rezultati?\nSa sekundarnog skenera, posljednjeg na kojem je završena konsolidacija. Prijenos se obavlja samo s tog skenera,\na ne sa svakog skenera zasebno.",
+    "pageStart": 10,
+    "pageEnd": 10
+  },
+  {
+    "id": "faq-040",
+    "source": "faq",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Konsolidacija rezultata sa dva skenera glasačkih listića",
+    "title": "Kako da znam da su oba skenera uključena?",
+    "content": "7.4 Kako da znam da su oba skenera uključena?\nPrje bilo kakve operacije na uređajima osigurajte da ste oba uređaja uključili na napajanje, te da ste uključili\noba uređaja na dugme sa stražnje strane uređaja.",
+    "pageStart": 10,
+    "pageEnd": 10
+  },
+  {
+    "id": "faq-041",
+    "source": "faq",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Konsolidacija rezultata sa dva skenera glasačkih listića",
+    "title": "Ko obavlja konsolidaciju?",
+    "content": "7.5 Ko obavlja konsolidaciju?\nPredsjednik biračkog odbora.",
+    "pageStart": 10,
+    "pageEnd": 10
+  },
+  {
+    "id": "faq-042",
+    "source": "faq",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Konsolidacija rezultata sa dva skenera glasačkih listića",
+    "title": "Ako biračko mjesto ima dva skenera, štampa li se jedan zajednički izvještaj ili po jedan za svaki skener?",
+    "content": "7.6 Ako biračko mjesto ima dva skenera, štampa li se jedan zajednički izvještaj ili po jedan za svaki\nskener?\nNakon konsolidacije štampa se jedan izvještaj o konsolidiranim rezultatima za oba skenera.",
+    "pageStart": 10,
+    "pageEnd": 10
+  },
+  {
+    "id": "faq-043",
+    "source": "faq",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Konsolidacija rezultata sa dva skenera glasačkih listića",
+    "title": "Šta ako konsolidacija ne uspije ili se neki korak uradi pogrešno?",
+    "content": "7.7 Šta ako konsolidacija ne uspije ili se neki korak uradi pogrešno?\nPostupak konsolidacije može se ponoviti. Ponovnim pokretanjem konsolidacije prepisuju se podaci na pametnoj\nkartici. Jedino se zatvaranje biračkog mjesta ne ponavlja, jer se na svakom skeneru obavlja samo jednom.",
+    "pageStart": 11,
+    "pageEnd": 11
+  },
+  {
+    "id": "faq-044",
+    "source": "faq",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Napajanje, baterija i isključivanje",
+    "title": "Da li je skener glasačkih listića istovremeno priključen i na električnu mrežu i na bateriju?",
+    "content": "8.1 Da li je skener glasačkih listića istovremeno priključen i na električnu mrežu i na bateriju?\nDa. Vanjska baterija ostaje priključena tokom cijelog izbornog dana (nedjelja) kao rezervno napajanje i isključuje\nse tek pri pakovanju.",
+    "pageStart": 11,
+    "pageEnd": 11
+  },
+  {
+    "id": "faq-045",
+    "source": "faq",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Napajanje, baterija i isključivanje",
+    "title": "Kako se priključuje baterija skenera glasačkih listića?",
+    "content": "8.2 Kako se priključuje baterija skenera glasačkih listića?\nPostavite bateriju na pod pored skenera, s izolacijom ispod nje. Crveni kabl priključite na pozitivni pol (+), a crni\nkabl na negativni pol (−), a zatim kabl baterije priključite na skener.\nVažno: Držite bateriju u uspravnom položaju i ne naginjite je. Također, vodite računa da ne pomiješate\nkleme i polove.",
+    "pageStart": 11,
+    "pageEnd": 11
+  },
+  {
+    "id": "faq-046",
+    "source": "faq",
+    "device": "Opće informacije (operater FAQ)",
+    "section": "Napajanje, baterija i isključivanje",
+    "title": "Šta se dešava ako nestane struje?",
+    "content": "8.3 Šta se dešava ako nestane struje?\nSkener glasačkih listića automatski prelazi na napajanje putem vanjske baterije i nastavlja svoj rad; ručno\nprebacivanje nije potrebno. Biometrijski uređaj za identifikaciju birača ima unutrašnju bateriju i nastavlja svoj\nrad.",
+    "pageStart": 11,
+    "pageEnd": 11
+  },
+  {
+    "id": "faq-047",
+    "source": "faq",
+    "device": "Opće informacije (operater FAQ)",
+    "section": "Napajanje, baterija i isključivanje",
+    "title": "Hoće li biti osigurni produžni kablovi?",
+    "content": "8.4 Hoće li biti osigurni produžni kablovi?\nDa.",
+    "pageStart": 11,
+    "pageEnd": 11
+  },
+  {
+    "id": "faq-048",
+    "source": "faq",
+    "device": "Opće informacije (operater FAQ)",
+    "section": "Napajanje, baterija i isključivanje",
+    "title": "Kako se uređaji pravilno isključuju?",
+    "content": "8.5 Kako se uređaji pravilno isključuju?\n● Skener glasačkih listića: U meniju „Upravljanje biračkim mjestom“ odaberite „Isključi skener“,\npotvrdite sa „Da“ i sačekajte da se LED indikator napajanja ugasi.\n● Biometrijski uređaj za identifikaciju birača: Izađite iz aplikacije, a zatim pritisnite i držite dugme za\nuključivanje dok se na ekranu ne pojavi opcija za isključivanje, na koju treba kliknuti.",
+    "pageStart": 11,
+    "pageEnd": 11
+  },
+  {
+    "id": "faq-049",
+    "source": "faq",
+    "device": "Opće informacije (operater FAQ)",
+    "section": "Napajanje, baterija i isključivanje",
+    "title": "Šta se dešava ako se uređaj greškom isključi?",
+    "content": "8.6 Šta se dešava ako se uređaj greškom isključi?\nPonovo ga uključite. Podaci su sačuvani i proces se nastavlja. Ako je skener glasačkih listića isključen tokom\nglasanja, prijavite se u meni pametnom karticom i PIN-om predsjednika biračkog odbora i odaberite „Nastavak\nizbora“.",
+    "pageStart": 11,
+    "pageEnd": 11
+  },
+  {
+    "id": "faq-050",
+    "source": "faq",
+    "device": "Opće informacije (operater FAQ)",
+    "section": "Napajanje, baterija i isključivanje",
+    "title": "Ako uređaji u subotu ostanu instalirani preko noći, da li se isključuju iz napajanja?",
+    "content": "8.7 Ako uređaji u subotu ostanu instalirani preko noći, da li se isključuju iz napajanja?\nDa, isključuju se.",
+    "pageStart": 11,
+    "pageEnd": 11
+  },
+  {
+    "id": "faq-051",
+    "source": "faq",
+    "device": "Opće informacije (operater FAQ)",
+    "section": "Napajanje, baterija i isključivanje",
+    "title": "Šta ako duže vrijeme nema struje ili se baterija isprazni?",
+    "content": "8.8 Šta ako duže vrijeme nema struje ili se baterija isprazni?\nOčekuje se da baterije skenera glasačkih listića i biometrijskog uređaja za identifikaciju birača traju duže od 12\nsati. Ako se baterija isprazni, kontaktirajte terenskog tehničara.",
+    "pageStart": 11,
+    "pageEnd": 11
+  },
+  {
+    "id": "faq-052",
+    "source": "faq",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Napajanje, baterija i isključivanje",
+    "title": "Kojim redoslijedom se priključuju mrežno napajanje i baterija optičkog skenera?",
+    "content": "8.9 Kojim redoslijedom se priključuju mrežno napajanje i baterija optičkog skenera?\nPrilikom priključivanja uređaja prvo se priključuje mrežno napajanje, a zatim kabal za rezervno napajanje, a\nisključivanje se vrđi obrnutim redoslijedom.",
+    "pageStart": 11,
+    "pageEnd": 12
+  },
+  {
+    "id": "faq-053",
+    "source": "faq",
+    "device": "Opće informacije (operater FAQ)",
+    "section": "USB modem i prijenos rezultata",
+    "title": "Da li USB modem ostaje priključen cijeli dan?",
+    "content": "9.1 Da li USB modem ostaje priključen cijeli dan?\nNe. Koristi se u dijagnostici dan prije izbora, u subotu, a zatim se uklanja. Ponovo se priključujena izborni dan\ntek kada ga skener zatraži za prijenos rezultata, i uklanja se nakon što se odštampa izvještaj o prijenosu.\nVažno: Ako se USB modem priključi prije nego što ga skener zatraži, skener prikazuje poruku o grešci i mora\nse isključiti.",
+    "pageStart": 12,
+    "pageEnd": 12
+  },
+  {
+    "id": "faq-054",
+    "source": "faq",
+    "device": "Optički skener za brojanje glasova",
+    "section": "USB modem i prijenos rezultata",
+    "title": "Da li skener šalje podatke tokom dana ili mu je za glasanje potreban internet?",
+    "content": "9.2 Da li skener šalje podatke tokom dana ili mu je za glasanje potreban internet?\nNe. Skener prenosi podatke samo na kraju dana, nakon konsolidacije. Tokom glasanja ne šalje nikakve podatke\ni nije priključen na internet.",
+    "pageStart": 12,
+    "pageEnd": 12
+  },
+  {
+    "id": "faq-055",
+    "source": "faq",
+    "device": "Opće informacije (operater FAQ)",
+    "section": "USB modem i prijenos rezultata",
+    "title": "Šta da radim ako nema signala?",
+    "content": "9.3 Šta da radim ako nema signala?\nPrije prijenosa rezultata glasanja skener prikazuje trake signala. Ako su trake zelene, prijenos se može obaviti.\nModem ima dvije SIM kartice (dual SIM). Pokušajte dobiti signal. Nakon nekoliko pokušaja, možete koristiti i\nruter, a ako prijenos nije ni tada uspješan označite uređaj kao REZULTATI NISU PRENESENI.",
+    "pageStart": 12,
+    "pageEnd": 12
+  },
+  {
+    "id": "faq-056",
+    "source": "faq",
+    "device": "Opće informacije (operater FAQ)",
+    "section": "USB modem i prijenos rezultata",
+    "title": "Šta ako prijenos ne uspije ni nakon nekoliko pokušaja?",
+    "content": "9.4 Šta ako prijenos ne uspije ni nakon nekoliko pokušaja?\nPonovite prijenos. Ako i nakon nekoliko pokušaja ne uspije, označite uređaj kao REZULTATI NISU PRENESENI i\nspakujte uređaj u prijenosni kofer. Prijenos rezultata izvrđit će se u sjedištu izborne komisije.",
+    "pageStart": 12,
+    "pageEnd": 12
+  },
+  {
+    "id": "faq-057",
+    "source": "faq",
+    "device": "Opće informacije (operater FAQ)",
+    "section": "USB modem i prijenos rezultata",
+    "title": "Šta ako je modem oštećen ili izgubljen?",
+    "content": "9.5 Šta ako je modem oštećen ili izgubljen?\nU principu se može koristiti modem obližnjeg biračkog mjesta (na primjer, u istoj školi).",
+    "pageStart": 12,
+    "pageEnd": 12
+  },
+  {
+    "id": "faq-058",
+    "source": "faq",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Čišćenje skenera glasačkih listića",
+    "title": "Kako se skener čisti?",
+    "content": "10.1 Kako se skener čisti?\nSlijedite ove korake samo ako to odobri pozivni centar:\n1. Nagnite ekran osjetljiv na dodir prema nazad. Iza njega se nalazi unutrašnji pristupni panel.\n2. Pronađite panel označen ikonom ruke. To su vratašca koja omogućavaju pristup CIS modulu.\n3. Čvrsto pritisnite ikonu ruke dok se vratašca ne otpuste i počnu otvarati.\n4. Pritisnite narandžastu tačku s natpisom „Press till click“ dok ne čujete klik, kako biste otpustili unutrašnji\nCIS mehanizam.\n5. Držite otpuštenu bravicu i djelimično izvucite CIS modul, tako da cijelo područje valjaka bude dostupno.\n6. Čistom, suhom krpom obrišite valjke i vodilice kroz koje prolaze glasački listići.\n7. Istom krpom obrišite i podignuti poklopac, jer se i na njemu skuplja prašina.\n8. Vratite CIS modul u prvobitni položaj unutar vodilice i pritisnite narandžastu tačku dok ne čujete klik.\n9. Zatvorite vratašca panela, pritiskajući ih dok potpuno ne kliknu na mjesto.",
+    "pageStart": 12,
+    "pageEnd": 12
+  },
+  {
+    "id": "faq-059",
+    "source": "faq",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Čišćenje skenera glasačkih listića",
+    "title": "Kada se skener čisti?",
+    "content": "10.2 Kada se skener čisti?\nČišćenje se u pravilu ne očekuje i ne obavlja se preventivno. Potrebno je samo ako skener počne uzastopno\nodbijati prihvatanje glasačkih listića, i to samo ako to odobri pozivni centar.",
+    "pageStart": 13,
+    "pageEnd": 13
+  },
+  {
+    "id": "faq-060",
+    "source": "faq",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Čišćenje skenera glasačkih listića",
+    "title": "Da li je krpa uključena? Treba li biti suha ili vlažna?",
+    "content": "10.3 Da li je krpa uključena? Treba li biti suha ili vlažna?\nKrpa je uključena u komplet. Koristi se suha.",
+    "pageStart": 13,
+    "pageEnd": 13
+  },
+  {
+    "id": "faq-061",
+    "source": "faq",
+    "device": "Opće informacije (operater FAQ)",
+    "section": "Termo papir",
+    "title": "Da li je unaprijed postavljena rolna dovoljna za cijeli dan?",
+    "content": "11.1 Da li je unaprijed postavljena rolna dovoljna za cijeli dan?\nSkener glasačkih listića i biometrijski uređaj za identifikaciju birača dolaze s već postavljenom rolnom termo\npapira. Ona može trajati cijeli dan; ako ne potraje, rolna se mijenja.\nVažno: Rolna papira biometrijskog uređaja za identifikaciju birača ne smije se miješati s rolnom papira\nskenera glasačkih listića.",
+    "pageStart": 13,
+    "pageEnd": 13
+  },
+  {
+    "id": "faq-062",
+    "source": "faq",
+    "device": "Opće informacije (operater FAQ)",
+    "section": "Termo papir",
+    "title": "Postoje li rezervne rolne?",
+    "content": "11.2 Postoje li rezervne rolne?\nDa. U koferu uređaja nalaze se tri dodatne rolne papira.",
+    "pageStart": 13,
+    "pageEnd": 13
+  },
+  {
+    "id": "faq-063",
+    "source": "faq",
+    "device": "Opće informacije (operater FAQ)",
+    "section": "Termo papir",
+    "title": "Kako se mijenja rolna papira?",
+    "content": "11.3 Kako se mijenja rolna papira?\n● Skener glasačkih listića: Otvorite poklopac štampača pomoću dugmeta (bravice). Izvadite iskorištenu\nrolnu i umetnite novu tako da se papir odmotava odozdo prema glavi štampača. Izvucite oko 5 cm\npapira i nježno zatvorite poklopac, pazeći da papir ne bude prignječen.\n● Biometrijski uređaj za identifikaciju birača: Otvorite poklopac štampača laganim pritiskom i\npodizanjem, izvadite iskorištenu rolnu i umetnite novu.",
+    "pageStart": 13,
+    "pageEnd": 13
+  },
+  {
+    "id": "faq-064",
+    "source": "faq",
+    "device": "Opće informacije (operater FAQ)",
+    "section": "Termo papir",
+    "title": "Šta se dešava ako papir nestane usred štampanja izvještaja ili potvrde?",
+    "content": "11.4 Šta se dešava ako papir nestane usred štampanja izvještaja ili potvrde?\n● Skener glasačkih listića: Skener prikazuje poruku „Izvještaj nije moguće odštampati“. Zamijenite rolnu\ni pritisnite „Pokušaj ponovo“ kako biste ponovo odštampali izvještaj. Ponavlja se samo štampanje, a ne\ncijeli postupak (na primjer, zatvaranje).\n● Biometrijski uređaj za identifikaciju birača: Svaki put kada se odštampa potvrda o verifikaciji birača,\nuređaj pita da li je odštampana. Ako nije, odgovorite „Ne“, zamijenite papir i nastavite postupak,\nuključujući štampanje potvrde koja nije odštampana. Verifikacija birača se ne ponavlja.",
+    "pageStart": 13,
+    "pageEnd": 13
+  },
+  {
+    "id": "faq-065",
+    "source": "faq",
+    "device": "Opće informacije (operater FAQ)",
+    "section": "Termo papir",
+    "title": "Ko mijenja papir?",
+    "content": "11.5 Ko mijenja papir?\nOperater. Za zamjenu papira nije potrebno zvati terenskog tehničara.",
+    "pageStart": 13,
+    "pageEnd": 13
+  },
+  {
+    "id": "faq-066",
+    "source": "faq",
+    "device": "Opće informacije (operater FAQ)",
+    "section": "Podrška i zamjena uređaja",
+    "title": "Koga da kontaktiram ako uređaj ima problem?",
+    "content": "12.1 Koga da kontaktiram ako uređaj ima problem?\nOperater prvo pokušava riješiti problem na licu mjesta. Ako ne uspije, operater direktno, telefonom, kontaktira\ndodijeljenog terenskog tehničara. Ako zajedno ne mogu riješiti problem, tehničar prijavljuje slučaj pozivnom\ncentru.",
+    "pageStart": 13,
+    "pageEnd": 13
+  },
+  {
+    "id": "faq-067",
+    "source": "faq",
+    "device": "Opće informacije (operater FAQ)",
+    "section": "Podrška i zamjena uređaja",
+    "title": "Kako ću znati ko je moj terenski tehničar i koji je njegov broj telefona?",
+    "content": "12.2 Kako ću znati ko je moj terenski tehničar i koji je njegov broj telefona?\nU odjeljku „Assignments“ (Raspored) aplikacije Smart Poll Worker.",
+    "pageStart": 14,
+    "pageEnd": 14
+  },
+  {
+    "id": "faq-068",
+    "source": "faq",
+    "device": "Opće informacije (operater FAQ)",
+    "section": "Podrška i zamjena uređaja",
+    "title": "Kako se mijenja neispravan uređaj?",
+    "content": "12.3 Kako se mijenja neispravan uređaj?\nAko pozivni centar odobri zamjenu, tehničar preuzima rezervni uređaj u prostorijama općinske ili gradske\nizborne komisije (OIK/GIK) i donosi ga na biračko mjesto. Tamo tehničar i operater obavljaju zamjenu.\nNeispravan uređaj se pakuje i ostaje na licu mjesta.\nRezervni uređaji se ne raspoređuju unaprijed na biračka mjesta i operater ih ne preuzima.",
+    "pageStart": 14,
+    "pageEnd": 14
+  },
+  {
+    "id": "faq-069",
+    "source": "faq",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Podrška i zamjena uređaja",
+    "title": "Šta se dešava s podacima na zamijenjenom skeneru?",
+    "content": "12.4 Šta se dešava s podacima na zamijenjenom skeneru?\nDvije USB memorije (glavna i rezervna) vade se iz neispravnog skenera i umeću u zamjenski skener, tako da su\npodaci sačuvani.",
+    "pageStart": 14,
+    "pageEnd": 14
+  },
+  {
+    "id": "faq-070",
+    "source": "faq",
+    "device": "Opće informacije (operater FAQ)",
+    "section": "Podrška i zamjena uređaja",
+    "title": "Šta ako terenski tehničar nije dostupan?",
+    "content": "12.5 Šta ako terenski tehničar nije dostupan?\nPozovite ponovo. Ako i dalje ne možete dobiti terenskog tehničara, kontaktirajte pozivni centar.",
+    "pageStart": 14,
+    "pageEnd": 14
+  },
+  {
+    "id": "faq-071",
+    "source": "faq",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Vraćeni i nevažeći glasački listići",
+    "title": "Šta skener radi s glasačkim listićem koji ne može očitati?",
+    "content": "13.1 Šta skener radi s glasačkim listićem koji ne može očitati?\nVraća glasački listić uz poruku na ekranu. Birač ga može ponovo ubaciti u drugačijem položaju. Vraćeni glasački\nlistić nije pao u glasačku kutiju niti je prebrojan.",
+    "pageStart": 14,
+    "pageEnd": 14
+  },
+  {
+    "id": "faq-072",
+    "source": "faq",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Vraćeni i nevažeći glasački listići",
+    "title": "Da li skener prihvata prazne glasačke listiće ili glasačke listiće s više oznaka nego što je dozvoljeno?",
+    "content": "13.2 Da li skener prihvata prazne glasačke listiće ili glasačke listiće s više oznaka nego što je\ndozvoljeno?\nDa. Prazni glasački listići se prihvataju i u konačnom izvještaju prikazuju se kao „Nevažeći neoznačeni“.\nPrihvataju se i glasački listići s više oznaka nego što je dozvoljeno, ali se oni u konačnom izvještaju prikazuju kao\n„Nevažeći ostali“. U oba slučaja skener normalno očitava glasački listić i spušta ga u glasačku kutiju, bez ikakvog\nupozorenja.",
+    "pageStart": 14,
+    "pageEnd": 14
+  },
+  {
+    "id": "faq-073",
+    "source": "faq",
+    "device": "Opće informacije (operater FAQ)",
+    "section": "Vraćeni i nevažeći glasački listići",
+    "title": "Šta se dešava s glasačkim listićem s drugog biračkog mjesta ili s dupliranim glasačkim listićem?",
+    "content": "13.3 Šta se dešava s glasačkim listićem s drugog biračkog mjesta ili s dupliranim glasačkim listićem?\nSkener daje upozorenje i ne prihvata glasački listić. To su jedini slučajevi u kojima skener daje upozorenje. Da\nbi se upozorenje uklonilo, predsjednik ili zamjenik predsjednika biračkog odbora unosi svoj PIN.",
+    "pageStart": 14,
+    "pageEnd": 14
+  },
+  {
+    "id": "faq-074",
+    "source": "faq",
+    "device": "Opće informacije (operater FAQ)",
+    "section": "Vraćeni i nevažeći glasački listići",
+    "title": "Da li je orijentacija glasačkog listića bitna?",
+    "content": "13.4 Da li je orijentacija glasačkog listića bitna?\nNe. Skener očitava glasački listić u bilo kojoj orijentaciji, licem prema dolje.",
+    "pageStart": 14,
+    "pageEnd": 14
+  },
+  {
+    "id": "faq-075",
+    "source": "faq",
+    "device": "Opće informacije (operater FAQ)",
+    "section": "Vraćeni i nevažeći glasački listići",
+    "title": "Kako birač s više glasačkih listića ubacuje svoje listiće?",
+    "content": "13.5 Kako birač s više glasačkih listića ubacuje svoje listiće?\nGlasački listići se ubacuju jedan po jedan, uz čekanje na potvrdu na ekranu i na to da LED indikator ponovo\nzasvijetli zeleno prije ubacivanja sljedećeg.",
+    "pageStart": 14,
+    "pageEnd": 14
+  },
+  {
+    "id": "faq-076",
+    "source": "faq",
+    "device": "Uređaj za identifikaciju birača",
+    "section": "Posebni slučajevi identifikacije na biometrijskom uređaju za identifikaciju birača",
+    "title": "Šta se dešava ako se otisak prsta ne može uzeti?",
+    "content": "14.1 Šta se dešava ako se otisak prsta ne može uzeti?\nPrst se može preskočiti („Preskoči prst“) odabirom razloga: otisak prsta nije uključen u registrovane podatke,\nkvalitet skeniranja je loš, birač ima fizički nedostatak ili se otisak prsta ne podudara. Ako se ni na jednoj ruci ne\nmože uzeti otisak kažiprsta, preskače se cijela ruka („Da, preskoči ruku“). U oba slučaja predsjednik biračkog\nodbora daje odobrenje svojom pametnom karticom i PIN-om. Isto važi i kada birač nema ruku ili prst: odabire\nse razlog „fizički nedostatak“.",
+    "pageStart": 15,
+    "pageEnd": 15
+  },
+  {
+    "id": "faq-077",
+    "source": "faq",
+    "device": "Uređaj za identifikaciju birača",
+    "section": "Posebni slučajevi identifikacije na biometrijskom uređaju za identifikaciju birača",
+    "title": "Kako se registruje osoba koja pomaže biraču?",
+    "content": "14.2 Kako se registruje osoba koja pomaže biraču?\nNa ekranu s podacima o biraču dodirnite „Dodijeli pomoć drugog lica“ i pronađite identifikacioni dokument\npomagača (MRZ, barkod ili ručna pretraga). Zatim odaberite razlog pružanja pomoći; predsjednik biračkog\nodbora daje odobrenje svojom pametnom karticom i PIN-om.",
+    "pageStart": 15,
+    "pageEnd": 15
+  },
+  {
+    "id": "faq-078",
+    "source": "faq",
+    "device": "Uređaj za identifikaciju birača",
+    "section": "Posebni slučajevi identifikacije na biometrijskom uređaju za identifikaciju birača",
+    "title": "Šta se dešava ako se lična karta ne može očitati?",
+    "content": "14.3 Šta se dešava ako se lična karta ne može očitati?\nKoristite ručnu pretragu („Ručna pretraga“): odaberite vrstu dokumenta (lična karta, pasoš ili vozačka dozvola)\ni unesite JMB birača.",
+    "pageStart": 15,
+    "pageEnd": 15
+  },
+  {
+    "id": "faq-079",
+    "source": "faq",
+    "device": "Uređaj za identifikaciju birača",
+    "section": "Posebni slučajevi identifikacije na biometrijskom uređaju za identifikaciju birača",
+    "title": "Šta se dešava ako birač nije pronađen ili pripada drugom biračkom mjestu?",
+    "content": "14.4 Šta se dešava ako birač nije pronađen ili pripada drugom biračkom mjestu?\nUređaj daje različite signale: tri zvučna signala ako je birač registrovan na drugom biračkom mjestu (ovdje ne\nmože biti verifikovan), zvuk sirene ako je birač već verifikovan i poruku „Skenirani identifikacioni dokument nije\nregistrovan“, ako birača nema u podacima.",
+    "pageStart": 15,
+    "pageEnd": 15
+  },
+  {
+    "id": "faq-080",
+    "source": "faq",
+    "device": "Uređaj za identifikaciju birača",
+    "section": "Posebni slučajevi identifikacije na biometrijskom uređaju za identifikaciju birača",
+    "title": "Šta ako čitač otisaka prstiju uzastopno ne uspijeva kod više različitih birača?",
+    "content": "14.5 Šta ako čitač otisaka prstiju uzastopno ne uspijeva kod više različitih birača?\nNakon po tri pokušaja na oba kažiprsta (prvo desni, pa lijevi), očistite čitač otisaka prstiju krpom koja je\nuključena u komplet. Ako ni dalje nije moguće očitati otisak prsta, potrebno je postupšiti u skladu s procedurom\nCIK BiH, odnosno odobriti autentifikaciju s nepotpunim biometrijskim podacima birača.",
+    "pageStart": 15,
+    "pageEnd": 15
+  },
+  {
+    "id": "faq-081",
+    "source": "faq",
+    "device": "Uređaj za identifikaciju birača",
+    "section": "Posebni slučajevi identifikacije na biometrijskom uređaju za identifikaciju birača",
+    "title": "Koliko puta birač može pokušati očitavanje otiska prsta?",
+    "content": "14.6 Koliko puta birač može pokušati očitavanje otiska prsta?\nUređaj na ekranu vodi kroz pokušaje (maksimalno 3 pokušaja po oba kažiprsta). Ako se otisak ne može uhvatiti\nili se ne poklapa, prst ili ruka se preskaču uz odabir razloga i odobrenje predsjednika biračkog odbora.",
+    "pageStart": 15,
+    "pageEnd": 15
+  },
+  {
+    "id": "faq-082",
+    "source": "faq",
+    "device": "Opće informacije (operater FAQ)",
+    "section": "Odštampani izvještaji",
+    "title": "Ko zadržava odštampane izvještaje?",
+    "content": "15.1 Ko zadržava odštampane izvještaje?\nOdštampane izvještaje zadržava birački odbor i prilaže ih uz Zapisnik o radu biračkog odbora i evidencije koje\nse dostavljaju OIK/GIK i CIK BiH",
+    "pageStart": 15,
+    "pageEnd": 15
+  },
+  {
+    "id": "faq-083",
+    "source": "faq",
+    "device": "Opće informacije (operater FAQ)",
+    "section": "Preuzimanje i pakovanje opreme",
+    "title": "Gdje se i od koga preuzima oprema?",
+    "content": "16.1 Gdje se i od koga preuzima oprema?\nUređaje i ostalu opremu od općinske/gradske izborne komisije preuzima birački odbor na biračkom mjestu.\nPrisustvo operatera prilikom preuzimanja uređaja je obavezno.",
+    "pageStart": 15,
+    "pageEnd": 15
+  },
+  {
+    "id": "faq-084",
+    "source": "faq",
+    "device": "Optički skener za brojanje glasova",
+    "section": "Preuzimanje i pakovanje opreme",
+    "title": "Ko nakon zatvaranja skida skener s glasačke kutije i pakuje uređaje?",
+    "content": "16.2 Ko nakon zatvaranja skida skener s glasačke kutije i pakuje uređaje?\nOperater, nakon što su rezultati preneseni. Uređaji se isključuju, baterija i adapter se odspajaju, a uređaji se\nodlažu u svoje kofere. Sve se ostavlja spakovano kako bi općinske ili gradske izborne komisije (OIK/GIK) mogle\nizvršiti preuzimanje i povrat opreme.",
+    "pageStart": 16,
+    "pageEnd": 16
+  },
+  {
+    "id": "faq-085",
+    "source": "faq",
+    "device": "Opće informacije (operater FAQ)",
+    "section": "Prisustvo i raspored operatera",
+    "title": "Mora li operater biti prisutan cijeli dan?",
+    "content": "17.1 Mora li operater biti prisutan cijeli dan?\nNa izborni dan, u nedjelju, operater dolazi najmanje 1 sat prije otvaranja biračkog mjesta (6 sati ujutro) i pruža\nkontinuiranu podršku tokom cijelog dana. Ako operater pokriva više lokacija biračkih mjesta, odlazi na prvu i\ntamo ostaje u pripravnosti. Ako se podrška zatraži s drugog biračkog mjesta, odlazi tamo i pruža je.",
+    "pageStart": 16,
+    "pageEnd": 16
+  },
+  {
+    "id": "faq-086",
+    "source": "faq",
+    "device": "Opće informacije (operater FAQ)",
+    "section": "Prisustvo i raspored operatera",
+    "title": "Kada operater može otići nakon zatvaranja?",
+    "content": "17.2 Kada operater može otići nakon zatvaranja?\nNakon što su rezultati preneseni, a uređaji demontirani i spakovani. Operater ne čeka da birački odbor završi\nostale aktivnosti.",
+    "pageStart": 16,
+    "pageEnd": 16
+  },
+  {
+    "id": "faq-087",
+    "source": "faq",
+    "device": "Opće informacije (operater FAQ)",
+    "section": "Prisustvo i raspored operatera",
+    "title": "U koliko sati operater dolazi u subotu?",
+    "content": "17.3 U koliko sati operater dolazi u subotu?\nOpćinska/gradska izborna komisija može vas kontaktirati zvati za specifične informacije, koje uključuju i vrijeme\ndolaska na biračko mjesto.",
+    "pageStart": 16,
+    "pageEnd": 16
+  },
+  {
+    "id": "faq-088",
+    "source": "faq",
+    "device": "Opće informacije (operater FAQ)",
+    "section": "Prisustvo i raspored operatera",
+    "title": "Mogu li koristiti svoj mobilni telefon za pregled materijala?",
+    "content": "17.4 Mogu li koristiti svoj mobilni telefon za pregled materijala?\nU principu, da. Smart Poll Worker se može otvoriti na mobilnom telefonu, a materijal za obuku namijenjen je i\ntome da vam pomogne u pružanju podrške, tako da ga možete pregledati. Upotreba mobilnog aparata za u\nsvrhu zabave nije dozvoljena.",
+    "pageStart": 16,
+    "pageEnd": 16
+  },
+  {
+    "id": "faq-089",
+    "source": "faq",
+    "device": "Opće informacije (operater FAQ)",
+    "section": "Prisustvo i raspored operatera",
+    "title": "Gdje se operater nalazi tokom glasanja? Mora li stajati pored uređaja?",
+    "content": "17.5 Gdje se operater nalazi tokom glasanja? Mora li stajati pored uređaja?\nOperater ostaje u pripravnosti na lokaciji biračkih mjesta. Ne stoji pored uređaja, jer poslove identifikacije\nbirača i nadzora skenera obavljaju članovi biračkog odbora, ali mora biti dostupan i odmah reagovati kada ga\npredsjednik biračkog odbora pozove.",
+    "pageStart": 16,
+    "pageEnd": 16
+  },
+  {
+    "id": "faq-090",
+    "source": "faq",
+    "device": "Opće informacije (operater FAQ)",
+    "section": "Prisustvo i raspored operatera",
+    "title": "Kada operater završava rad u subotu?",
+    "content": "17.6 Kada operater završava rad u subotu?\nNakon što instalira uređaje koji su mu dodijeljeni i obavi njihovu dijagnostiku, preda izvještaje o dijagnostici\nbiračkom odboru, popuni ankete i označi „Finished“ (Završeno) u aplikaciji Smart Poll Worker.",
+    "pageStart": 16,
+    "pageEnd": 16
+  },
+  {
+    "id": "faq-091",
+    "source": "faq",
+    "device": "Opće informacije (operater FAQ)",
+    "section": "Pokrivanje više lokacija biračkih mjesta",
+    "title": "Ako pokrivam više lokacija biračkih mjesta, kako mogu prisustvovati svim otvaranjima?",
+    "content": "18.1 Ako pokrivam više lokacija biračkih mjesta, kako mogu prisustvovati svim otvaranjima?\nBudući da je instalacija obavljena dan ranije, očekuje se da birački odbor može samostalno obaviti otvaranje.\nIsto važi i za zatvaranje: operater odlazi tamo gdje se zatraži podrška. Pored toga, nakon što su rezultati\npreneseni, operater mora demontirati i spakovati uređaje na svakoj lokaciji biračkih mjesta koju pokriva.",
+    "pageStart": 16,
+    "pageEnd": 16
+  },
+  {
+    "id": "faq-092",
+    "source": "faq",
+    "device": "Opće informacije (operater FAQ)",
+    "section": "Raspoređivanje na biračko mjesto",
+    "title": "Kako ću znati na koje sam biračko mjesto raspoređen?",
+    "content": "19.1 Kako ću znati na koje sam biračko mjesto raspoređen?\nU odjeljku „Assignments“ (Raspored) aplikacije Smart Poll Worker. Tamo su prikazani i podaci o vašem\nterenskom tehničaru. Ako vaš raspored još nije vidljiv, redovno provjeravajte aplikaciju.",
+    "pageStart": 17,
+    "pageEnd": 17
+  },
+  {
+    "id": "faq-093",
+    "source": "faq",
+    "device": "Opće informacije (operater FAQ)",
+    "section": "Obuka i aplikacija Smart Poll Worker",
+    "title": "Gdje mogu ponovo pogledati video materijale s obuke?",
+    "content": "20.1 Gdje mogu ponovo pogledati video materijale s obuke?\nU aplikaciji Smart Poll Worker.",
+    "pageStart": 17,
+    "pageEnd": 17
+  },
+  {
+    "id": "faq-094",
+    "source": "faq",
+    "device": "Opće informacije (operater FAQ)",
+    "section": "Obuka i aplikacija Smart Poll Worker",
+    "title": "Šta trebam uraditi u aplikaciji Smart Poll Worker u subotu i nedjelju?",
+    "content": "20.2 Šta trebam uraditi u aplikaciji Smart Poll Worker u subotu i nedjelju?\nOznačite „Arrived“ (Stigao) kada stignete na lokaciju biračkih mjesta i popunite ankete koje aplikacija traži\ntokom dana. Zatim označite „Finished“ (Završeno):\n● Subota: Nakon instalacije.\n● Nedjelja: Nakon zatvaranja i pakovanja opreme.\n„Arrived“ (Stigao) i „Finished“ (Završeno) označavaju se svakog dana. „Finished“ (Završeno) se označava tek\nkada su popunjene sve ankete za taj dan; ankete se mogu sačuvati i popunjavati tokom dana.",
+    "pageStart": 17,
+    "pageEnd": 17
+  },
+  {
+    "id": "faq-095",
+    "source": "faq",
+    "device": "Opće informacije (operater FAQ)",
+    "section": "Obuka i aplikacija Smart Poll Worker",
+    "title": "Mogu li popunjavati ankete sa svog privatnog telefona?",
+    "content": "20.3 Mogu li popunjavati ankete sa svog privatnog telefona?\nDa. Zapravo, očekuje se da aplikaciji Smart Poll Worker pristupate sa svog telefona ili laptopa, što se\npreporučuje.",
+    "pageStart": 17,
+    "pageEnd": 17
+  },
+  {
+    "id": "faq-096",
+    "source": "faq",
+    "device": "Opće informacije (operater FAQ)",
+    "section": "Obuka i aplikacija Smart Poll Worker",
+    "title": "Hoće li na biračkom mjestu biti odštampan priručnik ili kontrolna lista?",
+    "content": "20.4 Hoće li na biračkom mjestu biti odštampan priručnik ili kontrolna lista?\nSav dostupni materijal nalazi se u aplikaciji Smart Poll Worker. Molimo vas da je redovno provjeravate, jer se\nočekuje postavljanje dodatnog materijala koji se smatra važnim. Pored toga, u svakom koferu skenera glasačkih\nlistića i biometrijskog uređaja za identifikaciju birača nalaze se odštampane standardne operativne procedure\n(SOP).",
+    "pageStart": 17,
+    "pageEnd": 17
   }
 ]

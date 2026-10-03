@@ -5,6 +5,6 @@
   },
   {
     "role": "assistant",
-    "content": "Na osnovu priručnika, otvaranje i zatvaranje biračkog mjesta vrši predsjednik biračkog odbora (ili zamjenik predsjednika) na oba uređaja.\n\nUređaj za identifikaciju birača:\n- Otvaranje: Predsjednik biračkog odbora umetne pametnu karticu i unese PIN kako bi odobrio otvaranje izbora.\n- Zatvaranje: Predsjednik biračkog odbora umetne pametnu karticu i unese PIN. Napomena: prije toga, član odbora zadužen za identifikaciju mora se odjaviti s uređaja.\n\nOptički skener za brojanje glasova:\n- Otvaranje: Unosi se PIN predsjednika biračkog odbora na ekranu za unos PIN-a.\n- Zatvaranje: Predsjednik biračkog odbora se prijavi pametnom karticom i PIN-om, odabere opciju \"Zatvorite biračko mjesto\" i ponovo unese PIN za potvrdu.\n\n[Citirani izvori: skener-instalacija-019, identifikacija-instalacija-017, identifikacija-instalacija-025, skener-instalacija-025, identifikacija-instalacija-024]"
+    "content": "Predsjednik biračkog odbora otvara i zatvara biračko mjesto (izbore) svojom pametnom karticom i PIN-om, na oba uređaja (uređaj za identifikaciju birača i optički skener).\n\nOperater ne otvara niti zatvara biračko mjesto i ne unosi PIN predsjednika. Operater je prisutan kako bi pružio podršku, samo ako je potrebno.\n\n[Citirani izvori: faq-012]"
   }
 ]

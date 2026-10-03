@@ -1,26 +1,29 @@
 import Anthropic from "@anthropic-ai/sdk";
 import { NextResponse } from "next/server";
 import { getKnowledgeBaseServer } from "@/lib/knowledge-base-server";
-import type { SourceRef } from "@/lib/knowledge-base";
+import type { KnowledgeBaseEntry, SourceRef } from "@/lib/knowledge-base";
 import { ManualSearchIndex } from "@/lib/search";
 
 const MODEL = "claude-sonnet-4-6";
 const MAX_QUESTION_LENGTH = 2000;
-const RELEVANT_CHUNK_LIMIT = 8;
+// Per-source, not a shared total — see retrieveContext() for why a single
+// merged ranking doesn't work once the knowledge base spans more than one
+// source with different vocabulary (device manuals vs. the operator FAQ).
+const PER_SOURCE_CHUNK_LIMIT = 8;
 
-const SYSTEM_PROMPT = `Ti si asistent za tehničku podršku operaterima na biračkom mjestu koji rade na dan izbora u Bosni i Hercegovini. Pomažeš im da brzo pronađu rješenje u priručnicima za uređaj za identifikaciju birača i optički skener za brojanje glasova.
+const SYSTEM_PROMPT = `Ti si asistent za tehničku podršku operaterima i terenskim tehničarima na biračkom mjestu koji rade na dan izbora u Bosni i Hercegovini. Pomažeš im da brzo pronađu odgovor u dostupnim izvorima: priručnicima za uređaj za identifikaciju birača i optički skener za brojanje glasova, te u FAQ dokumentu s čestim pitanjima o ulogama, procedurama i radu na biračkom mjestu.
 
 Pravila:
 - Odgovaraj isključivo na bosanskom jeziku.
-- Odgovaraj isključivo na osnovu sadržaja priručnika koji ti je dostavljen u nastavku poruke. Ne izmišljaj korake niti se oslanjaj na opće znanje o izbornim uređajima koje nije navedeno u tekstu.
-- Ako dostavljeni sadržaj priručnika ne pokriva postavljeno pitanje, jasno to reci (npr. "Priručnici koje imam ne sadrže informacije o ovome.") i predloži da se operater obrati tehničkoj podršci.
+- Odgovaraj isključivo na osnovu sadržaja izvora koji ti je dostavljen u nastavku poruke. Ne izmišljaj korake niti se oslanjaj na opće znanje o izbornim uređajima ili procedurama koje nije navedeno u tekstu.
+- Ako dostavljeni sadržaj ne pokriva postavljeno pitanje, jasno to reci (npr. "Dostupni izvori ne sadrže informacije o ovome.") i predloži da se operater obrati tehničkoj podršci.
 - Budi kratak, jasan i praktičan — operateri ovo čitaju pod vremenskim pritiskom na biračkom mjestu, često nasred rješavanja problema.
-- Kada je relevantno, navedi konkretne korake iz priručnika, po redoslijedu.
+- Kada je relevantno, navedi konkretne korake iz izvora, po redoslijedu.
 - Piši običnim tekstom, bez Markdown formatiranja (bez #, **, tabela). Korake navedi kao obične numerisane linije (npr. "1. ...").
 
 Format odgovora:
 - Polje "answer" sadrži tvoj odgovor operateru.
-- Polje "usedSourceIds" sadrži isključivo ID-eve onih odjeljaka (označenih kao "[id: ...]") iz kojih si stvarno preuzeo informacije za svoj odgovor. Nemoj navoditi odjeljke koje nisi koristio, čak i ako se odnose na isti uređaj. Ako nijedan odjeljak ne pokriva pitanje, ostavi listu praznom.`;
+- Polje "usedSourceIds" sadrži isključivo ID-eve onih odjeljaka (označenih kao "[id: ...]") iz kojih si stvarno preuzeo informacije za svoj odgovor. Nemoj navoditi odjeljke koje nisi koristio, čak i ako se odnose na istu temu ili uređaj. Ako je tvoj odgovor zasnovan na bilo kakvom sadržaju iz dostupnih izvora, uvijek navedi makar jedan ID — čak i ako si informacije preuzeo iz više odjeljaka odjednom, navedi ih SVE. Praznu listu koristi isključivo kada odgovor ne koristi baš nikakav sadržaj iz dostupnih izvora (npr. kada jasno kažeš da izvori ne pokrivaju pitanje).`;
 
 const ANSWER_SCHEMA = {
   type: "object" as const,
@@ -59,6 +62,43 @@ function getClient(): Anthropic {
   return anthropicClient;
 }
 
+let manualIndex: ManualSearchIndex | null = null;
+let faqIndex: ManualSearchIndex | null = null;
+function getSourceIndexes(knowledgeBase: KnowledgeBaseEntry[]) {
+  if (!manualIndex || !faqIndex) {
+    manualIndex = new ManualSearchIndex(knowledgeBase.filter((e) => e.source === "manual"));
+    faqIndex = new ManualSearchIndex(knowledgeBase.filter((e) => e.source === "faq"));
+  }
+  return { manualIndex, faqIndex };
+}
+
+/**
+ * Searches the device manuals and the operator FAQ as two independently
+ * ranked pools instead of one merged search over all 190 chunks.
+ *
+ * A single shared ranking seemed fine at first, but a real-world dry run
+ * caught it badly undercounting manual content: the FAQ's own questions are
+ * phrased as literal questions, so for any query that resembles one of them
+ * even loosely, that FAQ chunk's near-exact text match dominates — both by
+ * out-ranking manual prose for the few shared context slots, *and* because
+ * the search's score normalization is relative to the best match in the
+ * whole result set, so one outlier FAQ match compresses every manual
+ * chunk's score too, sometimes below the relevance floor entirely. Example
+ * caught in testing: "what happens after repeated wrong PINs" retrieved only
+ * the FAQ's terse "59 seconds" and never the device manual's fuller answer
+ * (a short lockout by default, or 5 minutes specifically after 5 attempts)
+ * — the manual chunk never made the cut despite being clearly relevant.
+ *
+ * Ranking each source against only its own corpus removes that interaction
+ * entirely: a source's top matches reflect its own relevance only.
+ */
+function retrieveContext(knowledgeBase: KnowledgeBaseEntry[], question: string): KnowledgeBaseEntry[] {
+  const { manualIndex, faqIndex } = getSourceIndexes(knowledgeBase);
+  const manualEntries = manualIndex.search(question, PER_SOURCE_CHUNK_LIMIT).map((r) => r.entry);
+  const faqEntries = faqIndex.search(question, PER_SOURCE_CHUNK_LIMIT).map((r) => r.entry);
+  return [...manualEntries, ...faqEntries];
+}
+
 interface AskRequestBody {
   question?: unknown;
 }
@@ -80,20 +120,19 @@ export async function POST(request: Request) {
   }
 
   const knowledgeBase = getKnowledgeBaseServer();
-  const index = new ManualSearchIndex(knowledgeBase);
-  const results = index.search(question, RELEVANT_CHUNK_LIMIT);
+  const retrieved = retrieveContext(knowledgeBase, question);
 
-  // Local fuzzy search found nothing above the relevance floor — fall back to
-  // the full knowledge base (~27K tokens) so Claude's own understanding of
-  // the question can still find the right section, rather than answering
-  // with zero context.
-  const entries = results.length > 0 ? results.map((r) => r.entry) : knowledgeBase;
+  // Local fuzzy search found nothing above the relevance floor in either
+  // source — fall back to the full knowledge base (~35K tokens) so Claude's
+  // own understanding of the question can still find the right section,
+  // rather than answering with zero context.
+  const entries = retrieved.length > 0 ? retrieved : knowledgeBase;
 
   const contextBlock = entries
     .map((e) => `### [id: ${e.id}] ${e.device} — ${e.section} — ${e.title}\n${e.content}`)
     .join("\n\n---\n\n");
 
-  const userMessage = `Sadržaj priručnika:\n\n${contextBlock}\n\n---\n\nPitanje operatera: ${question}`;
+  const userMessage = `Sadržaj izvora:\n\n${contextBlock}\n\n---\n\nPitanje operatera: ${question}`;
 
   try {
     const response = await getClient().messages.create({
@@ -121,7 +160,7 @@ export async function POST(request: Request) {
     // set, so a truncated-but-useful answer still shows something.
     const byId = new Map(entries.map((e) => [e.id, e]));
     const cited = usedIds.map((id) => byId.get(id)).filter((e) => e !== undefined);
-    const sourceEntries = parsed ? cited : entries.slice(0, RELEVANT_CHUNK_LIMIT);
+    const sourceEntries = parsed ? cited : entries.slice(0, PER_SOURCE_CHUNK_LIMIT * 2);
 
     const sources: SourceRef[] = sourceEntries.map((e) => ({
       id: e.id,
